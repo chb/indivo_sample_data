@@ -1,0 +1,5 @@
+
+<Problem xmlns="http://indivo.org/vocab/xml/documents#">
+  <dateOnset>2003-11-10T00:00:00Z</dateOnset>
+  <name type="http://www.ihtsdo.org/snomed-ct/concepts/" value="57643001">Gastro-esophageal reflux disease with esophagitis</name>
+</Problem>

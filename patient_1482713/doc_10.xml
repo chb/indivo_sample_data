@@ -1,0 +1,15 @@
+
+<Medication xmlns="http://indivo.org/vocab/xml/documents#">
+  <dateStarted>2005-09-25</dateStarted>
+  <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="106256">Triamcinolone 1 MG/ML Topical Cream</name>
+  <dose>
+    <value>1</value>
+    <unit type="http://unitsofmeasure.org/" value="{tablet}" />
+  </dose>
+  <frequency type="http://unitsofmeasure.org/" value="2 /d">2 /d</frequency>
+
+  <prescription>
+    <dispenseAsWritten>true</dispenseAsWritten>
+    <instructions>apply bid to affected area</instructions>
+  </prescription>
+</Medication>

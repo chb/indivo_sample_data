@@ -1,0 +1,22 @@
+
+<Lab xmlns="http://indivo.org/vocab/xml/documents#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <dateMeasured>2004-09-19T00:00:00Z</dateMeasured>
+  <labType>general</labType>
+
+  <labTest xsi:type="SingleResultLabTest">
+    <dateMeasured>2004-09-19T00:00:00Z</dateMeasured>
+    <name type="http://loinc.org/codes/"  value="26515-7"><![CDATA[Platelet # Bld]]></name>
+    <final>true</final>
+    <result xsi:type="ResultInRange">
+      <valueAndUnit>
+        <value>174</value>
+        <unit type="http://unitsofmeasure.org/" value="10*3/uL">10*3/uL</unit>
+      </valueAndUnit>
+      <normalRange>
+        <minimum>130</minimum>
+        <maximum>500</maximum>
+        <unit type="http://unitsofmeasure.org/" value="10*3/uL">10*3/uL</unit>
+      </normalRange>
+    </result>    
+  </labTest>
+</Lab>

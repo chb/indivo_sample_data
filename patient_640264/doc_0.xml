@@ -1,0 +1,5 @@
+
+<Problem xmlns="http://indivo.org/vocab/xml/documents#">
+  <dateOnset>2006-11-20T00:00:00Z</dateOnset>
+  <name type="http://www.ihtsdo.org/snomed-ct/concepts/" value="70153002">Hemorrhoids</name>
+</Problem>

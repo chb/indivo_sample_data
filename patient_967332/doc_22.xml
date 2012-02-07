@@ -1,0 +1,15 @@
+
+<Medication xmlns="http://indivo.org/vocab/xml/documents#">
+  <dateStarted>2007-12-07</dateStarted>
+  <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="261962">Ramipril 10 MG Oral Capsule</name>
+  <dose>
+    <value>1</value>
+    <unit type="http://unitsofmeasure.org/" value="{tablet}" />
+  </dose>
+  <frequency type="http://unitsofmeasure.org/" value="1 /d">1 /d</frequency>
+
+  <prescription>
+    <dispenseAsWritten>true</dispenseAsWritten>
+    <instructions>1 daily</instructions>
+  </prescription>
+</Medication>

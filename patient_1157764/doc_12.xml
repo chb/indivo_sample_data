@@ -1,0 +1,15 @@
+
+<Medication xmlns="http://indivo.org/vocab/xml/documents#">
+  <dateStarted>2009-08-22</dateStarted>
+  <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="285128">bimatoprost 0.3 MG/ML Ophthalmic Solution [Lumigan]</name>
+  <dose>
+    <value>1</value>
+    <unit type="http://unitsofmeasure.org/" value="[drp]" />
+  </dose>
+  <frequency type="http://unitsofmeasure.org/" value="1 /d">1 /d</frequency>
+
+  <prescription>
+    <dispenseAsWritten>true</dispenseAsWritten>
+    <instructions>1 gtt daily in OD</instructions>
+  </prescription>
+</Medication>

@@ -1,0 +1,20 @@
+
+<Contact xmlns="http://indivo.org/vocab/xml/documents#">
+  <name>
+    <fullName>Sharon Green</fullName>
+    <givenName>Sharon</givenName>
+    <familyName>Green</familyName>
+  </name>
+  <email type="personal">
+    <emailAddress>sharon.green@example.com</emailAddress>
+  </email>
+  <address type="home">
+    <streetAddress>29 Walnut St</streetAddress>
+    <postalCode>74108</postalCode>
+    <locality>Tulsa</locality>
+    <region>OK</region>
+    <country>USA</country>
+  </address>
+  <phoneNumber type="home"></phoneNumber>
+  <phoneNumber type="cell"></phoneNumber>
+</Contact>

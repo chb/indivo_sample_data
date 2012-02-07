@@ -1,0 +1,20 @@
+
+<Contact xmlns="http://indivo.org/vocab/xml/documents#">
+  <name>
+    <fullName>Steven Coleman</fullName>
+    <givenName>Steven</givenName>
+    <familyName>Coleman</familyName>
+  </name>
+  <email type="personal">
+    <emailAddress>steven.coleman@example.com</emailAddress>
+  </email>
+  <address type="home">
+    <streetAddress>34 Center St</streetAddress>
+    <postalCode>74047</postalCode>
+    <locality>Mounds</locality>
+    <region>OK</region>
+    <country>USA</country>
+  </address>
+  <phoneNumber type="home"></phoneNumber>
+  <phoneNumber type="cell">800-652-1498</phoneNumber>
+</Contact>

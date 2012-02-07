@@ -1,0 +1,15 @@
+
+<Medication xmlns="http://indivo.org/vocab/xml/documents#">
+  <dateStarted>2008-02-10</dateStarted>
+  <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="834127">chlorhexidine gluconate 1.2 MG/ML Mouthwash</name>
+  <dose>
+    <value>15</value>
+    <unit type="http://unitsofmeasure.org/" value="mL" />
+  </dose>
+  <frequency type="http://unitsofmeasure.org/" value="2 /d">2 /d</frequency>
+
+  <prescription>
+    <dispenseAsWritten>true</dispenseAsWritten>
+    <instructions>15 mL swish/spit bid</instructions>
+  </prescription>
+</Medication>

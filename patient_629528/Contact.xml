@@ -1,0 +1,20 @@
+
+<Contact xmlns="http://indivo.org/vocab/xml/documents#">
+  <name>
+    <fullName>Michelle Harris</fullName>
+    <givenName>Michelle</givenName>
+    <familyName>Harris</familyName>
+  </name>
+  <email type="personal">
+    <emailAddress>michelle.harris@example.com</emailAddress>
+  </email>
+  <address type="home">
+    <streetAddress>89 Elm Ave</streetAddress>
+    <postalCode>74008</postalCode>
+    <locality>Bixby</locality>
+    <region>OK</region>
+    <country>USA</country>
+  </address>
+  <phoneNumber type="home"></phoneNumber>
+  <phoneNumber type="cell">800-959-4263</phoneNumber>
+</Contact>

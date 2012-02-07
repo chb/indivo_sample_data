@@ -1,0 +1,5 @@
+
+<Problem xmlns="http://indivo.org/vocab/xml/documents#">
+  <dateOnset>2009-05-20T00:00:00Z</dateOnset>
+  <name type="http://www.ihtsdo.org/snomed-ct/concepts/" value="77075001">Primary open angle glaucoma</name>
+</Problem>

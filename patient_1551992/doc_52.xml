@@ -1,0 +1,22 @@
+
+<Lab xmlns="http://indivo.org/vocab/xml/documents#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <dateMeasured>2009-04-15T00:00:00Z</dateMeasured>
+  <labType>general</labType>
+
+  <labTest xsi:type="SingleResultLabTest">
+    <dateMeasured>2009-04-15T00:00:00Z</dateMeasured>
+    <name type="http://loinc.org/codes/"  value="11580-8"><![CDATA[TSH SerPl DL<=0.005 mU/L-aCnc]]></name>
+    <final>true</final>
+    <result xsi:type="ResultInRange">
+      <valueAndUnit>
+        <value>0.89</value>
+        <unit type="http://unitsofmeasure.org/" value="mcU/mL">mcU/mL</unit>
+      </valueAndUnit>
+      <normalRange>
+        <minimum>0.35</minimum>
+        <maximum>5.5</maximum>
+        <unit type="http://unitsofmeasure.org/" value="mcU/mL">mcU/mL</unit>
+      </normalRange>
+    </result>    
+  </labTest>
+</Lab>

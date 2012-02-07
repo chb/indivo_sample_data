@@ -1,0 +1,15 @@
+
+<Medication xmlns="http://indivo.org/vocab/xml/documents#">
+  <dateStarted>2005-09-10</dateStarted>
+  <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="859753">rosuvastatin 20 MG Oral Tablet [Crestor]</name>
+  <dose>
+    <value>1</value>
+    <unit type="http://unitsofmeasure.org/" value="{tablet}" />
+  </dose>
+  <frequency type="http://unitsofmeasure.org/" value="1 /d">1 /d</frequency>
+
+  <prescription>
+    <dispenseAsWritten>true</dispenseAsWritten>
+    <instructions>1 qhs</instructions>
+  </prescription>
+</Medication>

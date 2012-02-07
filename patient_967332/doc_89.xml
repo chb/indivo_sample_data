@@ -1,0 +1,22 @@
+
+<Lab xmlns="http://indivo.org/vocab/xml/documents#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <dateMeasured>2008-01-05T00:00:00Z</dateMeasured>
+  <labType>general</labType>
+
+  <labTest xsi:type="SingleResultLabTest">
+    <dateMeasured>2008-01-05T00:00:00Z</dateMeasured>
+    <name type="http://loinc.org/codes/"  value="30428-7"><![CDATA[MCV RBC]]></name>
+    <final>true</final>
+    <result xsi:type="ResultInRange">
+      <valueAndUnit>
+        <value>83.1</value>
+        <unit type="http://unitsofmeasure.org/" value="fL">fL</unit>
+      </valueAndUnit>
+      <normalRange>
+        <minimum>80</minimum>
+        <maximum>94</maximum>
+        <unit type="http://unitsofmeasure.org/" value="fL">fL</unit>
+      </normalRange>
+    </result>    
+  </labTest>
+</Lab>

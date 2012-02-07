@@ -1,0 +1,20 @@
+
+<Contact xmlns="http://indivo.org/vocab/xml/documents#">
+  <name>
+    <fullName>Joshua Diaz</fullName>
+    <givenName>Joshua</givenName>
+    <familyName>Diaz</familyName>
+  </name>
+  <email type="personal">
+    <emailAddress>joshua.diaz@example.com</emailAddress>
+  </email>
+  <address type="home">
+    <streetAddress>26 River Ave</streetAddress>
+    <postalCode>74116</postalCode>
+    <locality>Tulsa</locality>
+    <region>OK</region>
+    <country>USA</country>
+  </address>
+  <phoneNumber type="home"></phoneNumber>
+  <phoneNumber type="cell">800-634-6479</phoneNumber>
+</Contact>

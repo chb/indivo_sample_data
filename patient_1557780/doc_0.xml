@@ -1,0 +1,5 @@
+
+<Problem xmlns="http://indivo.org/vocab/xml/documents#">
+  <dateOnset>2005-06-01T00:00:00Z</dateOnset>
+  <name type="http://www.ihtsdo.org/snomed-ct/concepts/" value="193590000">Mature cataract</name>
+</Problem>

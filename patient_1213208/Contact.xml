@@ -1,0 +1,20 @@
+
+<Contact xmlns="http://indivo.org/vocab/xml/documents#">
+  <name>
+    <fullName>Brian Gracia</fullName>
+    <givenName>Brian</givenName>
+    <familyName>Gracia</familyName>
+  </name>
+  <email type="personal">
+    <emailAddress>brian.gracia@example.com</emailAddress>
+  </email>
+  <address type="home">
+    <streetAddress>25 Church St</streetAddress>
+    <postalCode>74008</postalCode>
+    <locality>Bixby</locality>
+    <region>OK</region>
+    <country>USA</country>
+  </address>
+  <phoneNumber type="home">800-504-7344</phoneNumber>
+  <phoneNumber type="cell"></phoneNumber>
+</Contact>

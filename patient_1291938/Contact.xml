@@ -1,0 +1,20 @@
+
+<Contact xmlns="http://indivo.org/vocab/xml/documents#">
+  <name>
+    <fullName>Carol Young</fullName>
+    <givenName>Carol</givenName>
+    <familyName>Young</familyName>
+  </name>
+  <email type="personal">
+    <emailAddress>carol.young@example.com</emailAddress>
+  </email>
+  <address type="home">
+    <streetAddress>57 Ridge Ave</streetAddress>
+    <postalCode>74116</postalCode>
+    <locality>Tulsa</locality>
+    <region>OK</region>
+    <country>USA</country>
+  </address>
+  <phoneNumber type="home">800-534-4473</phoneNumber>
+  <phoneNumber type="cell">800-383-7276</phoneNumber>
+</Contact>

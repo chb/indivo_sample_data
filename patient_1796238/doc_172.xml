@@ -1,0 +1,22 @@
+
+<Lab xmlns="http://indivo.org/vocab/xml/documents#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <dateMeasured>2006-07-19T00:00:00Z</dateMeasured>
+  <labType>general</labType>
+
+  <labTest xsi:type="SingleResultLabTest">
+    <dateMeasured>2006-07-19T00:00:00Z</dateMeasured>
+    <name type="http://loinc.org/codes/"  value="2075-0"><![CDATA[Chloride SerPl-sCnc]]></name>
+    <final>true</final>
+    <result xsi:type="ResultInRange">
+      <valueAndUnit>
+        <value>106</value>
+        <unit type="http://unitsofmeasure.org/" value="mmol/L">mmol/L</unit>
+      </valueAndUnit>
+      <normalRange>
+        <minimum>95</minimum>
+        <maximum>105</maximum>
+        <unit type="http://unitsofmeasure.org/" value="mmol/L">mmol/L</unit>
+      </normalRange>
+    </result>    
+  </labTest>
+</Lab>

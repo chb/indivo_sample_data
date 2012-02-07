@@ -1,0 +1,22 @@
+
+<Lab xmlns="http://indivo.org/vocab/xml/documents#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <dateMeasured>2005-01-22T00:00:00Z</dateMeasured>
+  <labType>general</labType>
+
+  <labTest xsi:type="SingleResultLabTest">
+    <dateMeasured>2005-01-22T00:00:00Z</dateMeasured>
+    <name type="http://loinc.org/codes/"  value="2345-7"><![CDATA[Glucose SerPl-mCnc]]></name>
+    <final>true</final>
+    <result xsi:type="ResultInRange">
+      <valueAndUnit>
+        <value>92</value>
+        <unit type="http://unitsofmeasure.org/" value="mg/dL">mg/dL</unit>
+      </valueAndUnit>
+      <normalRange>
+        <minimum>70</minimum>
+        <maximum>100</maximum>
+        <unit type="http://unitsofmeasure.org/" value="mg/dL">mg/dL</unit>
+      </normalRange>
+    </result>    
+  </labTest>
+</Lab>

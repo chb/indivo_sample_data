@@ -1,0 +1,22 @@
+
+<Lab xmlns="http://indivo.org/vocab/xml/documents#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <dateMeasured>2005-04-24T00:00:00Z</dateMeasured>
+  <labType>general</labType>
+
+  <labTest xsi:type="SingleResultLabTest">
+    <dateMeasured>2005-04-24T00:00:00Z</dateMeasured>
+    <name type="http://loinc.org/codes/"  value="786-4"><![CDATA[MCHC RBC Auto-mCnc]]></name>
+    <final>true</final>
+    <result xsi:type="ResultInRange">
+      <valueAndUnit>
+        <value>34.3</value>
+        <unit type="http://unitsofmeasure.org/" value="g/dL">g/dL</unit>
+      </valueAndUnit>
+      <normalRange>
+        <minimum>32</minimum>
+        <maximum>36</maximum>
+        <unit type="http://unitsofmeasure.org/" value="g/dL">g/dL</unit>
+      </normalRange>
+    </result>    
+  </labTest>
+</Lab>

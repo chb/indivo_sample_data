@@ -1,0 +1,15 @@
+
+<Medication xmlns="http://indivo.org/vocab/xml/documents#">
+  <dateStarted>2008-10-15</dateStarted>
+  <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="309438">Codeine 2 MG/ML / Promethazine 1.25 MG/ML Oral Solution</name>
+  <dose>
+    <value>5</value>
+    <unit type="http://unitsofmeasure.org/" value="mL" />
+  </dose>
+  <frequency type="http://unitsofmeasure.org/" value="4 /d">4 /d</frequency>
+
+  <prescription>
+    <dispenseAsWritten>true</dispenseAsWritten>
+    <instructions>5 mL q6h prn cough</instructions>
+  </prescription>
+</Medication>

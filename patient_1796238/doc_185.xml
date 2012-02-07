@@ -1,0 +1,22 @@
+
+<Lab xmlns="http://indivo.org/vocab/xml/documents#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <dateMeasured>2006-07-20T00:00:00Z</dateMeasured>
+  <labType>general</labType>
+
+  <labTest xsi:type="SingleResultLabTest">
+    <dateMeasured>2006-07-20T00:00:00Z</dateMeasured>
+    <name type="http://loinc.org/codes/"  value="785-6"><![CDATA[MCH RBC Qn Auto]]></name>
+    <final>true</final>
+    <result xsi:type="ResultInRange">
+      <valueAndUnit>
+        <value>26.7</value>
+        <unit type="http://unitsofmeasure.org/" value="pg">pg</unit>
+      </valueAndUnit>
+      <normalRange>
+        <minimum>26</minimum>
+        <maximum>32</maximum>
+        <unit type="http://unitsofmeasure.org/" value="pg">pg</unit>
+      </normalRange>
+    </result>    
+  </labTest>
+</Lab>

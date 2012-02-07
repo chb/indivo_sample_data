@@ -1,0 +1,20 @@
+
+<Contact xmlns="http://indivo.org/vocab/xml/documents#">
+  <name>
+    <fullName>Amy Shaw</fullName>
+    <givenName>Amy</givenName>
+    <familyName>Shaw</familyName>
+  </name>
+  <email type="personal">
+    <emailAddress>amy.shaw@example.com</emailAddress>
+  </email>
+  <address type="home">
+    <streetAddress>49 Meadow St</streetAddress>
+    <postalCode>74047</postalCode>
+    <locality>Mounds</locality>
+    <region>OK</region>
+    <country>USA</country>
+  </address>
+  <phoneNumber type="home"></phoneNumber>
+  <phoneNumber type="cell">800-782-6765</phoneNumber>
+</Contact>

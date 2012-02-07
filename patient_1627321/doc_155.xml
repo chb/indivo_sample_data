@@ -1,0 +1,22 @@
+
+<Lab xmlns="http://indivo.org/vocab/xml/documents#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <dateMeasured>2008-07-17T00:00:00Z</dateMeasured>
+  <labType>general</labType>
+
+  <labTest xsi:type="SingleResultLabTest">
+    <dateMeasured>2008-07-17T00:00:00Z</dateMeasured>
+    <name type="http://loinc.org/codes/"  value="2823-3"><![CDATA[Potassium SerPl-sCnc]]></name>
+    <final>true</final>
+    <result xsi:type="ResultInRange">
+      <valueAndUnit>
+        <value>3.8</value>
+        <unit type="http://unitsofmeasure.org/" value="mmol/L">mmol/L</unit>
+      </valueAndUnit>
+      <normalRange>
+        <minimum>3.5</minimum>
+        <maximum>5.1</maximum>
+        <unit type="http://unitsofmeasure.org/" value="mmol/L">mmol/L</unit>
+      </normalRange>
+    </result>    
+  </labTest>
+</Lab>

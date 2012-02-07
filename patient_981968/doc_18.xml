@@ -1,0 +1,15 @@
+
+<Medication xmlns="http://indivo.org/vocab/xml/documents#">
+  <dateStarted>2006-09-01</dateStarted>
+  <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="858869">carbinoxamine 0.4 MG/ML / Hydrocodone 1 MG/ML / Pseudoephedrine 6 MG/ML Oral Solution [Histex HC]</name>
+  <dose>
+    <value>1</value>
+    <unit type="http://unitsofmeasure.org/" value="{tablet}" />
+  </dose>
+  <frequency type="http://unitsofmeasure.org/" value=" "> </frequency>
+
+  <prescription>
+    <dispenseAsWritten>true</dispenseAsWritten>
+    <instructions></instructions>
+  </prescription>
+</Medication>

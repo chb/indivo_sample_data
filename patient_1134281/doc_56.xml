@@ -1,0 +1,22 @@
+
+<Lab xmlns="http://indivo.org/vocab/xml/documents#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <dateMeasured>2005-07-05T00:00:00Z</dateMeasured>
+  <labType>general</labType>
+
+  <labTest xsi:type="SingleResultLabTest">
+    <dateMeasured>2005-07-05T00:00:00Z</dateMeasured>
+    <name type="http://loinc.org/codes/"  value="19048-8"><![CDATA[nRBC/100 WBC Bld-Rto]]></name>
+    <final>true</final>
+    <result xsi:type="ResultInRange">
+      <valueAndUnit>
+        <value>5</value>
+        <unit type="http://unitsofmeasure.org/" value="#/100 WBC">#/100 WBC</unit>
+      </valueAndUnit>
+      <normalRange>
+        <minimum>0</minimum>
+        <maximum>24</maximum>
+        <unit type="http://unitsofmeasure.org/" value="#/100 WBC">#/100 WBC</unit>
+      </normalRange>
+    </result>    
+  </labTest>
+</Lab>

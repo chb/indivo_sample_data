@@ -1,0 +1,22 @@
+
+<Lab xmlns="http://indivo.org/vocab/xml/documents#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <dateMeasured>2005-07-05T00:00:00Z</dateMeasured>
+  <labType>general</labType>
+
+  <labTest xsi:type="SingleResultLabTest">
+    <dateMeasured>2005-07-05T00:00:00Z</dateMeasured>
+    <name type="http://loinc.org/codes/"  value="1648-5"><![CDATA[TB Wheal 3D p 5 TU Diam]]></name>
+    <final>true</final>
+    <result xsi:type="ResultInRange">
+      <valueAndUnit>
+        <value>1.4</value>
+        <unit type="http://unitsofmeasure.org/" value="mm">mm</unit>
+      </valueAndUnit>
+      <normalRange>
+        <minimum>0.1</minimum>
+        <maximum>4.4</maximum>
+        <unit type="http://unitsofmeasure.org/" value="mm">mm</unit>
+      </normalRange>
+    </result>    
+  </labTest>
+</Lab>

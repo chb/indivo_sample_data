@@ -1,0 +1,5 @@
+
+<Problem xmlns="http://indivo.org/vocab/xml/documents#">
+  <dateOnset>2004-04-12T00:00:00Z</dateOnset>
+  <name type="http://www.ihtsdo.org/snomed-ct/concepts/" value="442311008">Single liveborn, born in hospital, delivered without mention of cesarean section</name>
+</Problem>

@@ -1,0 +1,20 @@
+
+<Contact xmlns="http://indivo.org/vocab/xml/documents#">
+  <name>
+    <fullName>Susan Clark</fullName>
+    <givenName>Susan</givenName>
+    <familyName>Clark</familyName>
+  </name>
+  <email type="personal">
+    <emailAddress>susan.clark@example.com</emailAddress>
+  </email>
+  <address type="home">
+    <streetAddress>52 Highland St</streetAddress>
+    <postalCode>74116</postalCode>
+    <locality>Tulsa</locality>
+    <region>OK</region>
+    <country>USA</country>
+  </address>
+  <phoneNumber type="home">800-576-9327</phoneNumber>
+  <phoneNumber type="cell"></phoneNumber>
+</Contact>

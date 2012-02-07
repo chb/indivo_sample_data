@@ -1,0 +1,15 @@
+
+<Medication xmlns="http://indivo.org/vocab/xml/documents#">
+  <dateStarted>2008-04-05</dateStarted>
+  <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="582620">Nizatidine 15 MG/ML Oral Solution [Axid]</name>
+  <dose>
+    <value>10</value>
+    <unit type="http://unitsofmeasure.org/" value="mL" />
+  </dose>
+  <frequency type="http://unitsofmeasure.org/" value="2 /d">2 /d</frequency>
+
+  <prescription>
+    <dispenseAsWritten>true</dispenseAsWritten>
+    <instructions>10 mL bid</instructions>
+  </prescription>
+</Medication>

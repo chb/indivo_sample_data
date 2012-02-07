@@ -1,0 +1,20 @@
+
+<Contact xmlns="http://indivo.org/vocab/xml/documents#">
+  <name>
+    <fullName>Sarah Graham</fullName>
+    <givenName>Sarah</givenName>
+    <familyName>Graham</familyName>
+  </name>
+  <email type="personal">
+    <emailAddress>sarah.graham@example.com</emailAddress>
+  </email>
+  <address type="home">
+    <streetAddress>92 Pine Ave</streetAddress>
+    <postalCode>74008</postalCode>
+    <locality>Bixby</locality>
+    <region>OK</region>
+    <country>USA</country>
+  </address>
+  <phoneNumber type="home">800-534-9017</phoneNumber>
+  <phoneNumber type="cell"></phoneNumber>
+</Contact>

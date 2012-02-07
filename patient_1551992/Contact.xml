@@ -1,0 +1,20 @@
+
+<Contact xmlns="http://indivo.org/vocab/xml/documents#">
+  <name>
+    <fullName>Lisa Coleman</fullName>
+    <givenName>Lisa</givenName>
+    <familyName>Coleman</familyName>
+  </name>
+  <email type="personal">
+    <emailAddress>lisa.coleman@example.com</emailAddress>
+  </email>
+  <address type="home">
+    <streetAddress>1 Main St</streetAddress>
+    <postalCode>74008</postalCode>
+    <locality>Bixby</locality>
+    <region>OK</region>
+    <country>USA</country>
+  </address>
+  <phoneNumber type="home">800-258-4431</phoneNumber>
+  <phoneNumber type="cell"></phoneNumber>
+</Contact>

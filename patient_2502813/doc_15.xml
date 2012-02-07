@@ -1,0 +1,15 @@
+
+<Medication xmlns="http://indivo.org/vocab/xml/documents#">
+  <dateStarted>2009-02-05</dateStarted>
+  <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="197633">Doxycycline 100 MG Oral Tablet</name>
+  <dose>
+    <value>1</value>
+    <unit type="http://unitsofmeasure.org/" value="{tablet}" />
+  </dose>
+  <frequency type="http://unitsofmeasure.org/" value="2 /d">2 /d</frequency>
+
+  <prescription>
+    <dispenseAsWritten>true</dispenseAsWritten>
+    <instructions>1 bid</instructions>
+  </prescription>
+</Medication>

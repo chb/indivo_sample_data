@@ -1,0 +1,15 @@
+
+<Medication xmlns="http://indivo.org/vocab/xml/documents#">
+  <dateStarted>2007-06-06</dateStarted>
+  <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="239191">Amoxicillin 50 MG/ML Oral Suspension</name>
+  <dose>
+    <value>10</value>
+    <unit type="http://unitsofmeasure.org/" value="mL" />
+  </dose>
+  <frequency type="http://unitsofmeasure.org/" value="2 /d">2 /d</frequency>
+
+  <prescription>
+    <dispenseAsWritten>true</dispenseAsWritten>
+    <instructions>10 mL bid x 10 days</instructions>
+  </prescription>
+</Medication>

@@ -1,0 +1,22 @@
+
+<Lab xmlns="http://indivo.org/vocab/xml/documents#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <dateMeasured>2005-07-04T00:00:00Z</dateMeasured>
+  <labType>general</labType>
+
+  <labTest xsi:type="SingleResultLabTest">
+    <dateMeasured>2005-07-04T00:00:00Z</dateMeasured>
+    <name type="http://loinc.org/codes/"  value="11558-4"><![CDATA[pH Bld]]></name>
+    <final>true</final>
+    <result xsi:type="ResultInRange">
+      <valueAndUnit>
+        <value>7.36</value>
+        <unit type="http://unitsofmeasure.org/" value="[pH]">[pH]</unit>
+      </valueAndUnit>
+      <normalRange>
+        <minimum>7.35</minimum>
+        <maximum>7.45</maximum>
+        <unit type="http://unitsofmeasure.org/" value="[pH]">[pH]</unit>
+      </normalRange>
+    </result>    
+  </labTest>
+</Lab>

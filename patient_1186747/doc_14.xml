@@ -1,0 +1,15 @@
+
+<Medication xmlns="http://indivo.org/vocab/xml/documents#">
+  <dateStarted>2006-09-25</dateStarted>
+  <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="404630">Ciprofloxacin 3 MG/ML / Dexamethasone 1 MG/ML Otic Suspension [Ciprodex]</name>
+  <dose>
+    <value>4</value>
+    <unit type="http://unitsofmeasure.org/" value="[drp]" />
+  </dose>
+  <frequency type="http://unitsofmeasure.org/" value="3 /d">3 /d</frequency>
+
+  <prescription>
+    <dispenseAsWritten>true</dispenseAsWritten>
+    <instructions>4 gtt in ear bid x7 day</instructions>
+  </prescription>
+</Medication>

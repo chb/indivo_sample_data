@@ -1,0 +1,20 @@
+
+<Contact xmlns="http://indivo.org/vocab/xml/documents#">
+  <name>
+    <fullName>Karen Lewis</fullName>
+    <givenName>Karen</givenName>
+    <familyName>Lewis</familyName>
+  </name>
+  <email type="personal">
+    <emailAddress>karen.lewis@example.com</emailAddress>
+  </email>
+  <address type="home">
+    <streetAddress>88 River Ave</streetAddress>
+    <postalCode>74126</postalCode>
+    <locality>Tulsa</locality>
+    <region>OK</region>
+    <country>USA</country>
+  </address>
+  <phoneNumber type="home">800-460-5876</phoneNumber>
+  <phoneNumber type="cell"></phoneNumber>
+</Contact>

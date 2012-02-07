@@ -1,0 +1,15 @@
+
+<Medication xmlns="http://indivo.org/vocab/xml/documents#">
+  <dateStarted>2005-09-09</dateStarted>
+  <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="752370">120 ACTUAT Triamcinolone 0.055 MG/ACTUAT Nasal Inhaler [Nasacort]</name>
+  <dose>
+    <value>2</value>
+    <unit type="http://unitsofmeasure.org/" value="{puff}" />
+  </dose>
+  <frequency type="http://unitsofmeasure.org/" value="4 /d">4 /d</frequency>
+
+  <prescription>
+    <dispenseAsWritten>true</dispenseAsWritten>
+    <instructions>2 puffs bid</instructions>
+  </prescription>
+</Medication>

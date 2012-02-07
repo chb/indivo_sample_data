@@ -1,0 +1,20 @@
+
+<Contact xmlns="http://indivo.org/vocab/xml/documents#">
+  <name>
+    <fullName>Brian Brooks</fullName>
+    <givenName>Brian</givenName>
+    <familyName>Brooks</familyName>
+  </name>
+  <email type="personal">
+    <emailAddress>brian.brooks@example.com</emailAddress>
+  </email>
+  <address type="home">
+    <streetAddress>82 Lake St</streetAddress>
+    <postalCode>74008</postalCode>
+    <locality>Bixby</locality>
+    <region>OK</region>
+    <country>USA</country>
+  </address>
+  <phoneNumber type="home">800-369-6403</phoneNumber>
+  <phoneNumber type="cell"></phoneNumber>
+</Contact>

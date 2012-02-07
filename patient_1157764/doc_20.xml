@@ -1,0 +1,22 @@
+
+<Lab xmlns="http://indivo.org/vocab/xml/documents#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <dateMeasured>2006-10-30T00:00:00Z</dateMeasured>
+  <labType>general</labType>
+
+  <labTest xsi:type="SingleResultLabTest">
+    <dateMeasured>2006-10-30T00:00:00Z</dateMeasured>
+    <name type="http://loinc.org/codes/"  value="13945-1"><![CDATA[RBC #/area UrnS HPF]]></name>
+    <final>true</final>
+    <result xsi:type="ResultInRange">
+      <valueAndUnit>
+        <value>1</value>
+        <unit type="http://unitsofmeasure.org/" value="/[HPF]">/[HPF]</unit>
+      </valueAndUnit>
+      <normalRange>
+        <minimum>0</minimum>
+        <maximum>2</maximum>
+        <unit type="http://unitsofmeasure.org/" value="/[HPF]">/[HPF]</unit>
+      </normalRange>
+    </result>    
+  </labTest>
+</Lab>

@@ -1,0 +1,20 @@
+
+<Contact xmlns="http://indivo.org/vocab/xml/documents#">
+  <name>
+    <fullName>Robert Hill</fullName>
+    <givenName>Robert</givenName>
+    <familyName>Hill</familyName>
+  </name>
+  <email type="personal">
+    <emailAddress>robert.hill@example.com</emailAddress>
+  </email>
+  <address type="home">
+    <streetAddress>42 Park St</streetAddress>
+    <postalCode>74008</postalCode>
+    <locality>Bixby</locality>
+    <region>OK</region>
+    <country>USA</country>
+  </address>
+  <phoneNumber type="home"></phoneNumber>
+  <phoneNumber type="cell"></phoneNumber>
+</Contact>

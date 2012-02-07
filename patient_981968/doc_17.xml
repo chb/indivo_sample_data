@@ -1,0 +1,15 @@
+
+<Medication xmlns="http://indivo.org/vocab/xml/documents#">
+  <dateStarted>2006-09-01</dateStarted>
+  <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="745752">200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler [ProAir HFA]</name>
+  <dose>
+    <value>2</value>
+    <unit type="http://unitsofmeasure.org/" value="{puff}" />
+  </dose>
+  <frequency type="http://unitsofmeasure.org/" value="4 /d">4 /d</frequency>
+
+  <prescription>
+    <dispenseAsWritten>true</dispenseAsWritten>
+    <instructions>2 puffs qid prn SOB</instructions>
+  </prescription>
+</Medication>

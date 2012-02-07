@@ -1,0 +1,15 @@
+
+<Medication xmlns="http://indivo.org/vocab/xml/documents#">
+  <dateStarted>2009-03-07</dateStarted>
+  <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="198039">Nitroglycerin 0.4 MG Sublingual Tablet</name>
+  <dose>
+    <value>1</value>
+    <unit type="http://unitsofmeasure.org/" value="{tablet}" />
+  </dose>
+  <frequency type="http://unitsofmeasure.org/" value=" "> </frequency>
+
+  <prescription>
+    <dispenseAsWritten>true</dispenseAsWritten>
+    <instructions>1 sl q5min x3 prn angina</instructions>
+  </prescription>
+</Medication>

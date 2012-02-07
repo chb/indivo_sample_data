@@ -1,0 +1,22 @@
+
+<Lab xmlns="http://indivo.org/vocab/xml/documents#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <dateMeasured>2008-01-04T00:00:00Z</dateMeasured>
+  <labType>general</labType>
+
+  <labTest xsi:type="SingleResultLabTest">
+    <dateMeasured>2008-01-04T00:00:00Z</dateMeasured>
+    <name type="http://loinc.org/codes/"  value="26485-3"><![CDATA[Monocytes NFr Bld]]></name>
+    <final>true</final>
+    <result xsi:type="ResultInRange">
+      <valueAndUnit>
+        <value>8</value>
+        <unit type="http://unitsofmeasure.org/" value="%">%</unit>
+      </valueAndUnit>
+      <normalRange>
+        <minimum>1</minimum>
+        <maximum>10</maximum>
+        <unit type="http://unitsofmeasure.org/" value="%">%</unit>
+      </normalRange>
+    </result>    
+  </labTest>
+</Lab>

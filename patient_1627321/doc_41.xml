@@ -1,0 +1,22 @@
+
+<Lab xmlns="http://indivo.org/vocab/xml/documents#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <dateMeasured>2004-09-16T00:00:00Z</dateMeasured>
+  <labType>general</labType>
+
+  <labTest xsi:type="SingleResultLabTest">
+    <dateMeasured>2004-09-16T00:00:00Z</dateMeasured>
+    <name type="http://loinc.org/codes/"  value="3094-0"><![CDATA[BUN SerPl-mCnc]]></name>
+    <final>true</final>
+    <result xsi:type="ResultInRange">
+      <valueAndUnit>
+        <value>24</value>
+        <unit type="http://unitsofmeasure.org/" value="mg/dL">mg/dL</unit>
+      </valueAndUnit>
+      <normalRange>
+        <minimum>9</minimum>
+        <maximum>20</maximum>
+        <unit type="http://unitsofmeasure.org/" value="mg/dL">mg/dL</unit>
+      </normalRange>
+    </result>    
+  </labTest>
+</Lab>

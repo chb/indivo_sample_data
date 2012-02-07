@@ -1,0 +1,15 @@
+
+<Medication xmlns="http://indivo.org/vocab/xml/documents#">
+  <dateStarted>2008-11-13</dateStarted>
+  <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="580261">tiotropium 0.018 MG/ACTUAT Inhalant Powder [Spiriva]</name>
+  <dose>
+    <value>1</value>
+    <unit type="http://unitsofmeasure.org/" value="{puff}" />
+  </dose>
+  <frequency type="http://unitsofmeasure.org/" value="1 /d">1 /d</frequency>
+
+  <prescription>
+    <dispenseAsWritten>true</dispenseAsWritten>
+    <instructions>1 puff daily</instructions>
+  </prescription>
+</Medication>

@@ -1,0 +1,15 @@
+
+<Medication xmlns="http://indivo.org/vocab/xml/documents#">
+  <dateStarted>2004-05-09</dateStarted>
+  <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="310149">Erythromycin 0.005 MG/MG Ophthalmic Ointment</name>
+  <dose>
+    <value>0.25</value>
+    <unit type="http://unitsofmeasure.org/" value="[in_us]" />
+  </dose>
+  <frequency type="http://unitsofmeasure.org/" value="2 /d">2 /d</frequency>
+
+  <prescription>
+    <dispenseAsWritten>true</dispenseAsWritten>
+    <instructions>1/4 inch in eye bid x5 days</instructions>
+  </prescription>
+</Medication>

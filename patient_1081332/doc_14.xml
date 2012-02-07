@@ -1,0 +1,15 @@
+
+<Medication xmlns="http://indivo.org/vocab/xml/documents#">
+  <dateStarted>2005-01-18</dateStarted>
+  <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="211307">Azithromycin 20 MG/ML Oral Suspension [Zithromax]</name>
+  <dose>
+    <value>15</value>
+    <unit type="http://unitsofmeasure.org/" value="mL" />
+  </dose>
+  <frequency type="http://unitsofmeasure.org/" value="1 /d">1 /d</frequency>
+
+  <prescription>
+    <dispenseAsWritten>true</dispenseAsWritten>
+    <instructions>15 mL daily x 3 days</instructions>
+  </prescription>
+</Medication>

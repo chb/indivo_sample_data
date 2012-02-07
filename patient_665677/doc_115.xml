@@ -1,0 +1,22 @@
+
+<Lab xmlns="http://indivo.org/vocab/xml/documents#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <dateMeasured>2006-03-17T00:00:00Z</dateMeasured>
+  <labType>general</labType>
+
+  <labTest xsi:type="SingleResultLabTest">
+    <dateMeasured>2006-03-17T00:00:00Z</dateMeasured>
+    <name type="http://loinc.org/codes/"  value="718-7"><![CDATA[Hgb Bld-mCnc]]></name>
+    <final>true</final>
+    <result xsi:type="ResultInRange">
+      <valueAndUnit>
+        <value>9</value>
+        <unit type="http://unitsofmeasure.org/" value="g/dL">g/dL</unit>
+      </valueAndUnit>
+      <normalRange>
+        <minimum>12</minimum>
+        <maximum>15</maximum>
+        <unit type="http://unitsofmeasure.org/" value="g/dL">g/dL</unit>
+      </normalRange>
+    </result>    
+  </labTest>
+</Lab>

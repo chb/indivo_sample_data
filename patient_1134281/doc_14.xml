@@ -1,0 +1,15 @@
+
+<Medication xmlns="http://indivo.org/vocab/xml/documents#">
+  <dateStarted>2006-01-08</dateStarted>
+  <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="104884">Metoclopramide 1 MG/ML Oral Solution</name>
+  <dose>
+    <value>4</value>
+    <unit type="http://unitsofmeasure.org/" value="mL" />
+  </dose>
+  <frequency type="http://unitsofmeasure.org/" value="4 /d">4 /d</frequency>
+
+  <prescription>
+    <dispenseAsWritten>true</dispenseAsWritten>
+    <instructions>4 mL qid</instructions>
+  </prescription>
+</Medication>

@@ -1,0 +1,20 @@
+
+<Contact xmlns="http://indivo.org/vocab/xml/documents#">
+  <name>
+    <fullName>Dorothy Owens</fullName>
+    <givenName>Dorothy</givenName>
+    <familyName>Owens</familyName>
+  </name>
+  <email type="personal">
+    <emailAddress>dorothy.owens@example.com</emailAddress>
+  </email>
+  <address type="home">
+    <streetAddress>17 River Rd</streetAddress>
+    <postalCode>74014</postalCode>
+    <locality>Broken Arrow</locality>
+    <region>OK</region>
+    <country>USA</country>
+  </address>
+  <phoneNumber type="home">800-832-2470</phoneNumber>
+  <phoneNumber type="cell"></phoneNumber>
+</Contact>

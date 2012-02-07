@@ -1,0 +1,15 @@
+
+<Medication xmlns="http://indivo.org/vocab/xml/documents#">
+  <dateStarted>2009-05-18</dateStarted>
+  <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="729929">24 HR venlafaxine 75 MG Extended Release Capsule [Effexor]</name>
+  <dose>
+    <value>1</value>
+    <unit type="http://unitsofmeasure.org/" value="{tablet}" />
+  </dose>
+  <frequency type="http://unitsofmeasure.org/" value="1 /d">1 /d</frequency>
+
+  <prescription>
+    <dispenseAsWritten>true</dispenseAsWritten>
+    <instructions>1 daily</instructions>
+  </prescription>
+</Medication>

@@ -1,0 +1,20 @@
+
+<Contact xmlns="http://indivo.org/vocab/xml/documents#">
+  <name>
+    <fullName>William Robinson</fullName>
+    <givenName>William</givenName>
+    <familyName>Robinson</familyName>
+  </name>
+  <email type="personal">
+    <emailAddress>william.robinson@example.com</emailAddress>
+  </email>
+  <address type="home">
+    <streetAddress>23 Church Rd</streetAddress>
+    <postalCode>74008</postalCode>
+    <locality>Bixby</locality>
+    <region>OK</region>
+    <country>USA</country>
+  </address>
+  <phoneNumber type="home">800-870-3011</phoneNumber>
+  <phoneNumber type="cell">800-979-6786</phoneNumber>
+</Contact>

@@ -1,0 +1,20 @@
+
+<Contact xmlns="http://indivo.org/vocab/xml/documents#">
+  <name>
+    <fullName>William Thomas</fullName>
+    <givenName>William</givenName>
+    <familyName>Thomas</familyName>
+  </name>
+  <email type="personal">
+    <emailAddress>william.thomas@example.com</emailAddress>
+  </email>
+  <address type="home">
+    <streetAddress>35 Meadow Rd</streetAddress>
+    <postalCode>74117</postalCode>
+    <locality>Tulsa</locality>
+    <region>OK</region>
+    <country>USA</country>
+  </address>
+  <phoneNumber type="home">800-556-4849</phoneNumber>
+  <phoneNumber type="cell"></phoneNumber>
+</Contact>

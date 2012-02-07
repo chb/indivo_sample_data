@@ -1,0 +1,15 @@
+
+<Medication xmlns="http://indivo.org/vocab/xml/documents#">
+  <dateStarted>2008-04-03</dateStarted>
+  <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="197803">Ibuprofen 20 MG/ML Oral Suspension</name>
+  <dose>
+    <value>7</value>
+    <unit type="http://unitsofmeasure.org/" value="mL" />
+  </dose>
+  <frequency type="http://unitsofmeasure.org/" value="4 /d">4 /d</frequency>
+
+  <prescription>
+    <dispenseAsWritten>true</dispenseAsWritten>
+    <instructions>7 mL q6h prn</instructions>
+  </prescription>
+</Medication>

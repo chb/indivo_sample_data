@@ -1,0 +1,20 @@
+
+<Contact xmlns="http://indivo.org/vocab/xml/documents#">
+  <name>
+    <fullName>Stephan Graham</fullName>
+    <givenName>Stephan</givenName>
+    <familyName>Graham</familyName>
+  </name>
+  <email type="personal">
+    <emailAddress>stephan.graham@example.com</emailAddress>
+  </email>
+  <address type="home">
+    <streetAddress>27 Park Rd</streetAddress>
+    <postalCode>74047</postalCode>
+    <locality>Mounds</locality>
+    <region>OK</region>
+    <country>USA</country>
+  </address>
+  <phoneNumber type="home"></phoneNumber>
+  <phoneNumber type="cell"></phoneNumber>
+</Contact>

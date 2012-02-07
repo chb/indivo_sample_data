@@ -1,0 +1,20 @@
+
+<Contact xmlns="http://indivo.org/vocab/xml/documents#">
+  <name>
+    <fullName>Michael Lewis</fullName>
+    <givenName>Michael</givenName>
+    <familyName>Lewis</familyName>
+  </name>
+  <email type="personal">
+    <emailAddress>michael.lewis@example.com</emailAddress>
+  </email>
+  <address type="home">
+    <streetAddress>55 East St</streetAddress>
+    <postalCode>74014</postalCode>
+    <locality>Broken Arrow</locality>
+    <region>OK</region>
+    <country>USA</country>
+  </address>
+  <phoneNumber type="home">800-393-8687</phoneNumber>
+  <phoneNumber type="cell"></phoneNumber>
+</Contact>

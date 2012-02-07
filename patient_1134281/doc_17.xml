@@ -1,0 +1,15 @@
+
+<Medication xmlns="http://indivo.org/vocab/xml/documents#">
+  <dateStarted>2009-04-06</dateStarted>
+  <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="106346">Mupirocin 0.02 MG/MG Topical Ointment</name>
+  <dose>
+    <value>1</value>
+    <unit type="http://unitsofmeasure.org/" value="{tablet}" />
+  </dose>
+  <frequency type="http://unitsofmeasure.org/" value=" "> </frequency>
+
+  <prescription>
+    <dispenseAsWritten>true</dispenseAsWritten>
+    <instructions>apply nasally prn</instructions>
+  </prescription>
+</Medication>

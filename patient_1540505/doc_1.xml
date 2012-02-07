@@ -1,0 +1,5 @@
+
+<Problem xmlns="http://indivo.org/vocab/xml/documents#">
+  <dateOnset>2005-03-09T00:00:00Z</dateOnset>
+  <name type="http://www.ihtsdo.org/snomed-ct/concepts/" value="13200003">Peptic ulcer without hemorrhage, without perforation AND without obstruction</name>
+</Problem>
