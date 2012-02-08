@@ -9,7 +9,7 @@
     <final>true</final>
     <result xsi:type="ResultInRange">
       <valueAndUnit>
-        <value>0-2</value>
+        <value>2</value>
         <unit type="http://unitsofmeasure.org/" value="/[HPF]">/[HPF]</unit>
       </valueAndUnit>
       <normalRange>
