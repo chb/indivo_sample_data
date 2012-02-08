@@ -1,10 +1,10 @@
 <ns0:Contact xmlns:ns0="http://indivo.org/vocab/xml/documents#">
    <ns0:name>
-      <ns0:fullName>test2  last_test2</ns0:fullName>
-      <ns0:givenName>test2</ns0:givenName>
-      <ns0:familyName>last_test2</ns0:familyName>
+      <ns0:fullName>Timmy Black</ns0:fullName>
+      <ns0:givenName>Timmy</ns0:givenName>
+      <ns0:familyName>Black</ns0:familyName>
    </ns0:name>
-   <ns0:email type="">last_test2@gmail.com</ns0:email>
+   <ns0:email type="personal">timmy.black@example.com</ns0:email>
    <ns0:address type="home">
       <ns0:streetAddress>301 Longwood Ave</ns0:streetAddress>
       <ns0:postalCode>02115</ns0:postalCode>
