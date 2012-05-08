@@ -1,5 +1,12 @@
 
-<Problem xmlns="http://indivo.org/vocab/xml/documents#">
-  <dateOnset>2004-10-29T00:00:00Z</dateOnset>
-  <name type="http://www.ihtsdo.org/snomed-ct/concepts/" value="68235000">Other diseases of nasal cavity and sinuses</name>
-</Problem>
+<Models xmlns="http://indivo.org/vocab/xml/documents#">
+
+<Model name="Problem">
+  <Field name="startDate">2004-10-29</Field>
+  <Field name="endDate">2010-09-13</Field>
+  <Field name="name_title">Other diseases of nasal cavity and sinuses</Field>
+  <Field name="name_system">http://purl.bioontology.org/ontology/SNOMEDCT/</Field>
+  <Field name="name_identifier">68235000</Field>
+</Model>
+
+</Models>

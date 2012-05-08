@@ -1,5 +1,12 @@
 
-<Problem xmlns="http://indivo.org/vocab/xml/documents#">
-  <dateOnset>2007-10-21T00:00:00Z</dateOnset>
-  <name type="http://www.ihtsdo.org/snomed-ct/concepts/" value="168734001">Nonspecific abnormal findings on radiological and other examination of musculoskeletal system</name>
-</Problem>
+<Models xmlns="http://indivo.org/vocab/xml/documents#">
+
+<Model name="Problem">
+  <Field name="startDate">2007-10-21</Field>
+  <Field name="endDate">2010-09-13</Field>
+  <Field name="name_title">Nonspecific abnormal findings on radiological and other examination of musculoskeletal system</Field>
+  <Field name="name_system">http://purl.bioontology.org/ontology/SNOMEDCT/</Field>
+  <Field name="name_identifier">168734001</Field>
+</Model>
+
+</Models>

@@ -1,5 +1,12 @@
 
-<Problem xmlns="http://indivo.org/vocab/xml/documents#">
-  <dateOnset>2004-12-27T00:00:00Z</dateOnset>
-  <name type="http://www.ihtsdo.org/snomed-ct/concepts/" value="25374005">Other and unspecified noninfectious gastroenteritis and colitis</name>
-</Problem>
+<Models xmlns="http://indivo.org/vocab/xml/documents#">
+
+<Model name="Problem">
+  <Field name="startDate">2004-12-27</Field>
+  <Field name="endDate">2010-09-13</Field>
+  <Field name="name_title">Other and unspecified noninfectious gastroenteritis and colitis</Field>
+  <Field name="name_system">http://purl.bioontology.org/ontology/SNOMEDCT/</Field>
+  <Field name="name_identifier">25374005</Field>
+</Model>
+
+</Models>

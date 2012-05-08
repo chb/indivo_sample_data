@@ -1,15 +1,25 @@
 
-<Medication xmlns="http://indivo.org/vocab/xml/documents#">
-  <dateStarted>2008-06-22</dateStarted>
-  <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="311753">mometasone furoate 1 MG/ML Topical Cream</name>
-  <dose>
-    <value>1</value>
-    <unit type="http://unitsofmeasure.org/" value="{tablet}" />
-  </dose>
-  <frequency type="http://unitsofmeasure.org/" value="1 /d">1 /d</frequency>
+<Models xmlns="http://indivo.org/vocab/xml/documents#">
 
-  <prescription>
-    <dispenseAsWritten>true</dispenseAsWritten>
-    <instructions>apply daily</instructions>
-  </prescription>
-</Medication>
+<Model name="Medication">
+  <Field name="drugName_title">mometasone furoate 1 MG/ML Topical Cream</Field>
+  <Field name="drugName_system">http://purl.bioontology.org/ontology/RXNORM/</Field>
+  <Field name="drugName_identifier">311753</Field>
+  <Field name="endDate">2010-04-09</Field>
+  <Field name="frequency_value">1</Field>
+  <Field name="frequency_unit">/d</Field>
+  <Field name="instructions">apply daily</Field>
+  <Field name="provenance_title">Derived by prescription</Field>
+  <Field name="provenance_system">http://smartplatforms.org/terms/codes/MedicationProvenance#</Field>
+  <Field name="provenance_identifier">prescription</Field>
+  <Field name="quantity_value">30</Field>
+  <Field name="quantity_unit">{tab}</Field>
+  <Field name="startDate">2008-06-22</Field>
+  <Field name="fulfillments">
+    <Models>
+      
+    </Models>
+  </Field>
+</Model>
+
+</Models>

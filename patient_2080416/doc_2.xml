@@ -1,5 +1,12 @@
 
-<Problem xmlns="http://indivo.org/vocab/xml/documents#">
-  <dateOnset>2004-04-01T00:00:00Z</dateOnset>
-  <name type="http://www.ihtsdo.org/snomed-ct/concepts/" value="72552008">Feeding problems in newborn</name>
-</Problem>
+<Models xmlns="http://indivo.org/vocab/xml/documents#">
+
+<Model name="Problem">
+  <Field name="startDate">2004-04-01</Field>
+  <Field name="endDate">2010-09-13</Field>
+  <Field name="name_title">Feeding problems in newborn</Field>
+  <Field name="name_system">http://purl.bioontology.org/ontology/SNOMEDCT/</Field>
+  <Field name="name_identifier">72552008</Field>
+</Model>
+
+</Models>

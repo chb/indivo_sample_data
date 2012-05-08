@@ -1,15 +1,25 @@
 
-<Medication xmlns="http://indivo.org/vocab/xml/documents#">
-  <dateStarted>2006-01-08</dateStarted>
-  <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="755272">Ranitidine 15 MG/ML Oral Solution [Zantac]</name>
-  <dose>
-    <value>6</value>
-    <unit type="http://unitsofmeasure.org/" value="mL" />
-  </dose>
-  <frequency type="http://unitsofmeasure.org/" value="2 /d">2 /d</frequency>
+<Models xmlns="http://indivo.org/vocab/xml/documents#">
 
-  <prescription>
-    <dispenseAsWritten>true</dispenseAsWritten>
-    <instructions>6 mL bid</instructions>
-  </prescription>
-</Medication>
+<Model name="Medication">
+  <Field name="drugName_title">Ranitidine 15 MG/ML Oral Solution [Zantac]</Field>
+  <Field name="drugName_system">http://purl.bioontology.org/ontology/RXNORM/</Field>
+  <Field name="drugName_identifier">755272</Field>
+  <Field name="endDate">2010-04-09</Field>
+  <Field name="frequency_value">2</Field>
+  <Field name="frequency_unit">/d</Field>
+  <Field name="instructions">6 mL bid</Field>
+  <Field name="provenance_title">Derived by prescription</Field>
+  <Field name="provenance_system">http://smartplatforms.org/terms/codes/MedicationProvenance#</Field>
+  <Field name="provenance_identifier">prescription</Field>
+  <Field name="quantity_value">6</Field>
+  <Field name="quantity_unit">mL</Field>
+  <Field name="startDate">2006-01-08</Field>
+  <Field name="fulfillments">
+    <Models>
+      
+    </Models>
+  </Field>
+</Model>
+
+</Models>

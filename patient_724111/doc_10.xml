@@ -1,5 +1,12 @@
 
-<Problem xmlns="http://indivo.org/vocab/xml/documents#">
-  <dateOnset>2008-07-01T00:00:00Z</dateOnset>
-  <name type="http://www.ihtsdo.org/snomed-ct/concepts/" value="35253001">Child attention deficit disorder</name>
-</Problem>
+<Models xmlns="http://indivo.org/vocab/xml/documents#">
+
+<Model name="Problem">
+  <Field name="startDate">2008-07-01</Field>
+  <Field name="endDate">2010-09-13</Field>
+  <Field name="name_title">Child attention deficit disorder</Field>
+  <Field name="name_system">http://purl.bioontology.org/ontology/SNOMEDCT/</Field>
+  <Field name="name_identifier">35253001</Field>
+</Model>
+
+</Models>

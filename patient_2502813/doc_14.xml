@@ -1,15 +1,73 @@
 
-<Medication xmlns="http://indivo.org/vocab/xml/documents#">
-  <dateStarted>2008-11-16</dateStarted>
-  <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="859088">200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler [Ventolin HFA]</name>
-  <dose>
-    <value>2</value>
-    <unit type="http://unitsofmeasure.org/" value="{puff}" />
-  </dose>
-  <frequency type="http://unitsofmeasure.org/" value="4 /d">4 /d</frequency>
+<Models xmlns="http://indivo.org/vocab/xml/documents#">
 
-  <prescription>
-    <dispenseAsWritten>true</dispenseAsWritten>
-    <instructions>2 puffs qid prn SOB</instructions>
-  </prescription>
-</Medication>
+<Model name="Medication">
+  <Field name="drugName_title">200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler [Ventolin HFA]</Field>
+  <Field name="drugName_system">http://purl.bioontology.org/ontology/RXNORM/</Field>
+  <Field name="drugName_identifier">859088</Field>
+  <Field name="endDate">2010-04-09</Field>
+  <Field name="frequency_value">4</Field>
+  <Field name="frequency_unit">/d</Field>
+  <Field name="instructions">2 puffs qid prn SOB</Field>
+  <Field name="provenance_title">Derived by prescription</Field>
+  <Field name="provenance_system">http://smartplatforms.org/terms/codes/MedicationProvenance#</Field>
+  <Field name="provenance_identifier">prescription</Field>
+  <Field name="quantity_value">2</Field>
+  <Field name="quantity_unit">{puff}</Field>
+  <Field name="startDate">2008-11-16</Field>
+  <Field name="fulfillments">
+    <Models>
+      
+
+<Model name="Fill">
+  <Field name="date">2008-11-16</Field>
+  <Field name="dispenseDaysSupply">17</Field>
+  <Field name="pbm">T00000000001011</Field>
+  <Field name="pharmacy_ncpdpid">5235235</Field>
+  <Field name="pharmacy_org">CVS #588</Field>
+  <Field name="pharmacy_adr_country">Australia</Field>
+  <Field name="pharmacy_adr_city">Wonder City</Field>
+  <Field name="pharmacy_adr_postalcode">5555</Field>
+  <Field name="pharmacy_adr_street">111 Lake Drive</Field> 
+  <Field name="pharmacy_adr_region">West Australia</Field> 
+  <Field name="provider_dea_number">325555555</Field>
+  <Field name="provider_npi_number">5235235</Field>
+  <Field name="provider_email">jmandel@fake.emailserver.com</Field>
+  <Field name="provider_name_given">Joshua</Field>
+  <Field name="provider_name_family">Mandel</Field>
+  <Field name="provider_tel_1_type">w</Field>
+  <Field name="provider_tel_1_number">1-234-567-8910</Field>
+  <Field name="provider_tel_1_preferred_p">true</Field>
+  <Field name="quantityDispensed_value">18</Field>
+  <Field name="quantityDispensed_unit">{tab}</Field>
+</Model>
+
+
+<Model name="Fill">
+  <Field name="date">2009-07-30</Field>
+  <Field name="dispenseDaysSupply">17</Field>
+  <Field name="pbm">T00000000001011</Field>
+  <Field name="pharmacy_ncpdpid">5235235</Field>
+  <Field name="pharmacy_org">CVS #588</Field>
+  <Field name="pharmacy_adr_country">Australia</Field>
+  <Field name="pharmacy_adr_city">Wonder City</Field>
+  <Field name="pharmacy_adr_postalcode">5555</Field>
+  <Field name="pharmacy_adr_street">111 Lake Drive</Field> 
+  <Field name="pharmacy_adr_region">West Australia</Field> 
+  <Field name="provider_dea_number">325555555</Field>
+  <Field name="provider_npi_number">5235235</Field>
+  <Field name="provider_email">jmandel@fake.emailserver.com</Field>
+  <Field name="provider_name_given">Joshua</Field>
+  <Field name="provider_name_family">Mandel</Field>
+  <Field name="provider_tel_1_type">w</Field>
+  <Field name="provider_tel_1_number">1-234-567-8910</Field>
+  <Field name="provider_tel_1_preferred_p">true</Field>
+  <Field name="quantityDispensed_value">18</Field>
+  <Field name="quantityDispensed_unit">{tab}</Field>
+</Model>
+
+    </Models>
+  </Field>
+</Model>
+
+</Models>

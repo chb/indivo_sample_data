@@ -1,15 +1,49 @@
 
-<Medication xmlns="http://indivo.org/vocab/xml/documents#">
-  <dateStarted>2004-10-28</dateStarted>
-  <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="312664">Promethazine 25 MG Oral Tablet</name>
-  <dose>
-    <value>1</value>
-    <unit type="http://unitsofmeasure.org/" value="{tablet}" />
-  </dose>
-  <frequency type="http://unitsofmeasure.org/" value="4 /d">4 /d</frequency>
+<Models xmlns="http://indivo.org/vocab/xml/documents#">
 
-  <prescription>
-    <dispenseAsWritten>true</dispenseAsWritten>
-    <instructions>1 qid prn nausea</instructions>
-  </prescription>
-</Medication>
+<Model name="Medication">
+  <Field name="drugName_title">Promethazine 25 MG Oral Tablet</Field>
+  <Field name="drugName_system">http://purl.bioontology.org/ontology/RXNORM/</Field>
+  <Field name="drugName_identifier">312664</Field>
+  <Field name="endDate">2010-04-09</Field>
+  <Field name="frequency_value">4</Field>
+  <Field name="frequency_unit">/d</Field>
+  <Field name="instructions">1 qid prn nausea</Field>
+  <Field name="provenance_title">Derived by prescription</Field>
+  <Field name="provenance_system">http://smartplatforms.org/terms/codes/MedicationProvenance#</Field>
+  <Field name="provenance_identifier">prescription</Field>
+  <Field name="quantity_value">1</Field>
+  <Field name="quantity_unit">{tablet}</Field>
+  <Field name="startDate">2004-10-28</Field>
+  <Field name="fulfillments">
+    <Models>
+      
+
+<Model name="Fill">
+  <Field name="date">2004-10-28</Field>
+  <Field name="dispenseDaysSupply">5</Field>
+  <Field name="pbm">T00000000001011</Field>
+  <Field name="pharmacy_ncpdpid">5235235</Field>
+  <Field name="pharmacy_org">CVS #588</Field>
+  <Field name="pharmacy_adr_country">Australia</Field>
+  <Field name="pharmacy_adr_city">Wonder City</Field>
+  <Field name="pharmacy_adr_postalcode">5555</Field>
+  <Field name="pharmacy_adr_street">111 Lake Drive</Field> 
+  <Field name="pharmacy_adr_region">West Australia</Field> 
+  <Field name="provider_dea_number">325555555</Field>
+  <Field name="provider_npi_number">5235235</Field>
+  <Field name="provider_email">jmandel@fake.emailserver.com</Field>
+  <Field name="provider_name_given">Joshua</Field>
+  <Field name="provider_name_family">Mandel</Field>
+  <Field name="provider_tel_1_type">w</Field>
+  <Field name="provider_tel_1_number">1-234-567-8910</Field>
+  <Field name="provider_tel_1_preferred_p">true</Field>
+  <Field name="quantityDispensed_value">20</Field>
+  <Field name="quantityDispensed_unit">{tab}</Field>
+</Model>
+
+    </Models>
+  </Field>
+</Model>
+
+</Models>

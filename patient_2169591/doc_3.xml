@@ -1,5 +1,12 @@
 
-<Problem xmlns="http://indivo.org/vocab/xml/documents#">
-  <dateOnset>2004-06-06T00:00:00Z</dateOnset>
-  <name type="http://www.ihtsdo.org/snomed-ct/concepts/" value="312399001">Abnormal results of thyroid function studies</name>
-</Problem>
+<Models xmlns="http://indivo.org/vocab/xml/documents#">
+
+<Model name="Problem">
+  <Field name="startDate">2004-06-06</Field>
+  <Field name="endDate">2010-09-13</Field>
+  <Field name="name_title">Abnormal results of thyroid function studies</Field>
+  <Field name="name_system">http://purl.bioontology.org/ontology/SNOMEDCT/</Field>
+  <Field name="name_identifier">312399001</Field>
+</Model>
+
+</Models>

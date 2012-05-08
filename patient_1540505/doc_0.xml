@@ -1,5 +1,12 @@
 
-<Problem xmlns="http://indivo.org/vocab/xml/documents#">
-  <dateOnset>2005-03-09T00:00:00Z</dateOnset>
-  <name type="http://www.ihtsdo.org/snomed-ct/concepts/" value="162031009">Dyspepsia and other specified disorders of function of stomach</name>
-</Problem>
+<Models xmlns="http://indivo.org/vocab/xml/documents#">
+
+<Model name="Problem">
+  <Field name="startDate">2005-03-09</Field>
+  <Field name="endDate">2010-09-13</Field>
+  <Field name="name_title">Dyspepsia and other specified disorders of function of stomach</Field>
+  <Field name="name_system">http://purl.bioontology.org/ontology/SNOMEDCT/</Field>
+  <Field name="name_identifier">162031009</Field>
+</Model>
+
+</Models>

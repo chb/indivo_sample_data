@@ -1,5 +1,12 @@
 
-<Problem xmlns="http://indivo.org/vocab/xml/documents#">
-  <dateOnset>2007-07-08T00:00:00Z</dateOnset>
-  <name type="http://www.ihtsdo.org/snomed-ct/concepts/" value="267952008">Arthralgia of the pelvic region and thigh</name>
-</Problem>
+<Models xmlns="http://indivo.org/vocab/xml/documents#">
+
+<Model name="Problem">
+  <Field name="startDate">2007-07-08</Field>
+  <Field name="endDate">2010-09-13</Field>
+  <Field name="name_title">Arthralgia of the pelvic region and thigh</Field>
+  <Field name="name_system">http://purl.bioontology.org/ontology/SNOMEDCT/</Field>
+  <Field name="name_identifier">267952008</Field>
+</Model>
+
+</Models>
