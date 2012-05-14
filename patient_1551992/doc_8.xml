@@ -1,22 +1,19 @@
 
-<Lab xmlns="http://indivo.org/vocab/xml/documents#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <dateMeasured>2008-05-14T00:00:00Z</dateMeasured>
-  <labType>general</labType>
+<Models xmlns="http://indivo.org/vocab/xml/documents#">
 
-  <labTest xsi:type="SingleResultLabTest">
-    <dateMeasured>2008-05-14T00:00:00Z</dateMeasured>
-    <name type="http://loinc.org/codes/"  value="2028-9"><![CDATA[CO2 SerPl-sCnc]]></name>
-    <final>true</final>
-    <result xsi:type="ResultInRange">
-      <valueAndUnit>
-        <value>32</value>
-        <unit type="http://unitsofmeasure.org/" value="mmol/L">mmol/L</unit>
-      </valueAndUnit>
-      <normalRange>
-        <minimum>20</minimum>
-        <maximum>31</maximum>
-        <unit type="http://unitsofmeasure.org/" value="mmol/L">mmol/L</unit>
-      </normalRange>
-    </result>    
-  </labTest>
-</Lab>
+<Model name="Allergy">
+    <Field name="allergic_reaction_title">skin rash</Field>
+    <Field name="allergic_reaction_system">http://purl.bioontology.org/ontology/SNOMEDCT/</Field>
+    <Field name="allergic_reaction_identifier">271807003</Field>
+    <Field name="category_title">drug allergy</Field>
+    <Field name="category_system">http://purl.bioontology.org/ontology/SNOMEDCT/</Field>
+    <Field name="category_identifier">416098002</Field>
+    <Field name="drug_class_allergen_title">sulfonamide antibacterial</Field>
+    <Field name="drug_class_allergen_system">http://purl.bioontology.org/ontology/NDFRT/</Field>
+    <Field name="drug_class_allergen_identifier">N0000175503</Field>
+    <Field name="severity_title">mild</Field>
+    <Field name="severity_system">http://purl.bioontology.org/ontology/SNOMEDCT/</Field>
+    <Field name="severity_identifier">255604002</Field>
+</Model>
+
+</Models>

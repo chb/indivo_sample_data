@@ -2,22 +2,22 @@
 <Models xmlns="http://indivo.org/vocab/xml/documents#">
 
 <Model name="Immunization">
-    <Field name="date">2009-03-11T10:00:00Z</Field>
+    <Field name="date">2009-03-01T00:00:00Z</Field>
     <Field name="administration_status_title">Not Administered</Field>
     <Field name="administration_status_system">http://smartplatforms.org/terms/codes/ImmunizationAdministrationStatus#</Field>
     <Field name="administration_status_identifier">notAdministered</Field> 
-    <Field name="product_class_title">VARICELLA</Field>
+    <Field name="product_class_title">MENING</Field>
     <Field name="product_class_system">http://www2a.cdc.gov/nip/IIS/IISStandards/vaccines.asp?rpt=vg#</Field>
-    <Field name="product_class_identifier">VARICELLA</Field>
+    <Field name="product_class_identifier">MENING</Field>
     <Field name="product_class_2_title"></Field>
     <Field name="product_class_2_system">http://www2a.cdc.gov/nip/IIS/IISStandards/vaccines.asp?rpt=vg#</Field>
     <Field name="product_class_2_identifier"></Field>
-    <Field name="product_name_title">varicella virus vaccine</Field>
+    <Field name="product_name_title">meningococcal oligosaccharide (groups A, C, Y and W-135) diphtheria toxoid conjugate vaccine (MCV4O)</Field>
     <Field name="product_name_system">http://www2a.cdc.gov/nip/IIS/IISStandards/vaccines.asp?rpt=cvx#</Field>
-    <Field name="product_name_identifier">21</Field>
-    <Field name="refusal_reason_title">Documented immunity or previous disease</Field>
+    <Field name="product_name_identifier">136</Field>
+    <Field name="refusal_reason_title">Not indicated per guidelines</Field>
     <Field name="refusal_reason_system">http://smartplatforms.org/terms/codes/ImmunizationRefusalReason#</Field>
-    <Field name="refusal_reason_identifier">documentedImmunityOrPreviousDisease</Field>
+    <Field name="refusal_reason_identifier">notIndicatedPerGuidelines</Field>
 </Model>
 
 </Models>
