@@ -2,7 +2,7 @@
 <Models xmlns="http://indivo.org/vocab/xml/documents#">
 
 <Model name="Immunization">
-    <Field name="date">2009-03-11T10:00:00Z</Field>
+    <Field name="date">2009-03-11</Field>
     <Field name="administration_status_title">Not Administered</Field>
     <Field name="administration_status_system">http://smartplatforms.org/terms/codes/ImmunizationAdministrationStatus#</Field>
     <Field name="administration_status_identifier">notAdministered</Field> 

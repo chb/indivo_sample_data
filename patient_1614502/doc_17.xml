@@ -2,13 +2,13 @@
 <Models xmlns="http://indivo.org/vocab/xml/documents#">
 
 <Model name="Immunization">
-    <Field name="date">2010-03-11T16:00:00Z</Field>
+    <Field name="date">2010-06-11</Field>
     <Field name="administration_status_title">Dose Given</Field>
     <Field name="administration_status_system">http://smartplatforms.org/terms/codes/ImmunizationAdministrationStatus#</Field>
     <Field name="administration_status_identifier">doseGiven</Field> 
-    <Field name="product_class_title">MMR</Field>
+    <Field name="product_class_title"></Field>
     <Field name="product_class_system">http://www2a.cdc.gov/nip/IIS/IISStandards/vaccines.asp?rpt=vg#</Field>
-    <Field name="product_class_identifier">MMR</Field>
+    <Field name="product_class_identifier"></Field>
     <Field name="product_class_2_title"></Field>
     <Field name="product_class_2_system">http://www2a.cdc.gov/nip/IIS/IISStandards/vaccines.asp?rpt=vg#</Field>
     <Field name="product_class_2_identifier"></Field>
