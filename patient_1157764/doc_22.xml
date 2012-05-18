@@ -1,22 +1,12 @@
 
-<Lab xmlns="http://indivo.org/vocab/xml/documents#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <dateMeasured>2006-10-30T00:00:00Z</dateMeasured>
-  <labType>general</labType>
+<Models xmlns="http://indivo.org/vocab/xml/documents#">
 
-  <labTest xsi:type="SingleResultLabTest">
-    <dateMeasured>2006-10-30T00:00:00Z</dateMeasured>
-    <name type="http://loinc.org/codes/"  value="5769-5"><![CDATA[Bacteria #/area UrnS HPF]]></name>
-    <final>true</final>
-    <result xsi:type="ResultInRange">
-      <valueAndUnit>
-        <value>44</value>
-        <unit type="http://unitsofmeasure.org/" value="/[HPF]">/[HPF]</unit>
-      </valueAndUnit>
-      <normalRange>
-        <minimum>0</minimum>
-        <maximum>0</maximum>
-        <unit type="http://unitsofmeasure.org/" value="/[HPF]">/[HPF]</unit>
-      </normalRange>
-    </result>    
-  </labTest>
-</Lab>
+<Model name="Problem">
+  <Field name="startDate"><![CDATA[2009-07-01]]></Field>
+  <Field name="endDate"><![CDATA[2010-09-13]]></Field>
+  <Field name="name_title"><![CDATA[Low tension glaucoma]]></Field>
+  <Field name="name_system">http://purl.bioontology.org/ontology/SNOMEDCT/</Field>
+  <Field name="name_identifier"><![CDATA[50485007]]></Field>
+</Model>
+
+</Models>

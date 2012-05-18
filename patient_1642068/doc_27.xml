@@ -1,22 +1,20 @@
 
-<Lab xmlns="http://indivo.org/vocab/xml/documents#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <dateMeasured>2006-01-01T00:00:00Z</dateMeasured>
-  <labType>general</labType>
+<Models xmlns="http://indivo.org/vocab/xml/documents#">
 
-  <labTest xsi:type="SingleResultLabTest">
-    <dateMeasured>2006-01-01T00:00:00Z</dateMeasured>
-    <name type="http://loinc.org/codes/"  value="2345-7"><![CDATA[Glucose SerPl-mCnc]]></name>
-    <final>true</final>
-    <result xsi:type="ResultInRange">
-      <valueAndUnit>
-        <value>94</value>
-        <unit type="http://unitsofmeasure.org/" value="mg/dL">mg/dL</unit>
-      </valueAndUnit>
-      <normalRange>
-        <minimum>65</minimum>
-        <maximum>99</maximum>
-        <unit type="http://unitsofmeasure.org/" value="mg/dL">mg/dL</unit>
-      </normalRange>
-    </result>    
-  </labTest>
-</Lab>
+<Model name="LabResult">
+    <Field name="accession_number"><![CDATA[A120127173]]></Field>
+    <Field name="test_name_title"><![CDATA[Lymphocytes NFr Bld]]></Field>
+    <Field name="test_name_system">http://purl.bioontology.org/ontology/LNC/</Field>
+    <Field name="test_name_identifier"><![CDATA[26478-8]]></Field>
+    <Field name="collected_at"><![CDATA[2006-01-01]]></Field>
+    
+<Field name="quantitative_result_normal_range_max_value"><![CDATA[50]]></Field>
+<Field name="quantitative_result_normal_range_max_unit"><![CDATA[%]]></Field>
+<Field name="quantitative_result_normal_range_min_value"><![CDATA[20]]></Field>
+<Field name="quantitative_result_normal_range_min_unit"><![CDATA[%]]></Field>
+<Field name="quantitative_result_value_value"><![CDATA[26]]></Field> 
+<Field name="quantitative_result_value_unit"><![CDATA[%]]></Field>
+
+</Model>
+
+</Models>

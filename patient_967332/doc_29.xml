@@ -1,73 +1,20 @@
 
 <Models xmlns="http://indivo.org/vocab/xml/documents#">
 
-<Model name="Medication">
-  <Field name="drugName_title">Clarithromycin 500 MG Extended Release Tablet</Field>
-  <Field name="drugName_system">http://purl.bioontology.org/ontology/RXNORM/</Field>
-  <Field name="drugName_identifier">259543</Field>
-  <Field name="endDate">2010-04-09</Field>
-  <Field name="frequency_value">2</Field>
-  <Field name="frequency_unit">/d</Field>
-  <Field name="instructions">1 bid</Field>
-  <Field name="provenance_title">Derived by prescription</Field>
-  <Field name="provenance_system">http://smartplatforms.org/terms/codes/MedicationProvenance#</Field>
-  <Field name="provenance_identifier">prescription</Field>
-  <Field name="quantity_value">1</Field>
-  <Field name="quantity_unit">{tablet}</Field>
-  <Field name="startDate">2008-07-29</Field>
-  <Field name="fulfillments">
-    <Models>
-      
+<Model name="LabResult">
+    <Field name="accession_number"><![CDATA[A853433954]]></Field>
+    <Field name="test_name_title"><![CDATA[CK SerPl-cCnc]]></Field>
+    <Field name="test_name_system">http://purl.bioontology.org/ontology/LNC/</Field>
+    <Field name="test_name_identifier"><![CDATA[2157-6]]></Field>
+    <Field name="collected_at"><![CDATA[2008-01-04]]></Field>
+    
+<Field name="quantitative_result_normal_range_max_value"><![CDATA[174]]></Field>
+<Field name="quantitative_result_normal_range_max_unit"><![CDATA[U/L]]></Field>
+<Field name="quantitative_result_normal_range_min_value"><![CDATA[38]]></Field>
+<Field name="quantitative_result_normal_range_min_unit"><![CDATA[U/L]]></Field>
+<Field name="quantitative_result_value_value"><![CDATA[127]]></Field> 
+<Field name="quantitative_result_value_unit"><![CDATA[U/L]]></Field>
 
-<Model name="Fill">
-  <Field name="date">2009-09-23</Field>
-  <Field name="dispenseDaysSupply">10</Field>
-  <Field name="pbm">T00000000001011</Field>
-  <Field name="pharmacy_ncpdpid">5235235</Field>
-  <Field name="pharmacy_org">CVS #588</Field>
-  <Field name="pharmacy_adr_country">Australia</Field>
-  <Field name="pharmacy_adr_city">Wonder City</Field>
-  <Field name="pharmacy_adr_postalcode">5555</Field>
-  <Field name="pharmacy_adr_street">111 Lake Drive</Field> 
-  <Field name="pharmacy_adr_region">West Australia</Field> 
-  <Field name="provider_dea_number">325555555</Field>
-  <Field name="provider_npi_number">5235235</Field>
-  <Field name="provider_email">jmandel@fake.emailserver.com</Field>
-  <Field name="provider_name_given">Joshua</Field>
-  <Field name="provider_name_family">Mandel</Field>
-  <Field name="provider_tel_1_type">w</Field>
-  <Field name="provider_tel_1_number">1-234-567-8910</Field>
-  <Field name="provider_tel_1_preferred_p">true</Field>
-  <Field name="quantityDispensed_value">20</Field>
-  <Field name="quantityDispensed_unit">{tab}</Field>
-</Model>
-
-
-<Model name="Fill">
-  <Field name="date">2008-07-29</Field>
-  <Field name="dispenseDaysSupply">20</Field>
-  <Field name="pbm">T00000000001011</Field>
-  <Field name="pharmacy_ncpdpid">5235235</Field>
-  <Field name="pharmacy_org">CVS #588</Field>
-  <Field name="pharmacy_adr_country">Australia</Field>
-  <Field name="pharmacy_adr_city">Wonder City</Field>
-  <Field name="pharmacy_adr_postalcode">5555</Field>
-  <Field name="pharmacy_adr_street">111 Lake Drive</Field> 
-  <Field name="pharmacy_adr_region">West Australia</Field> 
-  <Field name="provider_dea_number">325555555</Field>
-  <Field name="provider_npi_number">5235235</Field>
-  <Field name="provider_email">jmandel@fake.emailserver.com</Field>
-  <Field name="provider_name_given">Joshua</Field>
-  <Field name="provider_name_family">Mandel</Field>
-  <Field name="provider_tel_1_type">w</Field>
-  <Field name="provider_tel_1_number">1-234-567-8910</Field>
-  <Field name="provider_tel_1_preferred_p">true</Field>
-  <Field name="quantityDispensed_value">20</Field>
-  <Field name="quantityDispensed_unit">{tab}</Field>
-</Model>
-
-    </Models>
-  </Field>
 </Model>
 
 </Models>

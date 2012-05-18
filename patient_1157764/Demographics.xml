@@ -1,6 +1,6 @@
 
 <Demographics xmlns="http://indivo.org/vocab/xml/documents#">
-    <dateOfBirth>1949-11-04</dateOfBirth>
-    <gender>female</gender>
+    <dateOfBirth><![CDATA[1949-11-04]]></dateOfBirth>
+    <gender><![CDATA[female]]></gender>
     <language>EN</language>
 </Demographics>

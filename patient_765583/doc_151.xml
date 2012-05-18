@@ -1,22 +1,49 @@
 
-<Lab xmlns="http://indivo.org/vocab/xml/documents#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <dateMeasured>2008-11-23T00:00:00Z</dateMeasured>
-  <labType>general</labType>
+<Models xmlns="http://indivo.org/vocab/xml/documents#">
 
-  <labTest xsi:type="SingleResultLabTest">
-    <dateMeasured>2008-11-23T00:00:00Z</dateMeasured>
-    <name type="http://loinc.org/codes/"  value="26478-8"><![CDATA[Lymphocytes NFr Bld]]></name>
-    <final>true</final>
-    <result xsi:type="ResultInRange">
-      <valueAndUnit>
-        <value>24</value>
-        <unit type="http://unitsofmeasure.org/" value="%">%</unit>
-      </valueAndUnit>
-      <normalRange>
-        <minimum>18</minimum>
-        <maximum>42</maximum>
-        <unit type="http://unitsofmeasure.org/" value="%">%</unit>
-      </normalRange>
-    </result>    
-  </labTest>
-</Lab>
+<Model name="Medication">
+  <Field name="drugName_title"><![CDATA[Acetaminophen 300 MG / Codeine 30 MG Oral Tablet]]></Field>
+  <Field name="drugName_system">http://purl.bioontology.org/ontology/RXNORM/</Field>
+  <Field name="drugName_identifier"><![CDATA[309462]]></Field>
+  <Field name="endDate"><![CDATA[2010-04-09]]></Field>
+  <Field name="frequency_value"><![CDATA[4]]></Field>
+  <Field name="frequency_unit"><![CDATA[/d]]></Field>
+  <Field name="instructions"><![CDATA[1 q6h prn pain]]></Field>
+  <Field name="provenance_title"><![CDATA[Derived by prescription]]></Field>
+  <Field name="provenance_system">http://smartplatforms.org/terms/codes/MedicationProvenance#</Field>
+  <Field name="provenance_identifier"><![CDATA[prescription]]></Field>
+  <Field name="quantity_value"><![CDATA[1]]></Field>
+  <Field name="quantity_unit"><![CDATA[{tablet}]]></Field>
+  <Field name="startDate"><![CDATA[2008-07-18]]></Field>
+  <Field name="fulfillments">
+    <Models>
+      
+
+<Model name="Fill">
+  <Field name="date"><![CDATA[2008-07-18]]></Field>
+  <Field name="dispenseDaysSupply"><![CDATA[2]]></Field>
+  <Field name="pbm"><![CDATA[T00000000001011]]></Field>
+  <Field name="pharmacy_ncpdpid"><![CDATA[5235235]]></Field>
+  <Field name="pharmacy_org"><![CDATA[CVS #588]]></Field>
+  <Field name="pharmacy_adr_country"><![CDATA[Australia]]></Field>
+  <Field name="pharmacy_adr_city"><![CDATA[Wonder City]]></Field>
+  <Field name="pharmacy_adr_postalcode"><![CDATA[5555]]></Field>
+  <Field name="pharmacy_adr_street"><![CDATA[111 Lake Drive]]></Field> 
+  <Field name="pharmacy_adr_region"><![CDATA[West Australia]]></Field> 
+  <Field name="provider_dea_number"><![CDATA[325555555]]></Field>
+  <Field name="provider_npi_number"><![CDATA[5235235]]></Field>
+  <Field name="provider_email"><![CDATA[jmandel@fake.emailserver.com]]></Field>
+  <Field name="provider_name_given"><![CDATA[Joshua]]></Field>
+  <Field name="provider_name_family"><![CDATA[Mandel]]></Field>
+  <Field name="provider_tel_1_type">w</Field>
+  <Field name="provider_tel_1_number"><![CDATA[1-234-567-8910]]></Field>
+  <Field name="provider_tel_1_preferred_p">true</Field>
+  <Field name="quantityDispensed_value"><![CDATA[10]]></Field>
+  <Field name="quantityDispensed_unit"><![CDATA[{tab}]]></Field>
+</Model>
+
+    </Models>
+  </Field>
+</Model>
+
+</Models>

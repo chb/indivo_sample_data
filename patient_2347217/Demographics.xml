@@ -1,6 +1,6 @@
 
 <Demographics xmlns="http://indivo.org/vocab/xml/documents#">
-    <dateOfBirth>1948-07-15</dateOfBirth>
-    <gender>male</gender>
+    <dateOfBirth><![CDATA[1948-07-15]]></dateOfBirth>
+    <gender><![CDATA[male]]></gender>
     <language>EN</language>
 </Demographics>

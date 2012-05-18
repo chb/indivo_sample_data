@@ -1,25 +1,20 @@
 
 <Models xmlns="http://indivo.org/vocab/xml/documents#">
 
-<Model name="Medication">
-  <Field name="drugName_title">Ranitidine 15 MG/ML Oral Solution [Zantac]</Field>
-  <Field name="drugName_system">http://purl.bioontology.org/ontology/RXNORM/</Field>
-  <Field name="drugName_identifier">755272</Field>
-  <Field name="endDate">2010-04-09</Field>
-  <Field name="frequency_value">2</Field>
-  <Field name="frequency_unit">/d</Field>
-  <Field name="instructions">6 mL bid</Field>
-  <Field name="provenance_title">Derived by prescription</Field>
-  <Field name="provenance_system">http://smartplatforms.org/terms/codes/MedicationProvenance#</Field>
-  <Field name="provenance_identifier">prescription</Field>
-  <Field name="quantity_value">6</Field>
-  <Field name="quantity_unit">mL</Field>
-  <Field name="startDate">2006-01-08</Field>
-  <Field name="fulfillments">
-    <Models>
-      
-    </Models>
-  </Field>
+<Model name="LabResult">
+    <Field name="accession_number"><![CDATA[A871869715]]></Field>
+    <Field name="test_name_title"><![CDATA[Base excess Bld-sCnc]]></Field>
+    <Field name="test_name_system">http://purl.bioontology.org/ontology/LNC/</Field>
+    <Field name="test_name_identifier"><![CDATA[11555-0]]></Field>
+    <Field name="collected_at"><![CDATA[2005-07-04]]></Field>
+    
+<Field name="quantitative_result_normal_range_max_value"><![CDATA[0]]></Field>
+<Field name="quantitative_result_normal_range_max_unit"><![CDATA[mmol/L]]></Field>
+<Field name="quantitative_result_normal_range_min_value"><![CDATA[0]]></Field>
+<Field name="quantitative_result_normal_range_min_unit"><![CDATA[mmol/L]]></Field>
+<Field name="quantitative_result_value_value"><![CDATA[-3]]></Field> 
+<Field name="quantitative_result_value_unit"><![CDATA[mmol/L]]></Field>
+
 </Model>
 
 </Models>

@@ -1,20 +1,20 @@
 
 <Contact xmlns="http://indivo.org/vocab/xml/documents#">
   <name>
-    <fullName>Helen James</fullName>
-    <givenName>Helen</givenName>
-    <familyName>James</familyName>
+    <fullName><![CDATA[Helen James]]></fullName>
+    <givenName><![CDATA[Helen]]></givenName>
+    <familyName><![CDATA[James]]></familyName>
   </name>
   <email type="personal">
-    <emailAddress>helen.james@example.com</emailAddress>
+    <emailAddress><![CDATA[helen.james@example.com]]></emailAddress>
   </email>
   <address type="home">
-    <streetAddress>90 Elm Rd</streetAddress>
-    <postalCode>74063</postalCode>
-    <locality>Sand Springs</locality>
-    <region>OK</region>
-    <country>USA</country>
+    <streetAddress><![CDATA[90 Elm Rd]]></streetAddress>
+    <postalCode><![CDATA[74063]]></postalCode>
+    <locality><![CDATA[Sand Springs]]></locality>
+    <region><![CDATA[OK]]></region>
+    <country><![CDATA[USA]]></country>
   </address>
-  <phoneNumber type="home"></phoneNumber>
-  <phoneNumber type="cell">800-289-9370</phoneNumber>
+  <phoneNumber type="home"><![CDATA[]]></phoneNumber>
+  <phoneNumber type="cell"><![CDATA[800-289-9370]]></phoneNumber>
 </Contact>

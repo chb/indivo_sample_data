@@ -2,11 +2,11 @@
 <Models xmlns="http://indivo.org/vocab/xml/documents#">
 
 <Model name="Problem">
-  <Field name="startDate">2007-03-29</Field>
-  <Field name="endDate">2010-09-13</Field>
-  <Field name="name_title">Unspecified disorders of menstruation and other abnormal bleeding from female genital tract</Field>
+  <Field name="startDate"><![CDATA[2007-03-29]]></Field>
+  <Field name="endDate"><![CDATA[2010-09-13]]></Field>
+  <Field name="name_title"><![CDATA[Unspecified disorders of menstruation and other abnormal bleeding from female genital tract]]></Field>
   <Field name="name_system">http://purl.bioontology.org/ontology/SNOMEDCT/</Field>
-  <Field name="name_identifier">52073004</Field>
+  <Field name="name_identifier"><![CDATA[52073004]]></Field>
 </Model>
 
 </Models>

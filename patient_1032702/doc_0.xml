@@ -2,11 +2,11 @@
 <Models xmlns="http://indivo.org/vocab/xml/documents#">
 
 <Model name="Problem">
-  <Field name="startDate">2007-12-14</Field>
-  <Field name="endDate">2010-09-13</Field>
-  <Field name="name_title">Single liveborn, born in hospital, delivered without mention of cesarean section</Field>
+  <Field name="startDate"><![CDATA[2007-12-14]]></Field>
+  <Field name="endDate"><![CDATA[2010-09-13]]></Field>
+  <Field name="name_title"><![CDATA[Single liveborn, born in hospital, delivered without mention of cesarean section]]></Field>
   <Field name="name_system">http://purl.bioontology.org/ontology/SNOMEDCT/</Field>
-  <Field name="name_identifier">442311008</Field>
+  <Field name="name_identifier"><![CDATA[442311008]]></Field>
 </Model>
 
 </Models>

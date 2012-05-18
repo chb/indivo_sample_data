@@ -1,20 +1,20 @@
 
 <Contact xmlns="http://indivo.org/vocab/xml/documents#">
   <name>
-    <fullName>Anthony Shaw</fullName>
-    <givenName>Anthony</givenName>
-    <familyName>Shaw</familyName>
+    <fullName><![CDATA[Anthony Shaw]]></fullName>
+    <givenName><![CDATA[Anthony]]></givenName>
+    <familyName><![CDATA[Shaw]]></familyName>
   </name>
   <email type="personal">
-    <emailAddress>anthony.shaw@example.com</emailAddress>
+    <emailAddress><![CDATA[anthony.shaw@example.com]]></emailAddress>
   </email>
   <address type="home">
-    <streetAddress>34 Hill St</streetAddress>
-    <postalCode>74014</postalCode>
-    <locality>Broken Arrow</locality>
-    <region>OK</region>
-    <country>USA</country>
+    <streetAddress><![CDATA[34 Hill St]]></streetAddress>
+    <postalCode><![CDATA[74014]]></postalCode>
+    <locality><![CDATA[Broken Arrow]]></locality>
+    <region><![CDATA[OK]]></region>
+    <country><![CDATA[USA]]></country>
   </address>
-  <phoneNumber type="home"></phoneNumber>
-  <phoneNumber type="cell"></phoneNumber>
+  <phoneNumber type="home"><![CDATA[]]></phoneNumber>
+  <phoneNumber type="cell"><![CDATA[]]></phoneNumber>
 </Contact>

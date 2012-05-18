@@ -1,121 +1,12 @@
 
 <Models xmlns="http://indivo.org/vocab/xml/documents#">
 
-<Model name="Medication">
-  <Field name="drugName_title">Low-Ogestrel 28 Day Pack</Field>
-  <Field name="drugName_system">http://purl.bioontology.org/ontology/RXNORM/</Field>
-  <Field name="drugName_identifier">750244</Field>
-  <Field name="endDate">2010-04-09</Field>
-  <Field name="frequency_value">1</Field>
-  <Field name="frequency_unit">/d</Field>
-  <Field name="instructions">1 daily</Field>
-  <Field name="provenance_title">Derived by prescription</Field>
-  <Field name="provenance_system">http://smartplatforms.org/terms/codes/MedicationProvenance#</Field>
-  <Field name="provenance_identifier">prescription</Field>
-  <Field name="quantity_value">1</Field>
-  <Field name="quantity_unit">{tablet}</Field>
-  <Field name="startDate">2004-07-07</Field>
-  <Field name="fulfillments">
-    <Models>
-      
-
-<Model name="Fill">
-  <Field name="date">2004-09-08</Field>
-  <Field name="dispenseDaysSupply">30</Field>
-  <Field name="pbm">T00000000001011</Field>
-  <Field name="pharmacy_ncpdpid">5235235</Field>
-  <Field name="pharmacy_org">CVS #588</Field>
-  <Field name="pharmacy_adr_country">Australia</Field>
-  <Field name="pharmacy_adr_city">Wonder City</Field>
-  <Field name="pharmacy_adr_postalcode">5555</Field>
-  <Field name="pharmacy_adr_street">111 Lake Drive</Field> 
-  <Field name="pharmacy_adr_region">West Australia</Field> 
-  <Field name="provider_dea_number">325555555</Field>
-  <Field name="provider_npi_number">5235235</Field>
-  <Field name="provider_email">jmandel@fake.emailserver.com</Field>
-  <Field name="provider_name_given">Joshua</Field>
-  <Field name="provider_name_family">Mandel</Field>
-  <Field name="provider_tel_1_type">w</Field>
-  <Field name="provider_tel_1_number">1-234-567-8910</Field>
-  <Field name="provider_tel_1_preferred_p">true</Field>
-  <Field name="quantityDispensed_value">30</Field>
-  <Field name="quantityDispensed_unit">{tab}</Field>
-</Model>
-
-
-<Model name="Fill">
-  <Field name="date">2004-07-07</Field>
-  <Field name="dispenseDaysSupply">30</Field>
-  <Field name="pbm">T00000000001011</Field>
-  <Field name="pharmacy_ncpdpid">5235235</Field>
-  <Field name="pharmacy_org">CVS #588</Field>
-  <Field name="pharmacy_adr_country">Australia</Field>
-  <Field name="pharmacy_adr_city">Wonder City</Field>
-  <Field name="pharmacy_adr_postalcode">5555</Field>
-  <Field name="pharmacy_adr_street">111 Lake Drive</Field> 
-  <Field name="pharmacy_adr_region">West Australia</Field> 
-  <Field name="provider_dea_number">325555555</Field>
-  <Field name="provider_npi_number">5235235</Field>
-  <Field name="provider_email">jmandel@fake.emailserver.com</Field>
-  <Field name="provider_name_given">Joshua</Field>
-  <Field name="provider_name_family">Mandel</Field>
-  <Field name="provider_tel_1_type">w</Field>
-  <Field name="provider_tel_1_number">1-234-567-8910</Field>
-  <Field name="provider_tel_1_preferred_p">true</Field>
-  <Field name="quantityDispensed_value">30</Field>
-  <Field name="quantityDispensed_unit">{tab}</Field>
-</Model>
-
-
-<Model name="Fill">
-  <Field name="date">2004-08-04</Field>
-  <Field name="dispenseDaysSupply">30</Field>
-  <Field name="pbm">T00000000001011</Field>
-  <Field name="pharmacy_ncpdpid">5235235</Field>
-  <Field name="pharmacy_org">CVS #588</Field>
-  <Field name="pharmacy_adr_country">Australia</Field>
-  <Field name="pharmacy_adr_city">Wonder City</Field>
-  <Field name="pharmacy_adr_postalcode">5555</Field>
-  <Field name="pharmacy_adr_street">111 Lake Drive</Field> 
-  <Field name="pharmacy_adr_region">West Australia</Field> 
-  <Field name="provider_dea_number">325555555</Field>
-  <Field name="provider_npi_number">5235235</Field>
-  <Field name="provider_email">jmandel@fake.emailserver.com</Field>
-  <Field name="provider_name_given">Joshua</Field>
-  <Field name="provider_name_family">Mandel</Field>
-  <Field name="provider_tel_1_type">w</Field>
-  <Field name="provider_tel_1_number">1-234-567-8910</Field>
-  <Field name="provider_tel_1_preferred_p">true</Field>
-  <Field name="quantityDispensed_value">30</Field>
-  <Field name="quantityDispensed_unit">{tab}</Field>
-</Model>
-
-
-<Model name="Fill">
-  <Field name="date">2004-10-04</Field>
-  <Field name="dispenseDaysSupply">30</Field>
-  <Field name="pbm">T00000000001011</Field>
-  <Field name="pharmacy_ncpdpid">5235235</Field>
-  <Field name="pharmacy_org">CVS #588</Field>
-  <Field name="pharmacy_adr_country">Australia</Field>
-  <Field name="pharmacy_adr_city">Wonder City</Field>
-  <Field name="pharmacy_adr_postalcode">5555</Field>
-  <Field name="pharmacy_adr_street">111 Lake Drive</Field> 
-  <Field name="pharmacy_adr_region">West Australia</Field> 
-  <Field name="provider_dea_number">325555555</Field>
-  <Field name="provider_npi_number">5235235</Field>
-  <Field name="provider_email">jmandel@fake.emailserver.com</Field>
-  <Field name="provider_name_given">Joshua</Field>
-  <Field name="provider_name_family">Mandel</Field>
-  <Field name="provider_tel_1_type">w</Field>
-  <Field name="provider_tel_1_number">1-234-567-8910</Field>
-  <Field name="provider_tel_1_preferred_p">true</Field>
-  <Field name="quantityDispensed_value">30</Field>
-  <Field name="quantityDispensed_unit">{tab}</Field>
-</Model>
-
-    </Models>
-  </Field>
+<Model name="Problem">
+  <Field name="startDate"><![CDATA[2004-12-04]]></Field>
+  <Field name="endDate"><![CDATA[2010-09-13]]></Field>
+  <Field name="name_title"><![CDATA[Herpes simplex without complication]]></Field>
+  <Field name="name_system">http://purl.bioontology.org/ontology/SNOMEDCT/</Field>
+  <Field name="name_identifier"><![CDATA[1475003]]></Field>
 </Model>
 
 </Models>

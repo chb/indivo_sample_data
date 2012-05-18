@@ -1,22 +1,15 @@
 
-<Lab xmlns="http://indivo.org/vocab/xml/documents#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <dateMeasured>2006-07-17T00:00:00Z</dateMeasured>
-  <labType>general</labType>
+<Models xmlns="http://indivo.org/vocab/xml/documents#">
 
-  <labTest xsi:type="SingleResultLabTest">
-    <dateMeasured>2006-07-17T00:00:00Z</dateMeasured>
-    <name type="http://loinc.org/codes/"  value="1841-6"><![CDATA[Ammonia Ser-sCnc]]></name>
-    <final>true</final>
-    <result xsi:type="ResultInRange">
-      <valueAndUnit>
-        <value>13</value>
-        <unit type="http://unitsofmeasure.org/" value="umol/L">umol/L</unit>
-      </valueAndUnit>
-      <normalRange>
-        <minimum>11</minimum>
-        <maximum>35</maximum>
-        <unit type="http://unitsofmeasure.org/" value="umol/L">umol/L</unit>
-      </normalRange>
-    </result>    
-  </labTest>
-</Lab>
+<Model name="LabResult">
+    <Field name="accession_number"><![CDATA[A154337917]]></Field>
+    <Field name="test_name_title"><![CDATA[PCP Ur Ql Scn]]></Field>
+    <Field name="test_name_system">http://purl.bioontology.org/ontology/LNC/</Field>
+    <Field name="test_name_identifier"><![CDATA[19659-2]]></Field>
+    <Field name="collected_at"><![CDATA[2006-07-17]]></Field>
+    
+<Field name="narrative_result"><![CDATA[Negative]]></Field>
+
+</Model>
+
+</Models>

@@ -1,23 +1,20 @@
 
 <Models xmlns="http://indivo.org/vocab/xml/documents#">
 
-<Model name="Immunization">
-    <Field name="date">2005-11-11</Field>
-    <Field name="administration_status_title">Dose Given</Field>
-    <Field name="administration_status_system">http://smartplatforms.org/terms/codes/ImmunizationAdministrationStatus#</Field>
-    <Field name="administration_status_identifier">doseGiven</Field> 
-    <Field name="product_class_title">HepA</Field>
-    <Field name="product_class_system">http://www2a.cdc.gov/nip/IIS/IISStandards/vaccines.asp?rpt=vg#</Field>
-    <Field name="product_class_identifier">HepA</Field>
-    <Field name="product_class_2_title">HepB</Field>
-    <Field name="product_class_2_system">http://www2a.cdc.gov/nip/IIS/IISStandards/vaccines.asp?rpt=vg#</Field>
-    <Field name="product_class_2_identifier">HepB</Field>
-    <Field name="product_name_title">hepatitis A and hepatitis B vaccine</Field>
-    <Field name="product_name_system">http://www2a.cdc.gov/nip/IIS/IISStandards/vaccines.asp?rpt=cvx#</Field>
-    <Field name="product_name_identifier">104</Field>
-    <Field name="refusal_reason_title"></Field>
-    <Field name="refusal_reason_system">http://smartplatforms.org/terms/codes/ImmunizationRefusalReason#</Field>
-    <Field name="refusal_reason_identifier"></Field>
+<Model name="LabResult">
+    <Field name="accession_number"><![CDATA[A946097698]]></Field>
+    <Field name="test_name_title"><![CDATA[MCH RBC Qn Auto]]></Field>
+    <Field name="test_name_system">http://purl.bioontology.org/ontology/LNC/</Field>
+    <Field name="test_name_identifier"><![CDATA[785-6]]></Field>
+    <Field name="collected_at"><![CDATA[2005-07-05]]></Field>
+    
+<Field name="quantitative_result_normal_range_max_value"><![CDATA[42]]></Field>
+<Field name="quantitative_result_normal_range_max_unit"><![CDATA[pg]]></Field>
+<Field name="quantitative_result_normal_range_min_value"><![CDATA[30]]></Field>
+<Field name="quantitative_result_normal_range_min_unit"><![CDATA[pg]]></Field>
+<Field name="quantitative_result_value_value"><![CDATA[37.2]]></Field> 
+<Field name="quantitative_result_value_unit"><![CDATA[pg]]></Field>
+
 </Model>
 
 </Models>

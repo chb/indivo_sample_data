@@ -1,20 +1,20 @@
 
 <Contact xmlns="http://indivo.org/vocab/xml/documents#">
   <name>
-    <fullName>Thomas Moore</fullName>
-    <givenName>Thomas</givenName>
-    <familyName>Moore</familyName>
+    <fullName><![CDATA[Thomas Moore]]></fullName>
+    <givenName><![CDATA[Thomas]]></givenName>
+    <familyName><![CDATA[Moore]]></familyName>
   </name>
   <email type="personal">
-    <emailAddress>thomas.moore@example.com</emailAddress>
+    <emailAddress><![CDATA[thomas.moore@example.com]]></emailAddress>
   </email>
   <address type="home">
-    <streetAddress>33 Park Ave</streetAddress>
-    <postalCode>74014</postalCode>
-    <locality>Broken Arrow</locality>
-    <region>OK</region>
-    <country>USA</country>
+    <streetAddress><![CDATA[33 Park Ave]]></streetAddress>
+    <postalCode><![CDATA[74014]]></postalCode>
+    <locality><![CDATA[Broken Arrow]]></locality>
+    <region><![CDATA[OK]]></region>
+    <country><![CDATA[USA]]></country>
   </address>
-  <phoneNumber type="home"></phoneNumber>
-  <phoneNumber type="cell">800-583-2533</phoneNumber>
+  <phoneNumber type="home"><![CDATA[]]></phoneNumber>
+  <phoneNumber type="cell"><![CDATA[800-583-2533]]></phoneNumber>
 </Contact>

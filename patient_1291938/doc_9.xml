@@ -2,11 +2,11 @@
 <Models xmlns="http://indivo.org/vocab/xml/documents#">
 
 <Model name="Problem">
-  <Field name="startDate">2008-04-18</Field>
-  <Field name="endDate">2010-09-13</Field>
-  <Field name="name_title">H/O: artificial eye lens</Field>
+  <Field name="startDate"><![CDATA[2008-04-18]]></Field>
+  <Field name="endDate"><![CDATA[2010-09-13]]></Field>
+  <Field name="name_title"><![CDATA[H/O: artificial eye lens]]></Field>
   <Field name="name_system">http://purl.bioontology.org/ontology/SNOMEDCT/</Field>
-  <Field name="name_identifier">309523001</Field>
+  <Field name="name_identifier"><![CDATA[309523001]]></Field>
 </Model>
 
 </Models>

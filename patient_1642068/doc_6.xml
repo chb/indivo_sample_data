@@ -1,12 +1,20 @@
 
 <Models xmlns="http://indivo.org/vocab/xml/documents#">
 
-<Model name="Problem">
-  <Field name="startDate">2005-02-20</Field>
-  <Field name="endDate">2010-09-13</Field>
-  <Field name="name_title">Abnormal mammogram, unspecified</Field>
-  <Field name="name_system">http://purl.bioontology.org/ontology/SNOMEDCT/</Field>
-  <Field name="name_identifier">168750009</Field>
+<Model name="LabResult">
+    <Field name="accession_number"><![CDATA[A240975883]]></Field>
+    <Field name="test_name_title"><![CDATA[BUN SerPl-mCnc]]></Field>
+    <Field name="test_name_system">http://purl.bioontology.org/ontology/LNC/</Field>
+    <Field name="test_name_identifier"><![CDATA[3094-0]]></Field>
+    <Field name="collected_at"><![CDATA[2006-01-01]]></Field>
+    
+<Field name="quantitative_result_normal_range_max_value"><![CDATA[25]]></Field>
+<Field name="quantitative_result_normal_range_max_unit"><![CDATA[mg/dL]]></Field>
+<Field name="quantitative_result_normal_range_min_value"><![CDATA[8]]></Field>
+<Field name="quantitative_result_normal_range_min_unit"><![CDATA[mg/dL]]></Field>
+<Field name="quantitative_result_value_value"><![CDATA[13]]></Field> 
+<Field name="quantitative_result_value_unit"><![CDATA[mg/dL]]></Field>
+
 </Model>
 
 </Models>

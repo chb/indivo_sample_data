@@ -1,22 +1,12 @@
 
-<Lab xmlns="http://indivo.org/vocab/xml/documents#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <dateMeasured>2008-07-10T00:00:00Z</dateMeasured>
-  <labType>general</labType>
+<Models xmlns="http://indivo.org/vocab/xml/documents#">
 
-  <labTest xsi:type="SingleResultLabTest">
-    <dateMeasured>2008-07-10T00:00:00Z</dateMeasured>
-    <name type="http://loinc.org/codes/"  value="789-8"><![CDATA[RBC # Bld Auto]]></name>
-    <final>true</final>
-    <result xsi:type="ResultInRange">
-      <valueAndUnit>
-        <value>5.32</value>
-        <unit type="http://unitsofmeasure.org/" value="10*6/uL">10*6/uL</unit>
-      </valueAndUnit>
-      <normalRange>
-        <minimum>4.6</minimum>
-        <maximum>6</maximum>
-        <unit type="http://unitsofmeasure.org/" value="10*6/uL">10*6/uL</unit>
-      </normalRange>
-    </result>    
-  </labTest>
-</Lab>
+<Model name="Problem">
+  <Field name="startDate"><![CDATA[2008-08-08]]></Field>
+  <Field name="endDate"><![CDATA[2010-09-13]]></Field>
+  <Field name="name_title"><![CDATA[Needs influenza immunization]]></Field>
+  <Field name="name_system">http://purl.bioontology.org/ontology/SNOMEDCT/</Field>
+  <Field name="name_identifier"><![CDATA[185903001]]></Field>
+</Model>
+
+</Models>

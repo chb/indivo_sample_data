@@ -1,12 +1,20 @@
 
 <Models xmlns="http://indivo.org/vocab/xml/documents#">
 
-<Model name="Problem">
-  <Field name="startDate">2006-01-16</Field>
-  <Field name="endDate">2010-09-13</Field>
-  <Field name="name_title">Benign neoplasm of colon</Field>
-  <Field name="name_system">http://purl.bioontology.org/ontology/SNOMEDCT/</Field>
-  <Field name="name_identifier">68496003</Field>
+<Model name="LabResult">
+    <Field name="accession_number"><![CDATA[A152010472]]></Field>
+    <Field name="test_name_title"><![CDATA[Folate SerPl-mCnc]]></Field>
+    <Field name="test_name_system">http://purl.bioontology.org/ontology/LNC/</Field>
+    <Field name="test_name_identifier"><![CDATA[2284-8]]></Field>
+    <Field name="collected_at"><![CDATA[2009-05-04]]></Field>
+    
+<Field name="quantitative_result_normal_range_max_value"><![CDATA[0]]></Field>
+<Field name="quantitative_result_normal_range_max_unit"><![CDATA[ng/mL]]></Field>
+<Field name="quantitative_result_normal_range_min_value"><![CDATA[0]]></Field>
+<Field name="quantitative_result_normal_range_min_unit"><![CDATA[ng/mL]]></Field>
+<Field name="quantitative_result_value_value"><![CDATA[15.7]]></Field> 
+<Field name="quantitative_result_value_unit"><![CDATA[ng/mL]]></Field>
+
 </Model>
 
 </Models>

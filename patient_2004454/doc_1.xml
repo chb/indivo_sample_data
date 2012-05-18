@@ -1,12 +1,15 @@
 
 <Models xmlns="http://indivo.org/vocab/xml/documents#">
 
-<Model name="Problem">
-  <Field name="startDate">2008-07-14</Field>
-  <Field name="endDate">2010-09-13</Field>
-  <Field name="name_title">Abnormal weight loss</Field>
-  <Field name="name_system">http://purl.bioontology.org/ontology/SNOMEDCT/</Field>
-  <Field name="name_identifier">267024001</Field>
+<Model name="LabResult">
+    <Field name="accession_number"><![CDATA[A969051421]]></Field>
+    <Field name="test_name_title"><![CDATA[Biotinidase DBS Ql]]></Field>
+    <Field name="test_name_system">http://purl.bioontology.org/ontology/LNC/</Field>
+    <Field name="test_name_identifier"><![CDATA[38478-4]]></Field>
+    <Field name="collected_at"><![CDATA[2008-07-11]]></Field>
+    
+<Field name="narrative_result"><![CDATA[Normal]]></Field>
+
 </Model>
 
 </Models>

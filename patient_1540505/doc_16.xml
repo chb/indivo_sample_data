@@ -1,10 +1,15 @@
 
 <Models xmlns="http://indivo.org/vocab/xml/documents#">
 
-<Model name="AllergyExclusion">
-    <Field name="name_title">no known allergies</Field>
-    <Field name="name_identifier">160244002</Field>
-    <Field name = "name_system">http://purl.bioontology.org/ontology/SNOMEDCT/</Field>
+<Model name="LabResult">
+    <Field name="accession_number"><![CDATA[A520311139]]></Field>
+    <Field name="test_name_title"><![CDATA[Bilirub Ur Ql Strip]]></Field>
+    <Field name="test_name_system">http://purl.bioontology.org/ontology/LNC/</Field>
+    <Field name="test_name_identifier"><![CDATA[5770-3]]></Field>
+    <Field name="collected_at"><![CDATA[2005-03-10]]></Field>
+    
+<Field name="narrative_result"><![CDATA[Negative]]></Field>
+
 </Model>
 
 </Models>

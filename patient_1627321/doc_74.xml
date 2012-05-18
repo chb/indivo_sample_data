@@ -1,22 +1,15 @@
 
-<Lab xmlns="http://indivo.org/vocab/xml/documents#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <dateMeasured>2005-08-05T00:00:00Z</dateMeasured>
-  <labType>general</labType>
+<Models xmlns="http://indivo.org/vocab/xml/documents#">
 
-  <labTest xsi:type="SingleResultLabTest">
-    <dateMeasured>2005-08-05T00:00:00Z</dateMeasured>
-    <name type="http://loinc.org/codes/"  value="5803-2"><![CDATA[pH Ur Strip]]></name>
-    <final>true</final>
-    <result xsi:type="ResultInRange">
-      <valueAndUnit>
-        <value>5.5</value>
-        <unit type="http://unitsofmeasure.org/" value="[pH]">[pH]</unit>
-      </valueAndUnit>
-      <normalRange>
-        <minimum>5</minimum>
-        <maximum>9</maximum>
-        <unit type="http://unitsofmeasure.org/" value="[pH]">[pH]</unit>
-      </normalRange>
-    </result>    
-  </labTest>
-</Lab>
+<Model name="LabResult">
+    <Field name="accession_number"><![CDATA[A703823855]]></Field>
+    <Field name="test_name_title"><![CDATA[Epi Cells UrnS Ql Micro]]></Field>
+    <Field name="test_name_system">http://purl.bioontology.org/ontology/LNC/</Field>
+    <Field name="test_name_identifier"><![CDATA[20453-7]]></Field>
+    <Field name="collected_at"><![CDATA[2005-08-05]]></Field>
+    
+<Field name="narrative_result"><![CDATA[Few]]></Field>
+
+</Model>
+
+</Models>
