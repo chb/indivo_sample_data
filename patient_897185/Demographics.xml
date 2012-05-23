@@ -1,6 +1,27 @@
 
 <Demographics xmlns="http://indivo.org/vocab/xml/documents#">
-    <dateOfBirth><![CDATA[1994-07-08]]></dateOfBirth>
-    <gender><![CDATA[male]]></gender>
-    <language>EN</language>
+    <dateOfBirth>1994-07-08</dateOfBirth>
+    <gender>male</gender>
+    <email>kevin.kelly@example.com</email>
+    <preferredLanguage>EN</preferredLanguage>
+    <Name>
+        <familyName>Kevin</familyName>
+        <givenName>Kelly</givenName>
+    </Name>
+    <Telephone>
+        <type>h</type>
+        <number>800-173-8713</number>
+        <preferred>true</preferred>
+    </Telephone>
+    <Telephone>
+        <type>c</type>
+        <number></number>
+    </Telephone>
+    <Address>
+        <country>USA</country>
+        <city>Tulsa</city>
+        <postalCode>74116</postalCode>
+        <region>OK</region>
+        <street>32 Walnut Rd</street>
+    </Address>
 </Demographics>

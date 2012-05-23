@@ -1,6 +1,27 @@
 
 <Demographics xmlns="http://indivo.org/vocab/xml/documents#">
-    <dateOfBirth><![CDATA[1946-01-17]]></dateOfBirth>
-    <gender><![CDATA[female]]></gender>
-    <language>EN</language>
+    <dateOfBirth>1946-01-17</dateOfBirth>
+    <gender>female</gender>
+    <email>mary.long@example.com</email>
+    <preferredLanguage>EN</preferredLanguage>
+    <Name>
+        <familyName>Mary</familyName>
+        <givenName>Long</givenName>
+    </Name>
+    <Telephone>
+        <type>h</type>
+        <number>800-676-5798</number>
+        <preferred>true</preferred>
+    </Telephone>
+    <Telephone>
+        <type>c</type>
+        <number>800-729-7104</number>
+    </Telephone>
+    <Address>
+        <country>USA</country>
+        <city>Sapulpa</city>
+        <postalCode>74066</postalCode>
+        <region>OK</region>
+        <street>48 Hill Rd</street>
+    </Address>
 </Demographics>

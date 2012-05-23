@@ -1,12 +1,22 @@
 
-<Models xmlns="http://indivo.org/vocab/xml/documents#">
+<Lab xmlns="http://indivo.org/vocab/xml/documents#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <dateMeasured>2009-03-26T00:00:00Z</dateMeasured>
+  <labType>general</labType>
 
-<Model name="Problem">
-  <Field name="startDate"><![CDATA[2007-11-20]]></Field>
-  <Field name="endDate"><![CDATA[2010-09-13]]></Field>
-  <Field name="name_title"><![CDATA[Human papilloma virus infection]]></Field>
-  <Field name="name_system">http://purl.bioontology.org/ontology/SNOMEDCT/</Field>
-  <Field name="name_identifier"><![CDATA[240532009]]></Field>
-</Model>
-
-</Models>
+  <labTest xsi:type="SingleResultLabTest">
+    <dateMeasured>2009-03-26T00:00:00Z</dateMeasured>
+    <name type="http://loinc.org/codes/"  value="2885-2"><![CDATA[Prot SerPl-mCnc]]></name>
+    <final>true</final>
+    <result xsi:type="ResultInRange">
+      <valueAndUnit>
+        <value>7.8</value>
+        <unit type="http://unitsofmeasure.org/" value="g/dL">g/dL</unit>
+      </valueAndUnit>
+      <normalRange>
+        <minimum>6</minimum>
+        <maximum>8.3</maximum>
+        <unit type="http://unitsofmeasure.org/" value="g/dL">g/dL</unit>
+      </normalRange>
+    </result>    
+  </labTest>
+</Lab>

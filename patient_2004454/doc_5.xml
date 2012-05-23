@@ -1,15 +1,5 @@
 
-<Models xmlns="http://indivo.org/vocab/xml/documents#">
-
-<Model name="LabResult">
-    <Field name="accession_number"><![CDATA[A744568144]]></Field>
-    <Field name="test_name_title"><![CDATA[Biotinidase DBS Ql]]></Field>
-    <Field name="test_name_system">http://purl.bioontology.org/ontology/LNC/</Field>
-    <Field name="test_name_identifier"><![CDATA[38478-4]]></Field>
-    <Field name="collected_at"><![CDATA[2008-08-01]]></Field>
-    
-<Field name="narrative_result"><![CDATA[Normal]]></Field>
-
-</Model>
-
-</Models>
+<Problem xmlns="http://indivo.org/vocab/xml/documents#">
+  <dateOnset>2009-08-07T00:00:00Z</dateOnset>
+  <name type="http://www.ihtsdo.org/snomed-ct/concepts/" value="16932000">Nausea and vomiting</name>
+</Problem>

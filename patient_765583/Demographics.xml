@@ -1,6 +1,27 @@
 
 <Demographics xmlns="http://indivo.org/vocab/xml/documents#">
-    <dateOfBirth><![CDATA[1953-08-26]]></dateOfBirth>
-    <gender><![CDATA[female]]></gender>
-    <language>EN</language>
+    <dateOfBirth>1953-08-26</dateOfBirth>
+    <gender>female</gender>
+    <email>ruth.cook@example.com</email>
+    <preferredLanguage>EN</preferredLanguage>
+    <Name>
+        <familyName>Ruth</familyName>
+        <givenName>Cook</givenName>
+    </Name>
+    <Telephone>
+        <type>h</type>
+        <number></number>
+        <preferred>true</preferred>
+    </Telephone>
+    <Telephone>
+        <type>c</type>
+        <number></number>
+    </Telephone>
+    <Address>
+        <country>USA</country>
+        <city>Mounds</city>
+        <postalCode>74047</postalCode>
+        <region>OK</region>
+        <street>3 Main Rd</street>
+    </Address>
 </Demographics>

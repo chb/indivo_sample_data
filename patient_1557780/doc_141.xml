@@ -1,20 +1,22 @@
 
-<Models xmlns="http://indivo.org/vocab/xml/documents#">
+<Lab xmlns="http://indivo.org/vocab/xml/documents#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <dateMeasured>2009-09-04T00:00:00Z</dateMeasured>
+  <labType>general</labType>
 
-<Model name="LabResult">
-    <Field name="accession_number"><![CDATA[A829581525]]></Field>
-    <Field name="test_name_title"><![CDATA[Bilirub Indirect SerPl-mCnc]]></Field>
-    <Field name="test_name_system">http://purl.bioontology.org/ontology/LNC/</Field>
-    <Field name="test_name_identifier"><![CDATA[1971-1]]></Field>
-    <Field name="collected_at"><![CDATA[2009-09-04]]></Field>
-    
-<Field name="quantitative_result_normal_range_max_value"><![CDATA[1]]></Field>
-<Field name="quantitative_result_normal_range_max_unit"><![CDATA[mg/dL]]></Field>
-<Field name="quantitative_result_normal_range_min_value"><![CDATA[0]]></Field>
-<Field name="quantitative_result_normal_range_min_unit"><![CDATA[mg/dL]]></Field>
-<Field name="quantitative_result_value_value"><![CDATA[0.2]]></Field> 
-<Field name="quantitative_result_value_unit"><![CDATA[mg/dL]]></Field>
-
-</Model>
-
-</Models>
+  <labTest xsi:type="SingleResultLabTest">
+    <dateMeasured>2009-09-04T00:00:00Z</dateMeasured>
+    <name type="http://loinc.org/codes/"  value="2885-2"><![CDATA[Prot SerPl-mCnc]]></name>
+    <final>true</final>
+    <result xsi:type="ResultInRange">
+      <valueAndUnit>
+        <value>6.9</value>
+        <unit type="http://unitsofmeasure.org/" value="g/dL">g/dL</unit>
+      </valueAndUnit>
+      <normalRange>
+        <minimum>6.4</minimum>
+        <maximum>8.3</maximum>
+        <unit type="http://unitsofmeasure.org/" value="g/dL">g/dL</unit>
+      </normalRange>
+    </result>    
+  </labTest>
+</Lab>

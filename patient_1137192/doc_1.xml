@@ -1,20 +1,5 @@
 
-<Models xmlns="http://indivo.org/vocab/xml/documents#">
-
-<Model name="LabResult">
-    <Field name="accession_number"><![CDATA[A937556239]]></Field>
-    <Field name="test_name_title"><![CDATA[CO2 SerPl-sCnc]]></Field>
-    <Field name="test_name_system">http://purl.bioontology.org/ontology/LNC/</Field>
-    <Field name="test_name_identifier"><![CDATA[2028-9]]></Field>
-    <Field name="collected_at"><![CDATA[2004-06-11]]></Field>
-    
-<Field name="quantitative_result_normal_range_max_value"><![CDATA[29]]></Field>
-<Field name="quantitative_result_normal_range_max_unit"><![CDATA[mmol/L]]></Field>
-<Field name="quantitative_result_normal_range_min_value"><![CDATA[22]]></Field>
-<Field name="quantitative_result_normal_range_min_unit"><![CDATA[mmol/L]]></Field>
-<Field name="quantitative_result_value_value"><![CDATA[26]]></Field> 
-<Field name="quantitative_result_value_unit"><![CDATA[mmol/L]]></Field>
-
-</Model>
-
-</Models>
+<Problem xmlns="http://indivo.org/vocab/xml/documents#">
+  <dateOnset>2005-06-03T00:00:00Z</dateOnset>
+  <name type="http://www.ihtsdo.org/snomed-ct/concepts/" value="53741008">Coronary arteriosclerosis</name>
+</Problem>

@@ -1,20 +1,22 @@
 
-<Models xmlns="http://indivo.org/vocab/xml/documents#">
+<Lab xmlns="http://indivo.org/vocab/xml/documents#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <dateMeasured>2008-09-02T00:00:00Z</dateMeasured>
+  <labType>general</labType>
 
-<Model name="LabResult">
-    <Field name="accession_number"><![CDATA[A557144019]]></Field>
-    <Field name="test_name_title"><![CDATA[Eosinophil NFr Bld]]></Field>
-    <Field name="test_name_system">http://purl.bioontology.org/ontology/LNC/</Field>
-    <Field name="test_name_identifier"><![CDATA[26450-7]]></Field>
-    <Field name="collected_at"><![CDATA[2008-09-02]]></Field>
-    
-<Field name="quantitative_result_normal_range_max_value"><![CDATA[4]]></Field>
-<Field name="quantitative_result_normal_range_max_unit"><![CDATA[%]]></Field>
-<Field name="quantitative_result_normal_range_min_value"><![CDATA[0]]></Field>
-<Field name="quantitative_result_normal_range_min_unit"><![CDATA[%]]></Field>
-<Field name="quantitative_result_value_value"><![CDATA[4]]></Field> 
-<Field name="quantitative_result_value_unit"><![CDATA[%]]></Field>
-
-</Model>
-
-</Models>
+  <labTest xsi:type="SingleResultLabTest">
+    <dateMeasured>2008-09-02T00:00:00Z</dateMeasured>
+    <name type="http://loinc.org/codes/"  value="2028-9"><![CDATA[CO2 SerPl-sCnc]]></name>
+    <final>true</final>
+    <result xsi:type="ResultInRange">
+      <valueAndUnit>
+        <value>25.1</value>
+        <unit type="http://unitsofmeasure.org/" value="mmol/L">mmol/L</unit>
+      </valueAndUnit>
+      <normalRange>
+        <minimum>22</minimum>
+        <maximum>29</maximum>
+        <unit type="http://unitsofmeasure.org/" value="mmol/L">mmol/L</unit>
+      </normalRange>
+    </result>    
+  </labTest>
+</Lab>

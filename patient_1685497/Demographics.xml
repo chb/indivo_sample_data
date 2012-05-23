@@ -1,6 +1,27 @@
 
 <Demographics xmlns="http://indivo.org/vocab/xml/documents#">
-    <dateOfBirth><![CDATA[1969-10-21]]></dateOfBirth>
-    <gender><![CDATA[male]]></gender>
-    <language>EN</language>
+    <dateOfBirth>1969-10-21</dateOfBirth>
+    <gender>male</gender>
+    <email>richard.robinson@example.com</email>
+    <preferredLanguage>EN</preferredLanguage>
+    <Name>
+        <familyName>Richard</familyName>
+        <givenName>Robinson</givenName>
+    </Name>
+    <Telephone>
+        <type>h</type>
+        <number>800-123-3873</number>
+        <preferred>true</preferred>
+    </Telephone>
+    <Telephone>
+        <type>c</type>
+        <number></number>
+    </Telephone>
+    <Address>
+        <country>USA</country>
+        <city>Broken Arrow</city>
+        <postalCode>74014</postalCode>
+        <region>OK</region>
+        <street>88 Hill Rd</street>
+    </Address>
 </Demographics>

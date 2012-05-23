@@ -1,25 +1,15 @@
 
-<Models xmlns="http://indivo.org/vocab/xml/documents#">
+<Medication xmlns="http://indivo.org/vocab/xml/documents#">
+  <dateStarted>2004-11-14</dateStarted>
+  <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="745679">200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler</name>
+  <dose>
+    <value>2</value>
+    <unit type="http://unitsofmeasure.org/" value="{puff}" />
+  </dose>
+  <frequency type="http://unitsofmeasure.org/" value="4 /d">4 /d</frequency>
 
-<Model name="Medication">
-  <Field name="drugName_title"><![CDATA[200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler]]></Field>
-  <Field name="drugName_system">http://purl.bioontology.org/ontology/RXNORM/</Field>
-  <Field name="drugName_identifier"><![CDATA[745679]]></Field>
-  <Field name="endDate"><![CDATA[2010-04-09]]></Field>
-  <Field name="frequency_value"><![CDATA[4]]></Field>
-  <Field name="frequency_unit"><![CDATA[/d]]></Field>
-  <Field name="instructions"><![CDATA[2 puffs qid prn SOB]]></Field>
-  <Field name="provenance_title"><![CDATA[Derived by prescription]]></Field>
-  <Field name="provenance_system">http://smartplatforms.org/terms/codes/MedicationProvenance#</Field>
-  <Field name="provenance_identifier"><![CDATA[prescription]]></Field>
-  <Field name="quantity_value"><![CDATA[2]]></Field>
-  <Field name="quantity_unit"><![CDATA[{puff}]]></Field>
-  <Field name="startDate"><![CDATA[2004-11-14]]></Field>
-  <Field name="fulfillments">
-    <Models>
-      
-    </Models>
-  </Field>
-</Model>
-
-</Models>
+  <prescription>
+    <dispenseAsWritten>true</dispenseAsWritten>
+    <instructions>2 puffs qid prn SOB</instructions>
+  </prescription>
+</Medication>

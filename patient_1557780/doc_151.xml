@@ -1,12 +1,22 @@
 
-<Models xmlns="http://indivo.org/vocab/xml/documents#">
+<Lab xmlns="http://indivo.org/vocab/xml/documents#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <dateMeasured>2009-09-04T00:00:00Z</dateMeasured>
+  <labType>general</labType>
 
-<Model name="Problem">
-  <Field name="startDate"><![CDATA[2005-06-01]]></Field>
-  <Field name="endDate"><![CDATA[2010-09-13]]></Field>
-  <Field name="name_title"><![CDATA[Pulmonary emphysema]]></Field>
-  <Field name="name_system">http://purl.bioontology.org/ontology/SNOMEDCT/</Field>
-  <Field name="name_identifier"><![CDATA[87433001]]></Field>
-</Model>
-
-</Models>
+  <labTest xsi:type="SingleResultLabTest">
+    <dateMeasured>2009-09-04T00:00:00Z</dateMeasured>
+    <name type="http://loinc.org/codes/"  value="2345-7"><![CDATA[Glucose SerPl-mCnc]]></name>
+    <final>true</final>
+    <result xsi:type="ResultInRange">
+      <valueAndUnit>
+        <value>114</value>
+        <unit type="http://unitsofmeasure.org/" value="mg/dL">mg/dL</unit>
+      </valueAndUnit>
+      <normalRange>
+        <minimum>70</minimum>
+        <maximum>100</maximum>
+        <unit type="http://unitsofmeasure.org/" value="mg/dL">mg/dL</unit>
+      </normalRange>
+    </result>    
+  </labTest>
+</Lab>

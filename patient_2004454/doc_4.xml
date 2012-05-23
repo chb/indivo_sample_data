@@ -1,20 +1,5 @@
 
-<Models xmlns="http://indivo.org/vocab/xml/documents#">
-
-<Model name="LabResult">
-    <Field name="accession_number"><![CDATA[A174489329]]></Field>
-    <Field name="test_name_title"><![CDATA[Prolactin SerPl 3rd IS-mCnc]]></Field>
-    <Field name="test_name_system">http://purl.bioontology.org/ontology/LNC/</Field>
-    <Field name="test_name_identifier"><![CDATA[49220-7]]></Field>
-    <Field name="collected_at"><![CDATA[2008-08-01]]></Field>
-    
-<Field name="quantitative_result_normal_range_max_value"><![CDATA[15]]></Field>
-<Field name="quantitative_result_normal_range_max_unit"><![CDATA[ng/mL]]></Field>
-<Field name="quantitative_result_normal_range_min_value"><![CDATA[2]]></Field>
-<Field name="quantitative_result_normal_range_min_unit"><![CDATA[ng/mL]]></Field>
-<Field name="quantitative_result_value_value"><![CDATA[86.5]]></Field> 
-<Field name="quantitative_result_value_unit"><![CDATA[ng/mL]]></Field>
-
-</Model>
-
-</Models>
+<Problem xmlns="http://indivo.org/vocab/xml/documents#">
+  <dateOnset>2009-03-02T00:00:00Z</dateOnset>
+  <name type="http://www.ihtsdo.org/snomed-ct/concepts/" value="65363002">Otitis media</name>
+</Problem>

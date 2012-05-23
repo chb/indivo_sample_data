@@ -1,12 +1,22 @@
 
-<Models xmlns="http://indivo.org/vocab/xml/documents#">
+<Lab xmlns="http://indivo.org/vocab/xml/documents#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <dateMeasured>2006-01-01T00:00:00Z</dateMeasured>
+  <labType>general</labType>
 
-<Model name="Problem">
-  <Field name="startDate"><![CDATA[2004-12-19]]></Field>
-  <Field name="endDate"><![CDATA[2010-09-13]]></Field>
-  <Field name="name_title"><![CDATA[Hypothyroidism]]></Field>
-  <Field name="name_system">http://purl.bioontology.org/ontology/SNOMEDCT/</Field>
-  <Field name="name_identifier"><![CDATA[40930008]]></Field>
-</Model>
-
-</Models>
+  <labTest xsi:type="SingleResultLabTest">
+    <dateMeasured>2006-01-01T00:00:00Z</dateMeasured>
+    <name type="http://loinc.org/codes/"  value="26511-6"><![CDATA[Neutrophils NFr Bld]]></name>
+    <final>true</final>
+    <result xsi:type="ResultInRange">
+      <valueAndUnit>
+        <value>61</value>
+        <unit type="http://unitsofmeasure.org/" value="%">%</unit>
+      </valueAndUnit>
+      <normalRange>
+        <minimum>44</minimum>
+        <maximum>74</maximum>
+        <unit type="http://unitsofmeasure.org/" value="%">%</unit>
+      </normalRange>
+    </result>    
+  </labTest>
+</Lab>

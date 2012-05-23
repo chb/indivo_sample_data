@@ -1,25 +1,15 @@
 
-<Models xmlns="http://indivo.org/vocab/xml/documents#">
+<Medication xmlns="http://indivo.org/vocab/xml/documents#">
+  <dateStarted>2006-09-25</dateStarted>
+  <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="404630">Ciprofloxacin 3 MG/ML / Dexamethasone 1 MG/ML Otic Suspension [Ciprodex]</name>
+  <dose>
+    <value>4</value>
+    <unit type="http://unitsofmeasure.org/" value="[drp]" />
+  </dose>
+  <frequency type="http://unitsofmeasure.org/" value="3 /d">3 /d</frequency>
 
-<Model name="Medication">
-  <Field name="drugName_title"><![CDATA[Ciprofloxacin 3 MG/ML / Dexamethasone 1 MG/ML Otic Suspension [Ciprodex]]]></Field>
-  <Field name="drugName_system">http://purl.bioontology.org/ontology/RXNORM/</Field>
-  <Field name="drugName_identifier"><![CDATA[404630]]></Field>
-  <Field name="endDate"><![CDATA[2010-04-09]]></Field>
-  <Field name="frequency_value"><![CDATA[3]]></Field>
-  <Field name="frequency_unit"><![CDATA[/d]]></Field>
-  <Field name="instructions"><![CDATA[4 gtt in ear bid x7 day]]></Field>
-  <Field name="provenance_title"><![CDATA[Derived by prescription]]></Field>
-  <Field name="provenance_system">http://smartplatforms.org/terms/codes/MedicationProvenance#</Field>
-  <Field name="provenance_identifier"><![CDATA[prescription]]></Field>
-  <Field name="quantity_value"><![CDATA[4]]></Field>
-  <Field name="quantity_unit"><![CDATA[[drp]]]></Field>
-  <Field name="startDate"><![CDATA[2006-09-25]]></Field>
-  <Field name="fulfillments">
-    <Models>
-      
-    </Models>
-  </Field>
-</Model>
-
-</Models>
+  <prescription>
+    <dispenseAsWritten>true</dispenseAsWritten>
+    <instructions>4 gtt in ear bid x7 day</instructions>
+  </prescription>
+</Medication>

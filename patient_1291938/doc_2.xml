@@ -1,12 +1,5 @@
 
-<Models xmlns="http://indivo.org/vocab/xml/documents#">
-
-<Model name="Problem">
-  <Field name="startDate"><![CDATA[2007-06-19]]></Field>
-  <Field name="endDate"><![CDATA[2010-09-13]]></Field>
-  <Field name="name_title"><![CDATA[Carcinoma in situ of breast]]></Field>
-  <Field name="name_system">http://purl.bioontology.org/ontology/SNOMEDCT/</Field>
-  <Field name="name_identifier"><![CDATA[189336000]]></Field>
-</Model>
-
-</Models>
+<Problem xmlns="http://indivo.org/vocab/xml/documents#">
+  <dateOnset>2007-06-19T00:00:00Z</dateOnset>
+  <name type="http://www.ihtsdo.org/snomed-ct/concepts/" value="189336000">Carcinoma in situ of breast</name>
+</Problem>

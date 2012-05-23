@@ -1,6 +1,27 @@
 
 <Demographics xmlns="http://indivo.org/vocab/xml/documents#">
-    <dateOfBirth><![CDATA[2004-10-15]]></dateOfBirth>
-    <gender><![CDATA[male]]></gender>
-    <language>EN</language>
+    <dateOfBirth>2004-10-15</dateOfBirth>
+    <gender>male</gender>
+    <email>patrick.taylor@example.com</email>
+    <preferredLanguage>EN</preferredLanguage>
+    <Name>
+        <familyName>Patrick</familyName>
+        <givenName>Taylor</givenName>
+    </Name>
+    <Telephone>
+        <type>h</type>
+        <number>800-539-3986</number>
+        <preferred>true</preferred>
+    </Telephone>
+    <Telephone>
+        <type>c</type>
+        <number></number>
+    </Telephone>
+    <Address>
+        <country>USA</country>
+        <city>Bixby</city>
+        <postalCode>74008</postalCode>
+        <region>OK</region>
+        <street>24 Pine Rd</street>
+    </Address>
 </Demographics>

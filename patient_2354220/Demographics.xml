@@ -1,6 +1,27 @@
 
 <Demographics xmlns="http://indivo.org/vocab/xml/documents#">
-    <dateOfBirth><![CDATA[1959-07-10]]></dateOfBirth>
-    <gender><![CDATA[female]]></gender>
-    <language>EN</language>
+    <dateOfBirth>1959-07-10</dateOfBirth>
+    <gender>female</gender>
+    <email>lisa.young@example.com</email>
+    <preferredLanguage>EN</preferredLanguage>
+    <Name>
+        <familyName>Lisa</familyName>
+        <givenName>Young</givenName>
+    </Name>
+    <Telephone>
+        <type>h</type>
+        <number></number>
+        <preferred>true</preferred>
+    </Telephone>
+    <Telephone>
+        <type>c</type>
+        <number></number>
+    </Telephone>
+    <Address>
+        <country>USA</country>
+        <city>Bixby</city>
+        <postalCode>74008</postalCode>
+        <region>OK</region>
+        <street>90 Hill St</street>
+    </Address>
 </Demographics>

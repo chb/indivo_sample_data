@@ -1,12 +1,22 @@
 
-<Models xmlns="http://indivo.org/vocab/xml/documents#">
+<Lab xmlns="http://indivo.org/vocab/xml/documents#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <dateMeasured>2008-04-05T00:00:00Z</dateMeasured>
+  <labType>general</labType>
 
-<Model name="Problem">
-  <Field name="startDate"><![CDATA[2003-12-05]]></Field>
-  <Field name="endDate"><![CDATA[2010-09-13]]></Field>
-  <Field name="name_title"><![CDATA[Tobacco dependence syndrome]]></Field>
-  <Field name="name_system">http://purl.bioontology.org/ontology/SNOMEDCT/</Field>
-  <Field name="name_identifier"><![CDATA[89765005]]></Field>
-</Model>
-
-</Models>
+  <labTest xsi:type="SingleResultLabTest">
+    <dateMeasured>2008-04-05T00:00:00Z</dateMeasured>
+    <name type="http://loinc.org/codes/"  value="5803-2"><![CDATA[pH Ur Strip]]></name>
+    <final>true</final>
+    <result xsi:type="ResultInRange">
+      <valueAndUnit>
+        <value>6</value>
+        <unit type="http://unitsofmeasure.org/" value="[pH]">[pH]</unit>
+      </valueAndUnit>
+      <normalRange>
+        <minimum>5</minimum>
+        <maximum>9</maximum>
+        <unit type="http://unitsofmeasure.org/" value="[pH]">[pH]</unit>
+      </normalRange>
+    </result>    
+  </labTest>
+</Lab>

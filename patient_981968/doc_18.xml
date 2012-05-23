@@ -1,25 +1,15 @@
 
-<Models xmlns="http://indivo.org/vocab/xml/documents#">
+<Medication xmlns="http://indivo.org/vocab/xml/documents#">
+  <dateStarted>2006-09-01</dateStarted>
+  <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="858869">carbinoxamine 0.4 MG/ML / Hydrocodone 1 MG/ML / Pseudoephedrine 6 MG/ML Oral Solution [Histex HC]</name>
+  <dose>
+    <value>1</value>
+    <unit type="http://unitsofmeasure.org/" value="{tablet}" />
+  </dose>
+  <frequency type="http://unitsofmeasure.org/" value=" "> </frequency>
 
-<Model name="Medication">
-  <Field name="drugName_title"><![CDATA[carbinoxamine 0.4 MG/ML / Hydrocodone 1 MG/ML / Pseudoephedrine 6 MG/ML Oral Solution [Histex HC]]]></Field>
-  <Field name="drugName_system">http://purl.bioontology.org/ontology/RXNORM/</Field>
-  <Field name="drugName_identifier"><![CDATA[858869]]></Field>
-  <Field name="endDate"><![CDATA[2010-04-09]]></Field>
-  <Field name="frequency_value"><![CDATA[2]]></Field>
-  <Field name="frequency_unit"><![CDATA[/d]]></Field>
-  <Field name="instructions"><![CDATA[]]></Field>
-  <Field name="provenance_title"><![CDATA[Derived by prescription]]></Field>
-  <Field name="provenance_system">http://smartplatforms.org/terms/codes/MedicationProvenance#</Field>
-  <Field name="provenance_identifier"><![CDATA[prescription]]></Field>
-  <Field name="quantity_value"><![CDATA[30]]></Field>
-  <Field name="quantity_unit"><![CDATA[{tab}]]></Field>
-  <Field name="startDate"><![CDATA[2006-09-01]]></Field>
-  <Field name="fulfillments">
-    <Models>
-      
-    </Models>
-  </Field>
-</Model>
-
-</Models>
+  <prescription>
+    <dispenseAsWritten>true</dispenseAsWritten>
+    <instructions></instructions>
+  </prescription>
+</Medication>

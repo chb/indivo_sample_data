@@ -1,6 +1,27 @@
 
 <Demographics xmlns="http://indivo.org/vocab/xml/documents#">
-    <dateOfBirth><![CDATA[2000-12-27]]></dateOfBirth>
-    <gender><![CDATA[female]]></gender>
-    <language>EN</language>
+    <dateOfBirth>2000-12-27</dateOfBirth>
+    <gender>female</gender>
+    <email>susan.clark@example.com</email>
+    <preferredLanguage>EN</preferredLanguage>
+    <Name>
+        <familyName>Susan</familyName>
+        <givenName>Clark</givenName>
+    </Name>
+    <Telephone>
+        <type>h</type>
+        <number>800-576-9327</number>
+        <preferred>true</preferred>
+    </Telephone>
+    <Telephone>
+        <type>c</type>
+        <number></number>
+    </Telephone>
+    <Address>
+        <country>USA</country>
+        <city>Tulsa</city>
+        <postalCode>74116</postalCode>
+        <region>OK</region>
+        <street>52 Highland St</street>
+    </Address>
 </Demographics>

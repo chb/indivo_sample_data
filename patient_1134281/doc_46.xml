@@ -1,20 +1,22 @@
 
-<Models xmlns="http://indivo.org/vocab/xml/documents#">
+<Lab xmlns="http://indivo.org/vocab/xml/documents#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <dateMeasured>2005-07-05T00:00:00Z</dateMeasured>
+  <labType>general</labType>
 
-<Model name="LabResult">
-    <Field name="accession_number"><![CDATA[A371830618]]></Field>
-    <Field name="test_name_title"><![CDATA[WBC # Bld]]></Field>
-    <Field name="test_name_system">http://purl.bioontology.org/ontology/LNC/</Field>
-    <Field name="test_name_identifier"><![CDATA[26464-8]]></Field>
-    <Field name="collected_at"><![CDATA[2005-07-05]]></Field>
-    
-<Field name="quantitative_result_normal_range_max_value"><![CDATA[37]]></Field>
-<Field name="quantitative_result_normal_range_max_unit"><![CDATA[10*3/uL]]></Field>
-<Field name="quantitative_result_normal_range_min_value"><![CDATA[9]]></Field>
-<Field name="quantitative_result_normal_range_min_unit"><![CDATA[10*3/uL]]></Field>
-<Field name="quantitative_result_value_value"><![CDATA[17.7]]></Field> 
-<Field name="quantitative_result_value_unit"><![CDATA[10*3/uL]]></Field>
-
-</Model>
-
-</Models>
+  <labTest xsi:type="SingleResultLabTest">
+    <dateMeasured>2005-07-05T00:00:00Z</dateMeasured>
+    <name type="http://loinc.org/codes/"  value="26498-6"><![CDATA[Myelocytes NFr Bld]]></name>
+    <final>true</final>
+    <result xsi:type="ResultInRange">
+      <valueAndUnit>
+        <value>1</value>
+        <unit type="http://unitsofmeasure.org/" value="%">%</unit>
+      </valueAndUnit>
+      <normalRange>
+        <minimum>0</minimum>
+        <maximum>0</maximum>
+        <unit type="http://unitsofmeasure.org/" value="%">%</unit>
+      </normalRange>
+    </result>    
+  </labTest>
+</Lab>

@@ -1,12 +1,5 @@
 
-<Models xmlns="http://indivo.org/vocab/xml/documents#">
-
-<Model name="Problem">
-  <Field name="startDate"><![CDATA[2004-04-15]]></Field>
-  <Field name="endDate"><![CDATA[2010-09-13]]></Field>
-  <Field name="name_title"><![CDATA[Oppositional defiant disorder]]></Field>
-  <Field name="name_system">http://purl.bioontology.org/ontology/SNOMEDCT/</Field>
-  <Field name="name_identifier"><![CDATA[18941000]]></Field>
-</Model>
-
-</Models>
+<Problem xmlns="http://indivo.org/vocab/xml/documents#">
+  <dateOnset>2004-04-15T00:00:00Z</dateOnset>
+  <name type="http://www.ihtsdo.org/snomed-ct/concepts/" value="18941000">Oppositional defiant disorder</name>
+</Problem>

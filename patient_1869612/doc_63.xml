@@ -1,12 +1,22 @@
 
-<Models xmlns="http://indivo.org/vocab/xml/documents#">
+<Lab xmlns="http://indivo.org/vocab/xml/documents#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <dateMeasured>2009-08-30T00:00:00Z</dateMeasured>
+  <labType>general</labType>
 
-<Model name="Problem">
-  <Field name="startDate"><![CDATA[2004-08-23]]></Field>
-  <Field name="endDate"><![CDATA[2010-09-13]]></Field>
-  <Field name="name_title"><![CDATA[Impotence of organic origin]]></Field>
-  <Field name="name_system">http://purl.bioontology.org/ontology/SNOMEDCT/</Field>
-  <Field name="name_identifier"><![CDATA[198036002]]></Field>
-</Model>
-
-</Models>
+  <labTest xsi:type="SingleResultLabTest">
+    <dateMeasured>2009-08-30T00:00:00Z</dateMeasured>
+    <name type="http://loinc.org/codes/"  value="9318-7"><![CDATA[Albumin/Creat Ur-mRto]]></name>
+    <final>true</final>
+    <result xsi:type="ResultInRange">
+      <valueAndUnit>
+        <value>8</value>
+        <unit type="http://unitsofmeasure.org/" value="ug/mg{creat}">ug/mg{creat}</unit>
+      </valueAndUnit>
+      <normalRange>
+        <minimum>0</minimum>
+        <maximum>29</maximum>
+        <unit type="http://unitsofmeasure.org/" value="ug/mg{creat}">ug/mg{creat}</unit>
+      </normalRange>
+    </result>    
+  </labTest>
+</Lab>

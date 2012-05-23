@@ -1,6 +1,27 @@
 
 <Demographics xmlns="http://indivo.org/vocab/xml/documents#">
-    <dateOfBirth><![CDATA[1939-08-30]]></dateOfBirth>
-    <gender><![CDATA[male]]></gender>
-    <language>EN</language>
+    <dateOfBirth>1939-08-30</dateOfBirth>
+    <gender>male</gender>
+    <email>carl.lee@example.com</email>
+    <preferredLanguage>EN</preferredLanguage>
+    <Name>
+        <familyName>Carl</familyName>
+        <givenName>Lee</givenName>
+    </Name>
+    <Telephone>
+        <type>h</type>
+        <number></number>
+        <preferred>true</preferred>
+    </Telephone>
+    <Telephone>
+        <type>c</type>
+        <number></number>
+    </Telephone>
+    <Address>
+        <country>USA</country>
+        <city>Mounds</city>
+        <postalCode>74047</postalCode>
+        <region>OK</region>
+        <street>11 Sunset Rd</street>
+    </Address>
 </Demographics>

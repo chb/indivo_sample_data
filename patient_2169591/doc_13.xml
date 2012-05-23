@@ -1,12 +1,15 @@
 
-<Models xmlns="http://indivo.org/vocab/xml/documents#">
+<Medication xmlns="http://indivo.org/vocab/xml/documents#">
+  <dateStarted>2003-11-24</dateStarted>
+  <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="284497">tazarotene 1 MG/ML Topical Cream [Tazorac]</name>
+  <dose>
+    <value>1</value>
+    <unit type="http://unitsofmeasure.org/" value="{tablet}" />
+  </dose>
+  <frequency type="http://unitsofmeasure.org/" value="1 /d">1 /d</frequency>
 
-<Model name="Problem">
-  <Field name="startDate"><![CDATA[2004-06-06]]></Field>
-  <Field name="endDate"><![CDATA[2010-09-13]]></Field>
-  <Field name="name_title"><![CDATA[Abnormal results of thyroid function studies]]></Field>
-  <Field name="name_system">http://purl.bioontology.org/ontology/SNOMEDCT/</Field>
-  <Field name="name_identifier"><![CDATA[312399001]]></Field>
-</Model>
-
-</Models>
+  <prescription>
+    <dispenseAsWritten>true</dispenseAsWritten>
+    <instructions>apply qhs</instructions>
+  </prescription>
+</Medication>
