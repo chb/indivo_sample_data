@@ -1,27 +1,27 @@
 
 <Demographics xmlns="http://indivo.org/vocab/xml/documents#">
-    <dateOfBirth>1994-07-08</dateOfBirth>
-    <gender>male</gender>
-    <email>kevin.kelly@example.com</email>
+    <dateOfBirth><![CDATA[1994-07-08]]></dateOfBirth>
+    <gender><![CDATA[male]]></gender>
+    <email><![CDATA[kevin.kelly@example.com]]></email>
     <preferredLanguage>EN</preferredLanguage>
     <Name>
-        <familyName>Kevin</familyName>
-        <givenName>Kelly</givenName>
+        <familyName><![CDATA[Kevin]]></familyName>
+        <givenName><![CDATA[Kelly]]></givenName>
     </Name>
     <Telephone>
         <type>h</type>
-        <number>800-173-8713</number>
+        <number><![CDATA[800-173-8713]]></number>
         <preferred>true</preferred>
     </Telephone>
     <Telephone>
         <type>c</type>
-        <number></number>
+        <number><![CDATA[]]></number>
     </Telephone>
     <Address>
-        <country>USA</country>
-        <city>Tulsa</city>
-        <postalCode>74116</postalCode>
-        <region>OK</region>
-        <street>32 Walnut Rd</street>
+        <country><![CDATA[USA]]></country>
+        <city><![CDATA[Tulsa]]></city>
+        <postalCode><![CDATA[74116]]></postalCode>
+        <region><![CDATA[OK]]></region>
+        <street><![CDATA[32 Walnut Rd]]></street>
     </Address>
 </Demographics>

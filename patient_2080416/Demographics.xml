@@ -1,27 +1,27 @@
 
 <Demographics xmlns="http://indivo.org/vocab/xml/documents#">
-    <dateOfBirth>2003-12-14</dateOfBirth>
-    <gender>male</gender>
-    <email>joseph.shaw@example.com</email>
+    <dateOfBirth><![CDATA[2003-12-14]]></dateOfBirth>
+    <gender><![CDATA[male]]></gender>
+    <email><![CDATA[joseph.shaw@example.com]]></email>
     <preferredLanguage>EN</preferredLanguage>
     <Name>
-        <familyName>Joseph</familyName>
-        <givenName>Shaw</givenName>
+        <familyName><![CDATA[Joseph]]></familyName>
+        <givenName><![CDATA[Shaw]]></givenName>
     </Name>
     <Telephone>
         <type>h</type>
-        <number></number>
+        <number><![CDATA[]]></number>
         <preferred>true</preferred>
     </Telephone>
     <Telephone>
         <type>c</type>
-        <number>800-277-1993</number>
+        <number><![CDATA[800-277-1993]]></number>
     </Telephone>
     <Address>
-        <country>USA</country>
-        <city>Tulsa</city>
-        <postalCode>74126</postalCode>
-        <region>OK</region>
-        <street>53 Sunset Ave</street>
+        <country><![CDATA[USA]]></country>
+        <city><![CDATA[Tulsa]]></city>
+        <postalCode><![CDATA[74126]]></postalCode>
+        <region><![CDATA[OK]]></region>
+        <street><![CDATA[53 Sunset Ave]]></street>
     </Address>
 </Demographics>

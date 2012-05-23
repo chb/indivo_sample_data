@@ -1,15 +1,121 @@
 
-<Medication xmlns="http://indivo.org/vocab/xml/documents#">
-  <dateStarted>2005-01-24</dateStarted>
-  <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="859749">rosuvastatin 10 MG Oral Tablet [Crestor]</name>
-  <dose>
-    <value>1</value>
-    <unit type="http://unitsofmeasure.org/" value="{tablet}" />
-  </dose>
-  <frequency type="http://unitsofmeasure.org/" value="1 /d">1 /d</frequency>
+<Models xmlns="http://indivo.org/vocab/xml/documents#">
 
-  <prescription>
-    <dispenseAsWritten>true</dispenseAsWritten>
-    <instructions>1 qhs</instructions>
-  </prescription>
-</Medication>
+<Model name="Medication">
+  <Field name="drugName_title"><![CDATA[rosuvastatin 10 MG Oral Tablet [Crestor]]]></Field>
+  <Field name="drugName_system">http://purl.bioontology.org/ontology/RXNORM/</Field>
+  <Field name="drugName_identifier"><![CDATA[859749]]></Field>
+  <Field name="endDate"><![CDATA[2010-04-09]]></Field>
+  <Field name="frequency_value"><![CDATA[1]]></Field>
+  <Field name="frequency_unit"><![CDATA[/d]]></Field>
+  <Field name="instructions"><![CDATA[1 qhs]]></Field>
+  <Field name="provenance_title"><![CDATA[Derived by prescription]]></Field>
+  <Field name="provenance_system">http://smartplatforms.org/terms/codes/MedicationProvenance#</Field>
+  <Field name="provenance_identifier"><![CDATA[prescription]]></Field>
+  <Field name="quantity_value"><![CDATA[1]]></Field>
+  <Field name="quantity_unit"><![CDATA[{tablet}]]></Field>
+  <Field name="startDate"><![CDATA[2005-01-24]]></Field>
+  <Field name="fulfillments">
+    <Models>
+      
+
+<Model name="Fill">
+  <Field name="date"><![CDATA[2005-01-24]]></Field>
+  <Field name="dispenseDaysSupply"><![CDATA[30]]></Field>
+  <Field name="pbm"><![CDATA[T00000000001011]]></Field>
+  <Field name="pharmacy_ncpdpid"><![CDATA[5235235]]></Field>
+  <Field name="pharmacy_org"><![CDATA[CVS #588]]></Field>
+  <Field name="pharmacy_adr_country"><![CDATA[Australia]]></Field>
+  <Field name="pharmacy_adr_city"><![CDATA[Wonder City]]></Field>
+  <Field name="pharmacy_adr_postalcode"><![CDATA[5555]]></Field>
+  <Field name="pharmacy_adr_street"><![CDATA[111 Lake Drive]]></Field> 
+  <Field name="pharmacy_adr_region"><![CDATA[West Australia]]></Field> 
+  <Field name="provider_dea_number"><![CDATA[325555555]]></Field>
+  <Field name="provider_npi_number"><![CDATA[5235235]]></Field>
+  <Field name="provider_email"><![CDATA[jmandel@fake.emailserver.com]]></Field>
+  <Field name="provider_name_given"><![CDATA[Joshua]]></Field>
+  <Field name="provider_name_family"><![CDATA[Mandel]]></Field>
+  <Field name="provider_tel_1_type">w</Field>
+  <Field name="provider_tel_1_number"><![CDATA[1-234-567-8910]]></Field>
+  <Field name="provider_tel_1_preferred_p">true</Field>
+  <Field name="quantityDispensed_value"><![CDATA[30]]></Field>
+  <Field name="quantityDispensed_unit"><![CDATA[{tab}]]></Field>
+</Model>
+
+
+<Model name="Fill">
+  <Field name="date"><![CDATA[2005-02-24]]></Field>
+  <Field name="dispenseDaysSupply"><![CDATA[30]]></Field>
+  <Field name="pbm"><![CDATA[T00000000001011]]></Field>
+  <Field name="pharmacy_ncpdpid"><![CDATA[5235235]]></Field>
+  <Field name="pharmacy_org"><![CDATA[CVS #588]]></Field>
+  <Field name="pharmacy_adr_country"><![CDATA[Australia]]></Field>
+  <Field name="pharmacy_adr_city"><![CDATA[Wonder City]]></Field>
+  <Field name="pharmacy_adr_postalcode"><![CDATA[5555]]></Field>
+  <Field name="pharmacy_adr_street"><![CDATA[111 Lake Drive]]></Field> 
+  <Field name="pharmacy_adr_region"><![CDATA[West Australia]]></Field> 
+  <Field name="provider_dea_number"><![CDATA[325555555]]></Field>
+  <Field name="provider_npi_number"><![CDATA[5235235]]></Field>
+  <Field name="provider_email"><![CDATA[jmandel@fake.emailserver.com]]></Field>
+  <Field name="provider_name_given"><![CDATA[Joshua]]></Field>
+  <Field name="provider_name_family"><![CDATA[Mandel]]></Field>
+  <Field name="provider_tel_1_type">w</Field>
+  <Field name="provider_tel_1_number"><![CDATA[1-234-567-8910]]></Field>
+  <Field name="provider_tel_1_preferred_p">true</Field>
+  <Field name="quantityDispensed_value"><![CDATA[30]]></Field>
+  <Field name="quantityDispensed_unit"><![CDATA[{tab}]]></Field>
+</Model>
+
+
+<Model name="Fill">
+  <Field name="date"><![CDATA[2007-10-06]]></Field>
+  <Field name="dispenseDaysSupply"><![CDATA[30]]></Field>
+  <Field name="pbm"><![CDATA[T00000000001011]]></Field>
+  <Field name="pharmacy_ncpdpid"><![CDATA[5235235]]></Field>
+  <Field name="pharmacy_org"><![CDATA[CVS #588]]></Field>
+  <Field name="pharmacy_adr_country"><![CDATA[Australia]]></Field>
+  <Field name="pharmacy_adr_city"><![CDATA[Wonder City]]></Field>
+  <Field name="pharmacy_adr_postalcode"><![CDATA[5555]]></Field>
+  <Field name="pharmacy_adr_street"><![CDATA[111 Lake Drive]]></Field> 
+  <Field name="pharmacy_adr_region"><![CDATA[West Australia]]></Field> 
+  <Field name="provider_dea_number"><![CDATA[325555555]]></Field>
+  <Field name="provider_npi_number"><![CDATA[5235235]]></Field>
+  <Field name="provider_email"><![CDATA[jmandel@fake.emailserver.com]]></Field>
+  <Field name="provider_name_given"><![CDATA[Joshua]]></Field>
+  <Field name="provider_name_family"><![CDATA[Mandel]]></Field>
+  <Field name="provider_tel_1_type">w</Field>
+  <Field name="provider_tel_1_number"><![CDATA[1-234-567-8910]]></Field>
+  <Field name="provider_tel_1_preferred_p">true</Field>
+  <Field name="quantityDispensed_value"><![CDATA[30]]></Field>
+  <Field name="quantityDispensed_unit"><![CDATA[{tab}]]></Field>
+</Model>
+
+
+<Model name="Fill">
+  <Field name="date"><![CDATA[2005-03-26]]></Field>
+  <Field name="dispenseDaysSupply"><![CDATA[30]]></Field>
+  <Field name="pbm"><![CDATA[T00000000001011]]></Field>
+  <Field name="pharmacy_ncpdpid"><![CDATA[5235235]]></Field>
+  <Field name="pharmacy_org"><![CDATA[CVS #588]]></Field>
+  <Field name="pharmacy_adr_country"><![CDATA[Australia]]></Field>
+  <Field name="pharmacy_adr_city"><![CDATA[Wonder City]]></Field>
+  <Field name="pharmacy_adr_postalcode"><![CDATA[5555]]></Field>
+  <Field name="pharmacy_adr_street"><![CDATA[111 Lake Drive]]></Field> 
+  <Field name="pharmacy_adr_region"><![CDATA[West Australia]]></Field> 
+  <Field name="provider_dea_number"><![CDATA[325555555]]></Field>
+  <Field name="provider_npi_number"><![CDATA[5235235]]></Field>
+  <Field name="provider_email"><![CDATA[jmandel@fake.emailserver.com]]></Field>
+  <Field name="provider_name_given"><![CDATA[Joshua]]></Field>
+  <Field name="provider_name_family"><![CDATA[Mandel]]></Field>
+  <Field name="provider_tel_1_type">w</Field>
+  <Field name="provider_tel_1_number"><![CDATA[1-234-567-8910]]></Field>
+  <Field name="provider_tel_1_preferred_p">true</Field>
+  <Field name="quantityDispensed_value"><![CDATA[30]]></Field>
+  <Field name="quantityDispensed_unit"><![CDATA[{tab}]]></Field>
+</Model>
+
+    </Models>
+  </Field>
+</Model>
+
+</Models>

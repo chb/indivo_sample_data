@@ -1,5 +1,20 @@
 
-<Problem xmlns="http://indivo.org/vocab/xml/documents#">
-  <dateOnset>2004-06-01T00:00:00Z</dateOnset>
-  <name type="http://www.ihtsdo.org/snomed-ct/concepts/" value="247373008">Arthralgia of the ankle and/or foot</name>
-</Problem>
+<Models xmlns="http://indivo.org/vocab/xml/documents#">
+
+<Model name="LabResult">
+    <Field name="accession_number"><![CDATA[A679426679]]></Field>
+    <Field name="test_name_title"><![CDATA[Creat Bld-mCnc]]></Field>
+    <Field name="test_name_system">http://purl.bioontology.org/ontology/LNC/</Field>
+    <Field name="test_name_identifier"><![CDATA[38483-4]]></Field>
+    <Field name="collected_at"><![CDATA[2007-02-13]]></Field>
+    
+<Field name="quantitative_result_normal_range_max_value"><![CDATA[1.3]]></Field>
+<Field name="quantitative_result_normal_range_max_unit"><![CDATA[mg/dL]]></Field>
+<Field name="quantitative_result_normal_range_min_value"><![CDATA[0.6]]></Field>
+<Field name="quantitative_result_normal_range_min_unit"><![CDATA[mg/dL]]></Field>
+<Field name="quantitative_result_value_value"><![CDATA[1.2]]></Field> 
+<Field name="quantitative_result_value_unit"><![CDATA[mg/dL]]></Field>
+
+</Model>
+
+</Models>

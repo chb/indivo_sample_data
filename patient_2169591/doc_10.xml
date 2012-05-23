@@ -1,15 +1,12 @@
 
-<Medication xmlns="http://indivo.org/vocab/xml/documents#">
-  <dateStarted>2003-10-25</dateStarted>
-  <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="197633">Doxycycline 100 MG Oral Tablet</name>
-  <dose>
-    <value>1</value>
-    <unit type="http://unitsofmeasure.org/" value="{tablet}" />
-  </dose>
-  <frequency type="http://unitsofmeasure.org/" value="2 /d">2 /d</frequency>
+<Models xmlns="http://indivo.org/vocab/xml/documents#">
 
-  <prescription>
-    <dispenseAsWritten>true</dispenseAsWritten>
-    <instructions>1 bid</instructions>
-  </prescription>
-</Medication>
+<Model name="Problem">
+  <Field name="startDate"><![CDATA[2003-11-24]]></Field>
+  <Field name="endDate"><![CDATA[2010-09-13]]></Field>
+  <Field name="name_title"><![CDATA[Acne]]></Field>
+  <Field name="name_system">http://purl.bioontology.org/ontology/SNOMEDCT/</Field>
+  <Field name="name_identifier"><![CDATA[88616000]]></Field>
+</Model>
+
+</Models>

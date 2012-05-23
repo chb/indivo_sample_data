@@ -1,27 +1,27 @@
 
 <Demographics xmlns="http://indivo.org/vocab/xml/documents#">
-    <dateOfBirth>1932-02-26</dateOfBirth>
-    <gender>female</gender>
-    <email>carol.young@example.com</email>
+    <dateOfBirth><![CDATA[1932-02-26]]></dateOfBirth>
+    <gender><![CDATA[female]]></gender>
+    <email><![CDATA[carol.young@example.com]]></email>
     <preferredLanguage>EN</preferredLanguage>
     <Name>
-        <familyName>Carol</familyName>
-        <givenName>Young</givenName>
+        <familyName><![CDATA[Carol]]></familyName>
+        <givenName><![CDATA[Young]]></givenName>
     </Name>
     <Telephone>
         <type>h</type>
-        <number>800-534-4473</number>
+        <number><![CDATA[800-534-4473]]></number>
         <preferred>true</preferred>
     </Telephone>
     <Telephone>
         <type>c</type>
-        <number>800-383-7276</number>
+        <number><![CDATA[800-383-7276]]></number>
     </Telephone>
     <Address>
-        <country>USA</country>
-        <city>Tulsa</city>
-        <postalCode>74116</postalCode>
-        <region>OK</region>
-        <street>57 Ridge Ave</street>
+        <country><![CDATA[USA]]></country>
+        <city><![CDATA[Tulsa]]></city>
+        <postalCode><![CDATA[74116]]></postalCode>
+        <region><![CDATA[OK]]></region>
+        <street><![CDATA[57 Ridge Ave]]></street>
     </Address>
 </Demographics>

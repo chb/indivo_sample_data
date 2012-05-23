@@ -1,27 +1,27 @@
 
 <Demographics xmlns="http://indivo.org/vocab/xml/documents#">
-    <dateOfBirth>1927-12-11</dateOfBirth>
-    <gender>female</gender>
-    <email>michelle.wilson@example.com</email>
+    <dateOfBirth><![CDATA[1927-12-11]]></dateOfBirth>
+    <gender><![CDATA[female]]></gender>
+    <email><![CDATA[michelle.wilson@example.com]]></email>
     <preferredLanguage>EN</preferredLanguage>
     <Name>
-        <familyName>Michelle</familyName>
-        <givenName>Wilson</givenName>
+        <familyName><![CDATA[Michelle]]></familyName>
+        <givenName><![CDATA[Wilson]]></givenName>
     </Name>
     <Telephone>
         <type>h</type>
-        <number>800-853-8117</number>
+        <number><![CDATA[800-853-8117]]></number>
         <preferred>true</preferred>
     </Telephone>
     <Telephone>
         <type>c</type>
-        <number></number>
+        <number><![CDATA[]]></number>
     </Telephone>
     <Address>
-        <country>USA</country>
-        <city>Sapulpa</city>
-        <postalCode>74066</postalCode>
-        <region>OK</region>
-        <street>65 Ridge St</street>
+        <country><![CDATA[USA]]></country>
+        <city><![CDATA[Sapulpa]]></city>
+        <postalCode><![CDATA[74066]]></postalCode>
+        <region><![CDATA[OK]]></region>
+        <street><![CDATA[65 Ridge St]]></street>
     </Address>
 </Demographics>

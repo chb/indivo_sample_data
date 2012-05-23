@@ -1,15 +1,20 @@
 
-<Medication xmlns="http://indivo.org/vocab/xml/documents#">
-  <dateStarted>2008-11-16</dateStarted>
-  <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="859088">200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler [Ventolin HFA]</name>
-  <dose>
-    <value>2</value>
-    <unit type="http://unitsofmeasure.org/" value="{puff}" />
-  </dose>
-  <frequency type="http://unitsofmeasure.org/" value="4 /d">4 /d</frequency>
+<Models xmlns="http://indivo.org/vocab/xml/documents#">
 
-  <prescription>
-    <dispenseAsWritten>true</dispenseAsWritten>
-    <instructions>2 puffs qid prn SOB</instructions>
-  </prescription>
-</Medication>
+<Model name="LabResult">
+    <Field name="accession_number"><![CDATA[A455486670]]></Field>
+    <Field name="test_name_title"><![CDATA[MCV RBC]]></Field>
+    <Field name="test_name_system">http://purl.bioontology.org/ontology/LNC/</Field>
+    <Field name="test_name_identifier"><![CDATA[30428-7]]></Field>
+    <Field name="collected_at"><![CDATA[2007-02-14]]></Field>
+    
+<Field name="quantitative_result_normal_range_max_value"><![CDATA[100]]></Field>
+<Field name="quantitative_result_normal_range_max_unit"><![CDATA[fL]]></Field>
+<Field name="quantitative_result_normal_range_min_value"><![CDATA[78]]></Field>
+<Field name="quantitative_result_normal_range_min_unit"><![CDATA[fL]]></Field>
+<Field name="quantitative_result_value_value"><![CDATA[89.9]]></Field> 
+<Field name="quantitative_result_value_unit"><![CDATA[fL]]></Field>
+
+</Model>
+
+</Models>

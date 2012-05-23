@@ -1,22 +1,25 @@
 
-<Lab xmlns="http://indivo.org/vocab/xml/documents#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <dateMeasured>2004-05-17T00:00:00Z</dateMeasured>
-  <labType>general</labType>
+<Models xmlns="http://indivo.org/vocab/xml/documents#">
 
-  <labTest xsi:type="SingleResultLabTest">
-    <dateMeasured>2004-05-17T00:00:00Z</dateMeasured>
-    <name type="http://loinc.org/codes/"  value="3024-7"><![CDATA[T4 Free SerPl-mCnc]]></name>
-    <final>true</final>
-    <result xsi:type="ResultInRange">
-      <valueAndUnit>
-        <value>1.9</value>
-        <unit type="http://unitsofmeasure.org/" value="ng/dL">ng/dL</unit>
-      </valueAndUnit>
-      <normalRange>
-        <minimum>0.9</minimum>
-        <maximum>1.9</maximum>
-        <unit type="http://unitsofmeasure.org/" value="ng/dL">ng/dL</unit>
-      </normalRange>
-    </result>    
-  </labTest>
-</Lab>
+<Model name="Medication">
+  <Field name="drugName_title"><![CDATA[tazarotene 1 MG/ML Topical Cream [Tazorac]]]></Field>
+  <Field name="drugName_system">http://purl.bioontology.org/ontology/RXNORM/</Field>
+  <Field name="drugName_identifier"><![CDATA[284497]]></Field>
+  <Field name="endDate"><![CDATA[2010-04-09]]></Field>
+  <Field name="frequency_value"><![CDATA[1]]></Field>
+  <Field name="frequency_unit"><![CDATA[/d]]></Field>
+  <Field name="instructions"><![CDATA[apply qhs]]></Field>
+  <Field name="provenance_title"><![CDATA[Derived by prescription]]></Field>
+  <Field name="provenance_system">http://smartplatforms.org/terms/codes/MedicationProvenance#</Field>
+  <Field name="provenance_identifier"><![CDATA[prescription]]></Field>
+  <Field name="quantity_value"><![CDATA[30]]></Field>
+  <Field name="quantity_unit"><![CDATA[{tab}]]></Field>
+  <Field name="startDate"><![CDATA[2003-11-24]]></Field>
+  <Field name="fulfillments">
+    <Models>
+      
+    </Models>
+  </Field>
+</Model>
+
+</Models>

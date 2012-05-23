@@ -1,27 +1,27 @@
 
 <Demographics xmlns="http://indivo.org/vocab/xml/documents#">
-    <dateOfBirth>1949-09-22</dateOfBirth>
-    <gender>female</gender>
-    <email>sarah.graham@example.com</email>
+    <dateOfBirth><![CDATA[1949-09-22]]></dateOfBirth>
+    <gender><![CDATA[female]]></gender>
+    <email><![CDATA[sarah.graham@example.com]]></email>
     <preferredLanguage>EN</preferredLanguage>
     <Name>
-        <familyName>Sarah</familyName>
-        <givenName>Graham</givenName>
+        <familyName><![CDATA[Sarah]]></familyName>
+        <givenName><![CDATA[Graham]]></givenName>
     </Name>
     <Telephone>
         <type>h</type>
-        <number>800-534-9017</number>
+        <number><![CDATA[800-534-9017]]></number>
         <preferred>true</preferred>
     </Telephone>
     <Telephone>
         <type>c</type>
-        <number></number>
+        <number><![CDATA[]]></number>
     </Telephone>
     <Address>
-        <country>USA</country>
-        <city>Bixby</city>
-        <postalCode>74008</postalCode>
-        <region>OK</region>
-        <street>92 Pine Ave</street>
+        <country><![CDATA[USA]]></country>
+        <city><![CDATA[Bixby]]></city>
+        <postalCode><![CDATA[74008]]></postalCode>
+        <region><![CDATA[OK]]></region>
+        <street><![CDATA[92 Pine Ave]]></street>
     </Address>
 </Demographics>

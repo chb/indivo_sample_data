@@ -1,15 +1,20 @@
 
-<Medication xmlns="http://indivo.org/vocab/xml/documents#">
-  <dateStarted>2008-10-24</dateStarted>
-  <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="855918">Diclofenac 75 MG / Misoprostol 0.2 MG Enteric Coated Tablet [Arthrotec 75/200]</name>
-  <dose>
-    <value>1</value>
-    <unit type="http://unitsofmeasure.org/" value="{tablet}" />
-  </dose>
-  <frequency type="http://unitsofmeasure.org/" value="2 /d">2 /d</frequency>
+<Models xmlns="http://indivo.org/vocab/xml/documents#">
 
-  <prescription>
-    <dispenseAsWritten>true</dispenseAsWritten>
-    <instructions>1 bid prn pain</instructions>
-  </prescription>
-</Medication>
+<Model name="LabResult">
+    <Field name="accession_number"><![CDATA[A829718669]]></Field>
+    <Field name="test_name_title"><![CDATA[Bilirub SerPl-mCnc]]></Field>
+    <Field name="test_name_system">http://purl.bioontology.org/ontology/LNC/</Field>
+    <Field name="test_name_identifier"><![CDATA[1975-2]]></Field>
+    <Field name="collected_at"><![CDATA[2006-01-01]]></Field>
+    
+<Field name="quantitative_result_normal_range_max_value"><![CDATA[1]]></Field>
+<Field name="quantitative_result_normal_range_max_unit"><![CDATA[mg/dL]]></Field>
+<Field name="quantitative_result_normal_range_min_value"><![CDATA[0.2]]></Field>
+<Field name="quantitative_result_normal_range_min_unit"><![CDATA[mg/dL]]></Field>
+<Field name="quantitative_result_value_value"><![CDATA[0.5]]></Field> 
+<Field name="quantitative_result_value_unit"><![CDATA[mg/dL]]></Field>
+
+</Model>
+
+</Models>

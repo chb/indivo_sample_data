@@ -1,15 +1,20 @@
 
-<Medication xmlns="http://indivo.org/vocab/xml/documents#">
-  <dateStarted>2009-01-01</dateStarted>
-  <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="312289">Naloxone 0.5 MG / Pentazocine 50 MG Oral Tablet</name>
-  <dose>
-    <value>1</value>
-    <unit type="http://unitsofmeasure.org/" value="{tablet}" />
-  </dose>
-  <frequency type="http://unitsofmeasure.org/" value="6 /d">6 /d</frequency>
+<Models xmlns="http://indivo.org/vocab/xml/documents#">
 
-  <prescription>
-    <dispenseAsWritten>true</dispenseAsWritten>
-    <instructions>1 q4h prn pain</instructions>
-  </prescription>
-</Medication>
+<Model name="LabResult">
+    <Field name="accession_number"><![CDATA[A691774392]]></Field>
+    <Field name="test_name_title"><![CDATA[CO2 SerPl-sCnc]]></Field>
+    <Field name="test_name_system">http://purl.bioontology.org/ontology/LNC/</Field>
+    <Field name="test_name_identifier"><![CDATA[2028-9]]></Field>
+    <Field name="collected_at"><![CDATA[2007-07-24]]></Field>
+    
+<Field name="quantitative_result_normal_range_max_value"><![CDATA[29]]></Field>
+<Field name="quantitative_result_normal_range_max_unit"><![CDATA[mmol/L]]></Field>
+<Field name="quantitative_result_normal_range_min_value"><![CDATA[22]]></Field>
+<Field name="quantitative_result_normal_range_min_unit"><![CDATA[mmol/L]]></Field>
+<Field name="quantitative_result_value_value"><![CDATA[24.4]]></Field> 
+<Field name="quantitative_result_value_unit"><![CDATA[mmol/L]]></Field>
+
+</Model>
+
+</Models>

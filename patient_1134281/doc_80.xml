@@ -1,0 +1,25 @@
+
+<Models xmlns="http://indivo.org/vocab/xml/documents#">
+
+<Model name="Medication">
+  <Field name="drugName_title"><![CDATA[carbinoxamine 1 MG/ML / Dextromethorphan 4 MG/ML / Pseudoephedrine 15 MG/ML Oral Solution [Carbofed DM Drops]]]></Field>
+  <Field name="drugName_system">http://purl.bioontology.org/ontology/RXNORM/</Field>
+  <Field name="drugName_identifier"><![CDATA[352027]]></Field>
+  <Field name="endDate"><![CDATA[2010-04-09]]></Field>
+  <Field name="frequency_value"><![CDATA[2]]></Field>
+  <Field name="frequency_unit"><![CDATA[/d]]></Field>
+  <Field name="instructions"><![CDATA[]]></Field>
+  <Field name="provenance_title"><![CDATA[Derived by prescription]]></Field>
+  <Field name="provenance_system">http://smartplatforms.org/terms/codes/MedicationProvenance#</Field>
+  <Field name="provenance_identifier"><![CDATA[prescription]]></Field>
+  <Field name="quantity_value"><![CDATA[30]]></Field>
+  <Field name="quantity_unit"><![CDATA[{tab}]]></Field>
+  <Field name="startDate"><![CDATA[2005-11-28]]></Field>
+  <Field name="fulfillments">
+    <Models>
+      
+    </Models>
+  </Field>
+</Model>
+
+</Models>

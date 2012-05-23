@@ -1,27 +1,27 @@
 
 <Demographics xmlns="http://indivo.org/vocab/xml/documents#">
-    <dateOfBirth>2007-07-15</dateOfBirth>
-    <gender>male</gender>
-    <email>kevin.lee@example.com</email>
+    <dateOfBirth><![CDATA[2007-07-15]]></dateOfBirth>
+    <gender><![CDATA[male]]></gender>
+    <email><![CDATA[kevin.lee@example.com]]></email>
     <preferredLanguage>EN</preferredLanguage>
     <Name>
-        <familyName>Kevin</familyName>
-        <givenName>Lee</givenName>
+        <familyName><![CDATA[Kevin]]></familyName>
+        <givenName><![CDATA[Lee]]></givenName>
     </Name>
     <Telephone>
         <type>h</type>
-        <number></number>
+        <number><![CDATA[]]></number>
         <preferred>true</preferred>
     </Telephone>
     <Telephone>
         <type>c</type>
-        <number></number>
+        <number><![CDATA[]]></number>
     </Telephone>
     <Address>
-        <country>USA</country>
-        <city>Sand Springs</city>
-        <postalCode>74063</postalCode>
-        <region>OK</region>
-        <street>80 Mill St</street>
+        <country><![CDATA[USA]]></country>
+        <city><![CDATA[Sand Springs]]></city>
+        <postalCode><![CDATA[74063]]></postalCode>
+        <region><![CDATA[OK]]></region>
+        <street><![CDATA[80 Mill St]]></street>
     </Address>
 </Demographics>

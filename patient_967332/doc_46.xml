@@ -1,22 +1,20 @@
 
-<Lab xmlns="http://indivo.org/vocab/xml/documents#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <dateMeasured>2007-12-15T00:00:00Z</dateMeasured>
-  <labType>general</labType>
+<Models xmlns="http://indivo.org/vocab/xml/documents#">
 
-  <labTest xsi:type="SingleResultLabTest">
-    <dateMeasured>2007-12-15T00:00:00Z</dateMeasured>
-    <name type="http://loinc.org/codes/"  value="1742-6"><![CDATA[ALT SerPl-cCnc]]></name>
-    <final>true</final>
-    <result xsi:type="ResultInRange">
-      <valueAndUnit>
-        <value>37</value>
-        <unit type="http://unitsofmeasure.org/" value="U/L">U/L</unit>
-      </valueAndUnit>
-      <normalRange>
-        <minimum>0</minimum>
-        <maximum>50</maximum>
-        <unit type="http://unitsofmeasure.org/" value="U/L">U/L</unit>
-      </normalRange>
-    </result>    
-  </labTest>
-</Lab>
+<Model name="LabResult">
+    <Field name="accession_number"><![CDATA[A128963470]]></Field>
+    <Field name="test_name_title"><![CDATA[WBC # Bld]]></Field>
+    <Field name="test_name_system">http://purl.bioontology.org/ontology/LNC/</Field>
+    <Field name="test_name_identifier"><![CDATA[26464-8]]></Field>
+    <Field name="collected_at"><![CDATA[2008-01-05]]></Field>
+    
+<Field name="quantitative_result_normal_range_max_value"><![CDATA[11]]></Field>
+<Field name="quantitative_result_normal_range_max_unit"><![CDATA[10*3/uL]]></Field>
+<Field name="quantitative_result_normal_range_min_value"><![CDATA[4.3]]></Field>
+<Field name="quantitative_result_normal_range_min_unit"><![CDATA[10*3/uL]]></Field>
+<Field name="quantitative_result_value_value"><![CDATA[6.51]]></Field> 
+<Field name="quantitative_result_value_unit"><![CDATA[10*3/uL]]></Field>
+
+</Model>
+
+</Models>

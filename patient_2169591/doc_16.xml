@@ -1,15 +1,12 @@
 
-<Medication xmlns="http://indivo.org/vocab/xml/documents#">
-  <dateStarted>2004-07-07</dateStarted>
-  <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="750244">Low-Ogestrel 28 Day Pack</name>
-  <dose>
-    <value>1</value>
-    <unit type="http://unitsofmeasure.org/" value="{tablet}" />
-  </dose>
-  <frequency type="http://unitsofmeasure.org/" value="1 /d">1 /d</frequency>
+<Models xmlns="http://indivo.org/vocab/xml/documents#">
 
-  <prescription>
-    <dispenseAsWritten>true</dispenseAsWritten>
-    <instructions>1 daily</instructions>
-  </prescription>
-</Medication>
+<Model name="Problem">
+  <Field name="startDate"><![CDATA[2004-12-04]]></Field>
+  <Field name="endDate"><![CDATA[2010-09-13]]></Field>
+  <Field name="name_title"><![CDATA[Herpes simplex without complication]]></Field>
+  <Field name="name_system">http://purl.bioontology.org/ontology/SNOMEDCT/</Field>
+  <Field name="name_identifier"><![CDATA[1475003]]></Field>
+</Model>
+
+</Models>

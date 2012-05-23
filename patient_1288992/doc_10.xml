@@ -1,15 +1,20 @@
 
-<Medication xmlns="http://indivo.org/vocab/xml/documents#">
-  <dateStarted>2008-08-13</dateStarted>
-  <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="314077">Lisinopril 20 MG Oral Tablet</name>
-  <dose>
-    <value>1</value>
-    <unit type="http://unitsofmeasure.org/" value="{tablet}" />
-  </dose>
-  <frequency type="http://unitsofmeasure.org/" value="1 /d">1 /d</frequency>
+<Models xmlns="http://indivo.org/vocab/xml/documents#">
 
-  <prescription>
-    <dispenseAsWritten>true</dispenseAsWritten>
-    <instructions>1 daily</instructions>
-  </prescription>
-</Medication>
+<Model name="LabResult">
+    <Field name="accession_number"><![CDATA[A397423701]]></Field>
+    <Field name="test_name_title"><![CDATA[Hyaline Casts #/area UrnS LPF]]></Field>
+    <Field name="test_name_system">http://purl.bioontology.org/ontology/LNC/</Field>
+    <Field name="test_name_identifier"><![CDATA[5796-8]]></Field>
+    <Field name="collected_at"><![CDATA[2008-07-10]]></Field>
+    
+<Field name="quantitative_result_normal_range_max_value"><![CDATA[2]]></Field>
+<Field name="quantitative_result_normal_range_max_unit"><![CDATA[/[LPF]]]></Field>
+<Field name="quantitative_result_normal_range_min_value"><![CDATA[0]]></Field>
+<Field name="quantitative_result_normal_range_min_unit"><![CDATA[/[LPF]]]></Field>
+<Field name="quantitative_result_value_value"><![CDATA[9]]></Field> 
+<Field name="quantitative_result_value_unit"><![CDATA[/[LPF]]]></Field>
+
+</Model>
+
+</Models>

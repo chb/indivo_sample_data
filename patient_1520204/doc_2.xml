@@ -1,5 +1,20 @@
 
-<Problem xmlns="http://indivo.org/vocab/xml/documents#">
-  <dateOnset>2007-07-08T00:00:00Z</dateOnset>
-  <name type="http://www.ihtsdo.org/snomed-ct/concepts/" value="38341003">Essential hypertension</name>
-</Problem>
+<Models xmlns="http://indivo.org/vocab/xml/documents#">
+
+<Model name="LabResult">
+    <Field name="accession_number"><![CDATA[A406513421]]></Field>
+    <Field name="test_name_title"><![CDATA[Bilirub Direct SerPl-mCnc]]></Field>
+    <Field name="test_name_system">http://purl.bioontology.org/ontology/LNC/</Field>
+    <Field name="test_name_identifier"><![CDATA[1968-7]]></Field>
+    <Field name="collected_at"><![CDATA[2008-01-24]]></Field>
+    
+<Field name="quantitative_result_normal_range_max_value"><![CDATA[0.3]]></Field>
+<Field name="quantitative_result_normal_range_max_unit"><![CDATA[mg/dL]]></Field>
+<Field name="quantitative_result_normal_range_min_value"><![CDATA[0]]></Field>
+<Field name="quantitative_result_normal_range_min_unit"><![CDATA[mg/dL]]></Field>
+<Field name="quantitative_result_value_value"><![CDATA[0]]></Field> 
+<Field name="quantitative_result_value_unit"><![CDATA[mg/dL]]></Field>
+
+</Model>
+
+</Models>

@@ -1,22 +1,12 @@
 
-<Lab xmlns="http://indivo.org/vocab/xml/documents#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <dateMeasured>2009-09-04T00:00:00Z</dateMeasured>
-  <labType>general</labType>
+<Models xmlns="http://indivo.org/vocab/xml/documents#">
 
-  <labTest xsi:type="SingleResultLabTest">
-    <dateMeasured>2009-09-04T00:00:00Z</dateMeasured>
-    <name type="http://loinc.org/codes/"  value="2075-0"><![CDATA[Chloride SerPl-sCnc]]></name>
-    <final>true</final>
-    <result xsi:type="ResultInRange">
-      <valueAndUnit>
-        <value>101</value>
-        <unit type="http://unitsofmeasure.org/" value="mmol/L">mmol/L</unit>
-      </valueAndUnit>
-      <normalRange>
-        <minimum>98</minimum>
-        <maximum>107</maximum>
-        <unit type="http://unitsofmeasure.org/" value="mmol/L">mmol/L</unit>
-      </normalRange>
-    </result>    
-  </labTest>
-</Lab>
+<Model name="Problem">
+  <Field name="startDate"><![CDATA[2009-03-16]]></Field>
+  <Field name="endDate"><![CDATA[2010-09-13]]></Field>
+  <Field name="name_title"><![CDATA[Other dyspnea and respiratory abnormality]]></Field>
+  <Field name="name_system">http://purl.bioontology.org/ontology/SNOMEDCT/</Field>
+  <Field name="name_identifier"><![CDATA[267036007]]></Field>
+</Model>
+
+</Models>

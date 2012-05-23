@@ -1,15 +1,20 @@
 
-<Medication xmlns="http://indivo.org/vocab/xml/documents#">
-  <dateStarted>2009-05-31</dateStarted>
-  <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="259966">Methylprednisolone 4 MG Oral Tablet</name>
-  <dose>
-    <value>1</value>
-    <unit type="http://unitsofmeasure.org/" value="{tablet}" />
-  </dose>
-  <frequency type="http://unitsofmeasure.org/" value=" "> </frequency>
+<Models xmlns="http://indivo.org/vocab/xml/documents#">
 
-  <prescription>
-    <dispenseAsWritten>true</dispenseAsWritten>
-    <instructions>taper as directed</instructions>
-  </prescription>
-</Medication>
+<Model name="LabResult">
+    <Field name="accession_number"><![CDATA[A493013930]]></Field>
+    <Field name="test_name_title"><![CDATA[MCH RBC Qn Auto]]></Field>
+    <Field name="test_name_system">http://purl.bioontology.org/ontology/LNC/</Field>
+    <Field name="test_name_identifier"><![CDATA[785-6]]></Field>
+    <Field name="collected_at"><![CDATA[2005-01-22]]></Field>
+    
+<Field name="quantitative_result_normal_range_max_value"><![CDATA[33]]></Field>
+<Field name="quantitative_result_normal_range_max_unit"><![CDATA[pg]]></Field>
+<Field name="quantitative_result_normal_range_min_value"><![CDATA[26]]></Field>
+<Field name="quantitative_result_normal_range_min_unit"><![CDATA[pg]]></Field>
+<Field name="quantitative_result_value_value"><![CDATA[33.9]]></Field> 
+<Field name="quantitative_result_value_unit"><![CDATA[pg]]></Field>
+
+</Model>
+
+</Models>

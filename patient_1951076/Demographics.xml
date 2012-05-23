@@ -1,27 +1,27 @@
 
 <Demographics xmlns="http://indivo.org/vocab/xml/documents#">
-    <dateOfBirth>1981-08-10</dateOfBirth>
-    <gender>male</gender>
-    <email>charles.williams@example.com</email>
+    <dateOfBirth><![CDATA[1981-08-10]]></dateOfBirth>
+    <gender><![CDATA[male]]></gender>
+    <email><![CDATA[charles.williams@example.com]]></email>
     <preferredLanguage>EN</preferredLanguage>
     <Name>
-        <familyName>Charles</familyName>
-        <givenName>Williams</givenName>
+        <familyName><![CDATA[Charles]]></familyName>
+        <givenName><![CDATA[Williams]]></givenName>
     </Name>
     <Telephone>
         <type>h</type>
-        <number>800-655-8699</number>
+        <number><![CDATA[800-655-8699]]></number>
         <preferred>true</preferred>
     </Telephone>
     <Telephone>
         <type>c</type>
-        <number></number>
+        <number><![CDATA[]]></number>
     </Telephone>
     <Address>
-        <country>USA</country>
-        <city>Sapulpa</city>
-        <postalCode>74066</postalCode>
-        <region>OK</region>
-        <street>70 Highland Ave</street>
+        <country><![CDATA[USA]]></country>
+        <city><![CDATA[Sapulpa]]></city>
+        <postalCode><![CDATA[74066]]></postalCode>
+        <region><![CDATA[OK]]></region>
+        <street><![CDATA[70 Highland Ave]]></street>
     </Address>
 </Demographics>

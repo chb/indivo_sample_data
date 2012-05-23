@@ -1,27 +1,27 @@
 
 <Demographics xmlns="http://indivo.org/vocab/xml/documents#">
-    <dateOfBirth>2006-11-22</dateOfBirth>
-    <gender>female</gender>
-    <email>susan.williams@example.com</email>
+    <dateOfBirth><![CDATA[2006-11-22]]></dateOfBirth>
+    <gender><![CDATA[female]]></gender>
+    <email><![CDATA[susan.williams@example.com]]></email>
     <preferredLanguage>EN</preferredLanguage>
     <Name>
-        <familyName>Susan</familyName>
-        <givenName>Williams</givenName>
+        <familyName><![CDATA[Susan]]></familyName>
+        <givenName><![CDATA[Williams]]></givenName>
     </Name>
     <Telephone>
         <type>h</type>
-        <number>800-651-2242</number>
+        <number><![CDATA[800-651-2242]]></number>
         <preferred>true</preferred>
     </Telephone>
     <Telephone>
         <type>c</type>
-        <number>800-471-8810</number>
+        <number><![CDATA[800-471-8810]]></number>
     </Telephone>
     <Address>
-        <country>USA</country>
-        <city>Tulsa</city>
-        <postalCode>74126</postalCode>
-        <region>OK</region>
-        <street>27 South Ave</street>
+        <country><![CDATA[USA]]></country>
+        <city><![CDATA[Tulsa]]></city>
+        <postalCode><![CDATA[74126]]></postalCode>
+        <region><![CDATA[OK]]></region>
+        <street><![CDATA[27 South Ave]]></street>
     </Address>
 </Demographics>

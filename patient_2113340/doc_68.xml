@@ -1,22 +1,20 @@
 
-<Lab xmlns="http://indivo.org/vocab/xml/documents#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <dateMeasured>2009-03-08T00:00:00Z</dateMeasured>
-  <labType>general</labType>
+<Models xmlns="http://indivo.org/vocab/xml/documents#">
 
-  <labTest xsi:type="SingleResultLabTest">
-    <dateMeasured>2009-03-08T00:00:00Z</dateMeasured>
-    <name type="http://loinc.org/codes/"  value="2885-2"><![CDATA[Prot SerPl-mCnc]]></name>
-    <final>true</final>
-    <result xsi:type="ResultInRange">
-      <valueAndUnit>
-        <value>7.6</value>
-        <unit type="http://unitsofmeasure.org/" value="g/dL">g/dL</unit>
-      </valueAndUnit>
-      <normalRange>
-        <minimum>6.7</minimum>
-        <maximum>8.6</maximum>
-        <unit type="http://unitsofmeasure.org/" value="g/dL">g/dL</unit>
-      </normalRange>
-    </result>    
-  </labTest>
-</Lab>
+<Model name="LabResult">
+    <Field name="accession_number"><![CDATA[A515971418]]></Field>
+    <Field name="test_name_title"><![CDATA[MCH RBC Qn Auto]]></Field>
+    <Field name="test_name_system">http://purl.bioontology.org/ontology/LNC/</Field>
+    <Field name="test_name_identifier"><![CDATA[785-6]]></Field>
+    <Field name="collected_at"><![CDATA[2009-03-09]]></Field>
+    
+<Field name="quantitative_result_normal_range_max_value"><![CDATA[32]]></Field>
+<Field name="quantitative_result_normal_range_max_unit"><![CDATA[pg]]></Field>
+<Field name="quantitative_result_normal_range_min_value"><![CDATA[26]]></Field>
+<Field name="quantitative_result_normal_range_min_unit"><![CDATA[pg]]></Field>
+<Field name="quantitative_result_value_value"><![CDATA[25.1]]></Field> 
+<Field name="quantitative_result_value_unit"><![CDATA[pg]]></Field>
+
+</Model>
+
+</Models>

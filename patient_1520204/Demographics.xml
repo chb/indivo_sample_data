@@ -1,27 +1,27 @@
 
 <Demographics xmlns="http://indivo.org/vocab/xml/documents#">
-    <dateOfBirth>1939-09-14</dateOfBirth>
-    <gender>female</gender>
-    <email>helen.james@example.com</email>
+    <dateOfBirth><![CDATA[1939-09-14]]></dateOfBirth>
+    <gender><![CDATA[female]]></gender>
+    <email><![CDATA[helen.james@example.com]]></email>
     <preferredLanguage>EN</preferredLanguage>
     <Name>
-        <familyName>Helen</familyName>
-        <givenName>James</givenName>
+        <familyName><![CDATA[Helen]]></familyName>
+        <givenName><![CDATA[James]]></givenName>
     </Name>
     <Telephone>
         <type>h</type>
-        <number></number>
+        <number><![CDATA[]]></number>
         <preferred>true</preferred>
     </Telephone>
     <Telephone>
         <type>c</type>
-        <number>800-289-9370</number>
+        <number><![CDATA[800-289-9370]]></number>
     </Telephone>
     <Address>
-        <country>USA</country>
-        <city>Sand Springs</city>
-        <postalCode>74063</postalCode>
-        <region>OK</region>
-        <street>90 Elm Rd</street>
+        <country><![CDATA[USA]]></country>
+        <city><![CDATA[Sand Springs]]></city>
+        <postalCode><![CDATA[74063]]></postalCode>
+        <region><![CDATA[OK]]></region>
+        <street><![CDATA[90 Elm Rd]]></street>
     </Address>
 </Demographics>

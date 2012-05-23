@@ -1,15 +1,12 @@
 
-<Medication xmlns="http://indivo.org/vocab/xml/documents#">
-  <dateStarted>2004-07-18</dateStarted>
-  <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="314106">Metronidazole 250 MG Oral Tablet</name>
-  <dose>
-    <value>1</value>
-    <unit type="http://unitsofmeasure.org/" value="{tablet}" />
-  </dose>
-  <frequency type="http://unitsofmeasure.org/" value="3 /d">3 /d</frequency>
+<Models xmlns="http://indivo.org/vocab/xml/documents#">
 
-  <prescription>
-    <dispenseAsWritten>true</dispenseAsWritten>
-    <instructions>1 tid x7 days</instructions>
-  </prescription>
-</Medication>
+<Model name="Problem">
+  <Field name="startDate"><![CDATA[2008-08-18]]></Field>
+  <Field name="endDate"><![CDATA[2010-09-13]]></Field>
+  <Field name="name_title"><![CDATA[Hyperlipidemia]]></Field>
+  <Field name="name_system">http://purl.bioontology.org/ontology/SNOMEDCT/</Field>
+  <Field name="name_identifier"><![CDATA[55822004]]></Field>
+</Model>
+
+</Models>

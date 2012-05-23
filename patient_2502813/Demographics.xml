@@ -1,27 +1,27 @@
 
 <Demographics xmlns="http://indivo.org/vocab/xml/documents#">
-    <dateOfBirth>1934-02-07</dateOfBirth>
-    <gender>female</gender>
-    <email>dorothy.owens@example.com</email>
+    <dateOfBirth><![CDATA[1934-02-07]]></dateOfBirth>
+    <gender><![CDATA[female]]></gender>
+    <email><![CDATA[dorothy.owens@example.com]]></email>
     <preferredLanguage>EN</preferredLanguage>
     <Name>
-        <familyName>Dorothy</familyName>
-        <givenName>Owens</givenName>
+        <familyName><![CDATA[Dorothy]]></familyName>
+        <givenName><![CDATA[Owens]]></givenName>
     </Name>
     <Telephone>
         <type>h</type>
-        <number>800-832-2470</number>
+        <number><![CDATA[800-832-2470]]></number>
         <preferred>true</preferred>
     </Telephone>
     <Telephone>
         <type>c</type>
-        <number></number>
+        <number><![CDATA[]]></number>
     </Telephone>
     <Address>
-        <country>USA</country>
-        <city>Broken Arrow</city>
-        <postalCode>74014</postalCode>
-        <region>OK</region>
-        <street>17 River Rd</street>
+        <country><![CDATA[USA]]></country>
+        <city><![CDATA[Broken Arrow]]></city>
+        <postalCode><![CDATA[74014]]></postalCode>
+        <region><![CDATA[OK]]></region>
+        <street><![CDATA[17 River Rd]]></street>
     </Address>
 </Demographics>

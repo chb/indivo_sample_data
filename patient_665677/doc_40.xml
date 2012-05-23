@@ -1,22 +1,20 @@
 
-<Lab xmlns="http://indivo.org/vocab/xml/documents#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <dateMeasured>2004-08-19T00:00:00Z</dateMeasured>
-  <labType>general</labType>
+<Models xmlns="http://indivo.org/vocab/xml/documents#">
 
-  <labTest xsi:type="SingleResultLabTest">
-    <dateMeasured>2004-08-19T00:00:00Z</dateMeasured>
-    <name type="http://loinc.org/codes/"  value="30180-4"><![CDATA[Basophils NFr Bld]]></name>
-    <final>true</final>
-    <result xsi:type="ResultInRange">
-      <valueAndUnit>
-        <value>0</value>
-        <unit type="http://unitsofmeasure.org/" value="%">%</unit>
-      </valueAndUnit>
-      <normalRange>
-        <minimum>0</minimum>
-        <maximum>2</maximum>
-        <unit type="http://unitsofmeasure.org/" value="%">%</unit>
-      </normalRange>
-    </result>    
-  </labTest>
-</Lab>
+<Model name="LabResult">
+    <Field name="accession_number"><![CDATA[A428607191]]></Field>
+    <Field name="test_name_title"><![CDATA[Anion Gap3 SerPl-sCnc]]></Field>
+    <Field name="test_name_system">http://purl.bioontology.org/ontology/LNC/</Field>
+    <Field name="test_name_identifier"><![CDATA[10466-1]]></Field>
+    <Field name="collected_at"><![CDATA[2006-03-02]]></Field>
+    
+<Field name="quantitative_result_normal_range_max_value"><![CDATA[0]]></Field>
+<Field name="quantitative_result_normal_range_max_unit"><![CDATA[mmol/L]]></Field>
+<Field name="quantitative_result_normal_range_min_value"><![CDATA[0]]></Field>
+<Field name="quantitative_result_normal_range_min_unit"><![CDATA[mmol/L]]></Field>
+<Field name="quantitative_result_value_value"><![CDATA[11]]></Field> 
+<Field name="quantitative_result_value_unit"><![CDATA[mmol/L]]></Field>
+
+</Model>
+
+</Models>

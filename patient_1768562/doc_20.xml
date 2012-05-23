@@ -1,15 +1,20 @@
 
-<Medication xmlns="http://indivo.org/vocab/xml/documents#">
-  <dateStarted>2008-08-28</dateStarted>
-  <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="261962">Ramipril 10 MG Oral Capsule</name>
-  <dose>
-    <value>1</value>
-    <unit type="http://unitsofmeasure.org/" value="{tablet}" />
-  </dose>
-  <frequency type="http://unitsofmeasure.org/" value="1 /d">1 /d</frequency>
+<Models xmlns="http://indivo.org/vocab/xml/documents#">
 
-  <prescription>
-    <dispenseAsWritten>true</dispenseAsWritten>
-    <instructions>1 daily</instructions>
-  </prescription>
-</Medication>
+<Model name="LabResult">
+    <Field name="accession_number"><![CDATA[A861352657]]></Field>
+    <Field name="test_name_title"><![CDATA[Hgb Bld-mCnc]]></Field>
+    <Field name="test_name_system">http://purl.bioontology.org/ontology/LNC/</Field>
+    <Field name="test_name_identifier"><![CDATA[718-7]]></Field>
+    <Field name="collected_at"><![CDATA[2003-12-01]]></Field>
+    
+<Field name="quantitative_result_normal_range_max_value"><![CDATA[18]]></Field>
+<Field name="quantitative_result_normal_range_max_unit"><![CDATA[g/dL]]></Field>
+<Field name="quantitative_result_normal_range_min_value"><![CDATA[13.5]]></Field>
+<Field name="quantitative_result_normal_range_min_unit"><![CDATA[g/dL]]></Field>
+<Field name="quantitative_result_value_value"><![CDATA[13]]></Field> 
+<Field name="quantitative_result_value_unit"><![CDATA[g/dL]]></Field>
+
+</Model>
+
+</Models>

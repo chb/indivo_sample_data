@@ -1,22 +1,20 @@
 
-<Lab xmlns="http://indivo.org/vocab/xml/documents#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <dateMeasured>2006-07-17T00:00:00Z</dateMeasured>
-  <labType>general</labType>
+<Models xmlns="http://indivo.org/vocab/xml/documents#">
 
-  <labTest xsi:type="SingleResultLabTest">
-    <dateMeasured>2006-07-17T00:00:00Z</dateMeasured>
-    <name type="http://loinc.org/codes/"  value="11557-6"><![CDATA[pCO2 Bld]]></name>
-    <final>true</final>
-    <result xsi:type="ResultInRange">
-      <valueAndUnit>
-        <value>34</value>
-        <unit type="http://unitsofmeasure.org/" value="mm[Hg]">mm[Hg]</unit>
-      </valueAndUnit>
-      <normalRange>
-        <minimum>35</minimum>
-        <maximum>45</maximum>
-        <unit type="http://unitsofmeasure.org/" value="mm[Hg]">mm[Hg]</unit>
-      </normalRange>
-    </result>    
-  </labTest>
-</Lab>
+<Model name="LabResult">
+    <Field name="accession_number"><![CDATA[A190819538]]></Field>
+    <Field name="test_name_title"><![CDATA[Troponin I SerPl-mCnc]]></Field>
+    <Field name="test_name_system">http://purl.bioontology.org/ontology/LNC/</Field>
+    <Field name="test_name_identifier"><![CDATA[10839-9]]></Field>
+    <Field name="collected_at"><![CDATA[2006-07-17]]></Field>
+    
+<Field name="quantitative_result_normal_range_max_value"><![CDATA[0]]></Field>
+<Field name="quantitative_result_normal_range_max_unit"><![CDATA[ng/mL]]></Field>
+<Field name="quantitative_result_normal_range_min_value"><![CDATA[0]]></Field>
+<Field name="quantitative_result_normal_range_min_unit"><![CDATA[ng/mL]]></Field>
+<Field name="quantitative_result_value_value"><![CDATA[0.02]]></Field> 
+<Field name="quantitative_result_value_unit"><![CDATA[ng/mL]]></Field>
+
+</Model>
+
+</Models>

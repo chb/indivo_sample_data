@@ -1,22 +1,15 @@
 
-<Lab xmlns="http://indivo.org/vocab/xml/documents#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <dateMeasured>2008-09-12T00:00:00Z</dateMeasured>
-  <labType>general</labType>
+<Models xmlns="http://indivo.org/vocab/xml/documents#">
 
-  <labTest xsi:type="SingleResultLabTest">
-    <dateMeasured>2008-09-12T00:00:00Z</dateMeasured>
-    <name type="http://loinc.org/codes/"  value="785-6"><![CDATA[MCH RBC Qn Auto]]></name>
-    <final>true</final>
-    <result xsi:type="ResultInRange">
-      <valueAndUnit>
-        <value>33.2</value>
-        <unit type="http://unitsofmeasure.org/" value="pg">pg</unit>
-      </valueAndUnit>
-      <normalRange>
-        <minimum>26</minimum>
-        <maximum>32</maximum>
-        <unit type="http://unitsofmeasure.org/" value="pg">pg</unit>
-      </normalRange>
-    </result>    
-  </labTest>
-</Lab>
+<Model name="LabResult">
+    <Field name="accession_number"><![CDATA[A432386291]]></Field>
+    <Field name="test_name_title"><![CDATA[Polychromasia Bld Ql Smear]]></Field>
+    <Field name="test_name_system">http://purl.bioontology.org/ontology/LNC/</Field>
+    <Field name="test_name_identifier"><![CDATA[10378-8]]></Field>
+    <Field name="collected_at"><![CDATA[2008-10-03]]></Field>
+    
+<Field name="narrative_result"><![CDATA[Slight]]></Field>
+
+</Model>
+
+</Models>

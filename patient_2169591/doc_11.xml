@@ -1,15 +1,12 @@
 
-<Medication xmlns="http://indivo.org/vocab/xml/documents#">
-  <dateStarted>2003-10-25</dateStarted>
-  <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="208149">Sertraline 100 MG Oral Tablet [Zoloft]</name>
-  <dose>
-    <value>1</value>
-    <unit type="http://unitsofmeasure.org/" value="{tablet}" />
-  </dose>
-  <frequency type="http://unitsofmeasure.org/" value="1 /d">1 /d</frequency>
+<Models xmlns="http://indivo.org/vocab/xml/documents#">
 
-  <prescription>
-    <dispenseAsWritten>true</dispenseAsWritten>
-    <instructions>1 daily</instructions>
-  </prescription>
-</Medication>
+<Model name="Problem">
+  <Field name="startDate"><![CDATA[2004-05-17]]></Field>
+  <Field name="endDate"><![CDATA[2010-09-13]]></Field>
+  <Field name="name_title"><![CDATA[Hypothyroidism]]></Field>
+  <Field name="name_system">http://purl.bioontology.org/ontology/SNOMEDCT/</Field>
+  <Field name="name_identifier"><![CDATA[40930008]]></Field>
+</Model>
+
+</Models>

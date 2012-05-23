@@ -1,22 +1,12 @@
 
-<Lab xmlns="http://indivo.org/vocab/xml/documents#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <dateMeasured>2006-01-01T00:00:00Z</dateMeasured>
-  <labType>general</labType>
+<Models xmlns="http://indivo.org/vocab/xml/documents#">
 
-  <labTest xsi:type="SingleResultLabTest">
-    <dateMeasured>2006-01-01T00:00:00Z</dateMeasured>
-    <name type="http://loinc.org/codes/"  value="26485-3"><![CDATA[Monocytes NFr Bld]]></name>
-    <final>true</final>
-    <result xsi:type="ResultInRange">
-      <valueAndUnit>
-        <value>7</value>
-        <unit type="http://unitsofmeasure.org/" value="%">%</unit>
-      </valueAndUnit>
-      <normalRange>
-        <minimum>2</minimum>
-        <maximum>13</maximum>
-        <unit type="http://unitsofmeasure.org/" value="%">%</unit>
-      </normalRange>
-    </result>    
-  </labTest>
-</Lab>
+<Model name="Problem">
+  <Field name="startDate"><![CDATA[2004-12-19]]></Field>
+  <Field name="endDate"><![CDATA[2010-09-13]]></Field>
+  <Field name="name_title"><![CDATA[Pernicious anemia]]></Field>
+  <Field name="name_system">http://purl.bioontology.org/ontology/SNOMEDCT/</Field>
+  <Field name="name_identifier"><![CDATA[84027009]]></Field>
+</Model>
+
+</Models>

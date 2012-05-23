@@ -1,27 +1,27 @@
 
 <Demographics xmlns="http://indivo.org/vocab/xml/documents#">
-    <dateOfBirth>1948-07-15</dateOfBirth>
-    <gender>male</gender>
-    <email>steven.coleman@example.com</email>
+    <dateOfBirth><![CDATA[1948-07-15]]></dateOfBirth>
+    <gender><![CDATA[male]]></gender>
+    <email><![CDATA[steven.coleman@example.com]]></email>
     <preferredLanguage>EN</preferredLanguage>
     <Name>
-        <familyName>Steven</familyName>
-        <givenName>Coleman</givenName>
+        <familyName><![CDATA[Steven]]></familyName>
+        <givenName><![CDATA[Coleman]]></givenName>
     </Name>
     <Telephone>
         <type>h</type>
-        <number></number>
+        <number><![CDATA[]]></number>
         <preferred>true</preferred>
     </Telephone>
     <Telephone>
         <type>c</type>
-        <number>800-652-1498</number>
+        <number><![CDATA[800-652-1498]]></number>
     </Telephone>
     <Address>
-        <country>USA</country>
-        <city>Mounds</city>
-        <postalCode>74047</postalCode>
-        <region>OK</region>
-        <street>34 Center St</street>
+        <country><![CDATA[USA]]></country>
+        <city><![CDATA[Mounds]]></city>
+        <postalCode><![CDATA[74047]]></postalCode>
+        <region><![CDATA[OK]]></region>
+        <street><![CDATA[34 Center St]]></street>
     </Address>
 </Demographics>

@@ -1,22 +1,12 @@
 
-<Lab xmlns="http://indivo.org/vocab/xml/documents#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <dateMeasured>2009-04-15T00:00:00Z</dateMeasured>
-  <labType>general</labType>
+<Models xmlns="http://indivo.org/vocab/xml/documents#">
 
-  <labTest xsi:type="SingleResultLabTest">
-    <dateMeasured>2009-04-15T00:00:00Z</dateMeasured>
-    <name type="http://loinc.org/codes/"  value="2028-9"><![CDATA[CO2 SerPl-sCnc]]></name>
-    <final>true</final>
-    <result xsi:type="ResultInRange">
-      <valueAndUnit>
-        <value>33</value>
-        <unit type="http://unitsofmeasure.org/" value="mmol/L">mmol/L</unit>
-      </valueAndUnit>
-      <normalRange>
-        <minimum>20</minimum>
-        <maximum>31</maximum>
-        <unit type="http://unitsofmeasure.org/" value="mmol/L">mmol/L</unit>
-      </normalRange>
-    </result>    
-  </labTest>
-</Lab>
+<Model name="Problem">
+  <Field name="startDate"><![CDATA[2008-06-05]]></Field>
+  <Field name="endDate"><![CDATA[2010-09-13]]></Field>
+  <Field name="name_title"><![CDATA[Follow-up encounter]]></Field>
+  <Field name="name_system">http://purl.bioontology.org/ontology/SNOMEDCT/</Field>
+  <Field name="name_identifier"><![CDATA[310249008]]></Field>
+</Model>
+
+</Models>

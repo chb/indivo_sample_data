@@ -1,15 +1,20 @@
 
-<Medication xmlns="http://indivo.org/vocab/xml/documents#">
-  <dateStarted>2008-09-25</dateStarted>
-  <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="198191">Ranitidine 150 MG Oral Tablet</name>
-  <dose>
-    <value>1</value>
-    <unit type="http://unitsofmeasure.org/" value="{tablet}" />
-  </dose>
-  <frequency type="http://unitsofmeasure.org/" value="2 /d">2 /d</frequency>
+<Models xmlns="http://indivo.org/vocab/xml/documents#">
 
-  <prescription>
-    <dispenseAsWritten>true</dispenseAsWritten>
-    <instructions>1 bid</instructions>
-  </prescription>
-</Medication>
+<Model name="LabResult">
+    <Field name="accession_number"><![CDATA[A141743072]]></Field>
+    <Field name="test_name_title"><![CDATA[ALP SerPl-cCnc]]></Field>
+    <Field name="test_name_system">http://purl.bioontology.org/ontology/LNC/</Field>
+    <Field name="test_name_identifier"><![CDATA[6768-6]]></Field>
+    <Field name="collected_at"><![CDATA[2006-01-01]]></Field>
+    
+<Field name="quantitative_result_normal_range_max_value"><![CDATA[125]]></Field>
+<Field name="quantitative_result_normal_range_max_unit"><![CDATA[U/L]]></Field>
+<Field name="quantitative_result_normal_range_min_value"><![CDATA[20]]></Field>
+<Field name="quantitative_result_normal_range_min_unit"><![CDATA[U/L]]></Field>
+<Field name="quantitative_result_value_value"><![CDATA[122]]></Field> 
+<Field name="quantitative_result_value_unit"><![CDATA[U/L]]></Field>
+
+</Model>
+
+</Models>

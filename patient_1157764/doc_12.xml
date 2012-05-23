@@ -1,15 +1,15 @@
 
-<Medication xmlns="http://indivo.org/vocab/xml/documents#">
-  <dateStarted>2009-08-22</dateStarted>
-  <name type="http://rxnav.nlm.nih.gov/REST/rxcui/" value="285128">bimatoprost 0.3 MG/ML Ophthalmic Solution [Lumigan]</name>
-  <dose>
-    <value>1</value>
-    <unit type="http://unitsofmeasure.org/" value="[drp]" />
-  </dose>
-  <frequency type="http://unitsofmeasure.org/" value="1 /d">1 /d</frequency>
+<Models xmlns="http://indivo.org/vocab/xml/documents#">
 
-  <prescription>
-    <dispenseAsWritten>true</dispenseAsWritten>
-    <instructions>1 gtt daily in OD</instructions>
-  </prescription>
-</Medication>
+<Model name="LabResult">
+    <Field name="accession_number"><![CDATA[A327348663]]></Field>
+    <Field name="test_name_title"><![CDATA[Nitrite Ur Ql Strip]]></Field>
+    <Field name="test_name_system">http://purl.bioontology.org/ontology/LNC/</Field>
+    <Field name="test_name_identifier"><![CDATA[5802-4]]></Field>
+    <Field name="collected_at"><![CDATA[2006-10-30]]></Field>
+    
+<Field name="narrative_result"><![CDATA[Negative]]></Field>
+
+</Model>
+
+</Models>
