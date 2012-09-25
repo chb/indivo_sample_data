@@ -5,8 +5,8 @@
     <email><![CDATA[daniel.johnson@example.com]]></email>
     <preferredLanguage>EN</preferredLanguage>
     <Name>
-        <givenName><![CDATA[Daniel]]></givenName>
         <familyName><![CDATA[Johnson]]></familyName>
+        <givenName><![CDATA[Daniel]]></givenName>
     </Name>
     <Telephone>
         <type>h</type>
