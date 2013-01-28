@@ -1,20 +1,16 @@
-
+<?xml version="1.0" encoding="utf-8"?>
 <Models xmlns="http://indivo.org/vocab/xml/documents#">
-
 <Model name="LabResult">
-    <Field name="accession_number"><![CDATA[A147040889]]></Field>
-    <Field name="test_name_title"><![CDATA[Base excess Bld-sCnc]]></Field>
-    <Field name="test_name_system">http://purl.bioontology.org/ontology/LNC/</Field>
-    <Field name="test_name_identifier"><![CDATA[11555-0]]></Field>
-    <Field name="collected_at"><![CDATA[2006-07-19]]></Field>
-    
-<Field name="quantitative_result_normal_range_max_value"><![CDATA[0]]></Field>
-<Field name="quantitative_result_normal_range_max_unit"><![CDATA[mmol/L]]></Field>
-<Field name="quantitative_result_normal_range_min_value"><![CDATA[0]]></Field>
-<Field name="quantitative_result_normal_range_min_unit"><![CDATA[mmol/L]]></Field>
-<Field name="quantitative_result_value_value"><![CDATA[-1]]></Field> 
-<Field name="quantitative_result_value_unit"><![CDATA[mmol/L]]></Field>
-
-</Model>
-
+<Field name="accession_number">A147040889</Field>
+<Field name="name_title">Base excess Bld-sCnc</Field>
+<Field name="name_code_system">http://purl.bioontology.org/ontology/LNC/</Field>
+<Field name="name_code_identifier">11555-0</Field>
+<Field name="date">2006-07-19</Field>
+<Field name="quantitative_result_normal_range_max_value">0</Field>
+<Field name="quantitative_result_normal_range_max_unit">mmol/L</Field>
+<Field name="quantitative_result_normal_range_min_value">0</Field>
+<Field name="quantitative_result_normal_range_min_unit">mmol/L</Field>
+<Field name="quantitative_result_value_value">-1</Field>
+<Field name="quantitative_result_value_unit">mmol/L</Field>
+<Field name="name_code_title">Base excess Bld-sCnc</Field></Model>
 </Models>

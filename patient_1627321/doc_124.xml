@@ -1,20 +1,16 @@
-
+<?xml version="1.0" encoding="utf-8"?>
 <Models xmlns="http://indivo.org/vocab/xml/documents#">
-
 <Model name="LabResult">
-    <Field name="accession_number"><![CDATA[A227400019]]></Field>
-    <Field name="test_name_title"><![CDATA[Trigl SerPl-mCnc]]></Field>
-    <Field name="test_name_system">http://purl.bioontology.org/ontology/LNC/</Field>
-    <Field name="test_name_identifier"><![CDATA[2571-8]]></Field>
-    <Field name="collected_at"><![CDATA[2006-10-04]]></Field>
-    
-<Field name="quantitative_result_normal_range_max_value"><![CDATA[149]]></Field>
-<Field name="quantitative_result_normal_range_max_unit"><![CDATA[mg/dL]]></Field>
-<Field name="quantitative_result_normal_range_min_value"><![CDATA[35]]></Field>
-<Field name="quantitative_result_normal_range_min_unit"><![CDATA[mg/dL]]></Field>
-<Field name="quantitative_result_value_value"><![CDATA[165]]></Field> 
-<Field name="quantitative_result_value_unit"><![CDATA[mg/dL]]></Field>
-
-</Model>
-
+<Field name="accession_number">A227400019</Field>
+<Field name="name_title">Trigl SerPl-mCnc</Field>
+<Field name="name_code_system">http://purl.bioontology.org/ontology/LNC/</Field>
+<Field name="name_code_identifier">2571-8</Field>
+<Field name="date">2006-10-04</Field>
+<Field name="quantitative_result_normal_range_max_value">149</Field>
+<Field name="quantitative_result_normal_range_max_unit">mg/dL</Field>
+<Field name="quantitative_result_normal_range_min_value">35</Field>
+<Field name="quantitative_result_normal_range_min_unit">mg/dL</Field>
+<Field name="quantitative_result_value_value">165</Field>
+<Field name="quantitative_result_value_unit">mg/dL</Field>
+<Field name="name_code_title">Trigl SerPl-mCnc</Field></Model>
 </Models>

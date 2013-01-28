@@ -1,49 +1,44 @@
-
+<?xml version="1.0" encoding="utf-8"?>
 <Models xmlns="http://indivo.org/vocab/xml/documents#">
-
 <Model name="Medication">
-  <Field name="drugName_title"><![CDATA[Diphenhydramine 2.5 MG/ML Oral Solution [Diphen]]]></Field>
-  <Field name="drugName_system">http://purl.bioontology.org/ontology/RXNORM/</Field>
-  <Field name="drugName_identifier"><![CDATA[313960]]></Field>
-  <Field name="endDate"><![CDATA[2010-04-09]]></Field>
-  <Field name="frequency_value"><![CDATA[4]]></Field>
-  <Field name="frequency_unit"><![CDATA[/d]]></Field>
-  <Field name="instructions"><![CDATA[5 mL q6h prn pruritis]]></Field>
-  <Field name="provenance_title"><![CDATA[Derived by prescription]]></Field>
-  <Field name="provenance_system">http://smartplatforms.org/terms/codes/MedicationProvenance#</Field>
-  <Field name="provenance_identifier"><![CDATA[prescription]]></Field>
-  <Field name="quantity_value"><![CDATA[5]]></Field>
-  <Field name="quantity_unit"><![CDATA[mL]]></Field>
-  <Field name="startDate"><![CDATA[2006-06-15]]></Field>
-  <Field name="fulfillments">
-    <Models>
-      
-
+<Field name="name_title">Diphenhydramine 2.5 MG/ML Oral Solution [Diphen]</Field>
+<Field name="name_code_system">http://purl.bioontology.org/ontology/RXNORM/</Field>
+<Field name="name_code_identifier">313960</Field>
+<Field name="endDate">2010-04-09</Field>
+<Field name="frequency_value">4</Field>
+<Field name="frequency_unit">/d</Field>
+<Field name="instructions">5 mL q6h prn pruritis</Field>
+<Field name="provenance_title">Derived by prescription</Field>
+<Field name="provenance_system">http://smartplatforms.org/terms/codes/MedicationProvenance#</Field>
+<Field name="provenance_identifier">prescription</Field>
+<Field name="quantity_value">5</Field>
+<Field name="quantity_unit">mL</Field>
+<Field name="startDate">2006-06-15</Field>
+<Field name="fulfillments">
+<Models>
 <Model name="Fill">
-  <Field name="date"><![CDATA[2006-06-15]]></Field>
-  <Field name="dispenseDaysSupply"><![CDATA[3]]></Field>
-  <Field name="pbm"><![CDATA[T00000000001011]]></Field>
-  <Field name="pharmacy_ncpdpid"><![CDATA[5235235]]></Field>
-  <Field name="pharmacy_org"><![CDATA[CVS #588]]></Field>
-  <Field name="pharmacy_adr_country"><![CDATA[Australia]]></Field>
-  <Field name="pharmacy_adr_city"><![CDATA[Wonder City]]></Field>
-  <Field name="pharmacy_adr_postalcode"><![CDATA[5555]]></Field>
-  <Field name="pharmacy_adr_street"><![CDATA[111 Lake Drive]]></Field> 
-  <Field name="pharmacy_adr_region"><![CDATA[West Australia]]></Field> 
-  <Field name="provider_dea_number"><![CDATA[325555555]]></Field>
-  <Field name="provider_npi_number"><![CDATA[5235235]]></Field>
-  <Field name="provider_email"><![CDATA[jmandel@fake.emailserver.com]]></Field>
-  <Field name="provider_name_given"><![CDATA[Joshua]]></Field>
-  <Field name="provider_name_family"><![CDATA[Mandel]]></Field>
-  <Field name="provider_tel_1_type">w</Field>
-  <Field name="provider_tel_1_number"><![CDATA[1-234-567-8910]]></Field>
-  <Field name="provider_tel_1_preferred_p">true</Field>
-  <Field name="quantityDispensed_value"><![CDATA[60]]></Field>
-  <Field name="quantityDispensed_unit"><![CDATA[{tab}]]></Field>
+<Field name="date">2006-06-15</Field>
+<Field name="dispenseDaysSupply">3</Field>
+<Field name="pbm">T00000000001011</Field>
+<Field name="pharmacy_ncpdpid">5235235</Field>
+<Field name="pharmacy_org">CVS #588</Field>
+<Field name="pharmacy_adr_country">Australia</Field>
+<Field name="pharmacy_adr_city">Wonder City</Field>
+<Field name="pharmacy_adr_postalcode">5555</Field>
+<Field name="pharmacy_adr_street">111 Lake Drive</Field>
+<Field name="pharmacy_adr_region">West Australia</Field>
+<Field name="provider_dea_number">325555555</Field>
+<Field name="provider_npi_number">5235235</Field>
+<Field name="provider_email">jmandel@fake.emailserver.com</Field>
+<Field name="provider_name_given">Joshua</Field>
+<Field name="provider_name_family">Mandel</Field>
+<Field name="provider_tel_1_type">w</Field>
+<Field name="provider_tel_1_number">1-234-567-8910</Field>
+<Field name="provider_tel_1_preferred_p">true</Field>
+<Field name="quantityDispensed_value">60</Field>
+<Field name="quantityDispensed_unit">{tab}</Field>
 </Model>
-
-    </Models>
-  </Field>
-</Model>
-
+</Models>
+</Field>
+<Field name="name_code_title">Diphenhydramine 2.5 MG/ML Oral Solution [Diphen]</Field></Model>
 </Models>

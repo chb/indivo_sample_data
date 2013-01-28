@@ -1,20 +1,16 @@
-
+<?xml version="1.0" encoding="utf-8"?>
 <Models xmlns="http://indivo.org/vocab/xml/documents#">
-
 <Model name="LabResult">
-    <Field name="accession_number"><![CDATA[A807109218]]></Field>
-    <Field name="test_name_title"><![CDATA[RBC # Bld Auto]]></Field>
-    <Field name="test_name_system">http://purl.bioontology.org/ontology/LNC/</Field>
-    <Field name="test_name_identifier"><![CDATA[789-8]]></Field>
-    <Field name="collected_at"><![CDATA[2008-11-02]]></Field>
-    
-<Field name="quantitative_result_normal_range_max_value"><![CDATA[5.4]]></Field>
-<Field name="quantitative_result_normal_range_max_unit"><![CDATA[10*6/uL]]></Field>
-<Field name="quantitative_result_normal_range_min_value"><![CDATA[4]]></Field>
-<Field name="quantitative_result_normal_range_min_unit"><![CDATA[10*6/uL]]></Field>
-<Field name="quantitative_result_value_value"><![CDATA[4.4]]></Field> 
-<Field name="quantitative_result_value_unit"><![CDATA[10*6/uL]]></Field>
-
-</Model>
-
+<Field name="accession_number">A807109218</Field>
+<Field name="name_title">RBC # Bld Auto</Field>
+<Field name="name_code_system">http://purl.bioontology.org/ontology/LNC/</Field>
+<Field name="name_code_identifier">789-8</Field>
+<Field name="date">2008-11-02</Field>
+<Field name="quantitative_result_normal_range_max_value">5.4</Field>
+<Field name="quantitative_result_normal_range_max_unit">10*6/uL</Field>
+<Field name="quantitative_result_normal_range_min_value">4</Field>
+<Field name="quantitative_result_normal_range_min_unit">10*6/uL</Field>
+<Field name="quantitative_result_value_value">4.4</Field>
+<Field name="quantitative_result_value_unit">10*6/uL</Field>
+<Field name="name_code_title">RBC # Bld Auto</Field></Model>
 </Models>

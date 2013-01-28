@@ -1,20 +1,16 @@
-
+<?xml version="1.0" encoding="utf-8"?>
 <Models xmlns="http://indivo.org/vocab/xml/documents#">
-
 <Model name="LabResult">
-    <Field name="accession_number"><![CDATA[A209568295]]></Field>
-    <Field name="test_name_title"><![CDATA[ALP SerPl-cCnc]]></Field>
-    <Field name="test_name_system">http://purl.bioontology.org/ontology/LNC/</Field>
-    <Field name="test_name_identifier"><![CDATA[6768-6]]></Field>
-    <Field name="collected_at"><![CDATA[2005-12-31]]></Field>
-    
-<Field name="quantitative_result_normal_range_max_value"><![CDATA[138]]></Field>
-<Field name="quantitative_result_normal_range_max_unit"><![CDATA[U/L]]></Field>
-<Field name="quantitative_result_normal_range_min_value"><![CDATA[45]]></Field>
-<Field name="quantitative_result_normal_range_min_unit"><![CDATA[U/L]]></Field>
-<Field name="quantitative_result_value_value"><![CDATA[77]]></Field> 
-<Field name="quantitative_result_value_unit"><![CDATA[U/L]]></Field>
-
-</Model>
-
+<Field name="accession_number">A209568295</Field>
+<Field name="name_title">ALP SerPl-cCnc</Field>
+<Field name="name_code_system">http://purl.bioontology.org/ontology/LNC/</Field>
+<Field name="name_code_identifier">6768-6</Field>
+<Field name="date">2005-12-31</Field>
+<Field name="quantitative_result_normal_range_max_value">138</Field>
+<Field name="quantitative_result_normal_range_max_unit">U/L</Field>
+<Field name="quantitative_result_normal_range_min_value">45</Field>
+<Field name="quantitative_result_normal_range_min_unit">U/L</Field>
+<Field name="quantitative_result_value_value">77</Field>
+<Field name="quantitative_result_value_unit">U/L</Field>
+<Field name="name_code_title">ALP SerPl-cCnc</Field></Model>
 </Models>

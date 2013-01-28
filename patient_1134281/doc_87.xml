@@ -1,23 +1,21 @@
-
+<?xml version="1.0" encoding="utf-8"?>
 <Models xmlns="http://indivo.org/vocab/xml/documents#">
-
 <Model name="Immunization">
-    <Field name="date"><![CDATA[2009-03-11]]></Field>
-    <Field name="administration_status_title"><![CDATA[Not Administered]]></Field>
-    <Field name="administration_status_system">http://smartplatforms.org/terms/codes/ImmunizationAdministrationStatus#</Field>
-    <Field name="administration_status_identifier"><![CDATA[notAdministered]]></Field> 
-    <Field name="product_class_title"><![CDATA[VARICELLA]]></Field>
-    <Field name="product_class_system">http://www2a.cdc.gov/nip/IIS/IISStandards/vaccines.asp?rpt=vg#</Field>
-    <Field name="product_class_identifier"><![CDATA[VARICELLA]]></Field>
-    <Field name="product_class_2_title"><![CDATA[]]></Field>
-    <Field name="product_class_2_system">http://www2a.cdc.gov/nip/IIS/IISStandards/vaccines.asp?rpt=vg#</Field>
-    <Field name="product_class_2_identifier"><![CDATA[]]></Field>
-    <Field name="product_name_title"><![CDATA[varicella virus vaccine]]></Field>
-    <Field name="product_name_system">http://www2a.cdc.gov/nip/IIS/IISStandards/vaccines.asp?rpt=cvx#</Field>
-    <Field name="product_name_identifier"><![CDATA[21]]></Field>
-    <Field name="refusal_reason_title"><![CDATA[Documented immunity or previous disease]]></Field>
-    <Field name="refusal_reason_system">http://smartplatforms.org/terms/codes/ImmunizationRefusalReason#</Field>
-    <Field name="refusal_reason_identifier"><![CDATA[documentedImmunityOrPreviousDisease]]></Field>
-</Model>
-
+<Field name="date">2009-03-11</Field>
+<Field name="administration_status_title">Not Administered</Field>
+<Field name="administration_status_code_system">http://smartplatforms.org/terms/codes/ImmunizationAdministrationStatus#</Field>
+<Field name="administration_status_code_identifier">notAdministered</Field>
+<Field name="product_class_title">VARICELLA</Field>
+<Field name="product_class_code_system">http://www2a.cdc.gov/nip/IIS/IISStandards/vaccines.asp?rpt=vg#</Field>
+<Field name="product_class_code_identifier">VARICELLA</Field>
+<Field name="product_class_2_title"/>
+<Field name="product_class_2_code_system">http://www2a.cdc.gov/nip/IIS/IISStandards/vaccines.asp?rpt=vg#</Field>
+<Field name="product_class_2_code_identifier"/>
+<Field name="product_name_title">varicella virus vaccine</Field>
+<Field name="product_name_code_system">http://www2a.cdc.gov/nip/IIS/IISStandards/vaccines.asp?rpt=cvx#</Field>
+<Field name="product_name_code_identifier">21</Field>
+<Field name="refusal_reason_title">Documented immunity or previous disease</Field>
+<Field name="refusal_reason_code_system">http://smartplatforms.org/terms/codes/ImmunizationRefusalReason#</Field>
+<Field name="refusal_reason_code_identifier">documentedImmunityOrPreviousDisease</Field>
+<Field name="administration_status_code_title">Not Administered</Field><Field name="product_class_code_title">VARICELLA</Field><Field name="product_class_2_code_title"/><Field name="product_name_code_title">varicella virus vaccine</Field><Field name="refusal_reason_code_title">Documented immunity or previous disease</Field></Model>
 </Models>

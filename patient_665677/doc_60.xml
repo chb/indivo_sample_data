@@ -1,20 +1,16 @@
-
+<?xml version="1.0" encoding="utf-8"?>
 <Models xmlns="http://indivo.org/vocab/xml/documents#">
-
 <Model name="LabResult">
-    <Field name="accession_number"><![CDATA[A577775631]]></Field>
-    <Field name="test_name_title"><![CDATA[Chloride Bld-sCnc]]></Field>
-    <Field name="test_name_system">http://purl.bioontology.org/ontology/LNC/</Field>
-    <Field name="test_name_identifier"><![CDATA[2069-3]]></Field>
-    <Field name="collected_at"><![CDATA[2006-03-15]]></Field>
-    
-<Field name="quantitative_result_normal_range_max_value"><![CDATA[105]]></Field>
-<Field name="quantitative_result_normal_range_max_unit"><![CDATA[mmol/L]]></Field>
-<Field name="quantitative_result_normal_range_min_value"><![CDATA[95]]></Field>
-<Field name="quantitative_result_normal_range_min_unit"><![CDATA[mmol/L]]></Field>
-<Field name="quantitative_result_value_value"><![CDATA[109]]></Field> 
-<Field name="quantitative_result_value_unit"><![CDATA[mmol/L]]></Field>
-
-</Model>
-
+<Field name="accession_number">A577775631</Field>
+<Field name="name_title">Chloride Bld-sCnc</Field>
+<Field name="name_code_system">http://purl.bioontology.org/ontology/LNC/</Field>
+<Field name="name_code_identifier">2069-3</Field>
+<Field name="date">2006-03-15</Field>
+<Field name="quantitative_result_normal_range_max_value">105</Field>
+<Field name="quantitative_result_normal_range_max_unit">mmol/L</Field>
+<Field name="quantitative_result_normal_range_min_value">95</Field>
+<Field name="quantitative_result_normal_range_min_unit">mmol/L</Field>
+<Field name="quantitative_result_value_value">109</Field>
+<Field name="quantitative_result_value_unit">mmol/L</Field>
+<Field name="name_code_title">Chloride Bld-sCnc</Field></Model>
 </Models>

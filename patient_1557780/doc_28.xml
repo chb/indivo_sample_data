@@ -1,15 +1,11 @@
-
+<?xml version="1.0" encoding="utf-8"?>
 <Models xmlns="http://indivo.org/vocab/xml/documents#">
-
 <Model name="LabResult">
-    <Field name="accession_number"><![CDATA[A182690219]]></Field>
-    <Field name="test_name_title"><![CDATA[Epi Cells UrnS Ql Micro]]></Field>
-    <Field name="test_name_system">http://purl.bioontology.org/ontology/LNC/</Field>
-    <Field name="test_name_identifier"><![CDATA[20453-7]]></Field>
-    <Field name="collected_at"><![CDATA[2006-03-09]]></Field>
-    
-<Field name="narrative_result"><![CDATA[Occasional]]></Field>
-
-</Model>
-
+<Field name="accession_number">A182690219</Field>
+<Field name="name_title">Epi Cells UrnS Ql Micro</Field>
+<Field name="name_code_system">http://purl.bioontology.org/ontology/LNC/</Field>
+<Field name="name_code_identifier">20453-7</Field>
+<Field name="date">2006-03-09</Field>
+<Field name="narrative_result">Occasional</Field>
+<Field name="name_code_title">Epi Cells UrnS Ql Micro</Field></Model>
 </Models>

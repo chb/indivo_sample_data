@@ -1,20 +1,16 @@
-
+<?xml version="1.0" encoding="utf-8"?>
 <Models xmlns="http://indivo.org/vocab/xml/documents#">
-
 <Model name="LabResult">
-    <Field name="accession_number"><![CDATA[A642489055]]></Field>
-    <Field name="test_name_title"><![CDATA[pH Ur Strip]]></Field>
-    <Field name="test_name_system">http://purl.bioontology.org/ontology/LNC/</Field>
-    <Field name="test_name_identifier"><![CDATA[5803-2]]></Field>
-    <Field name="collected_at"><![CDATA[2006-03-09]]></Field>
-    
-<Field name="quantitative_result_normal_range_max_value"><![CDATA[9]]></Field>
-<Field name="quantitative_result_normal_range_max_unit"><![CDATA[[pH]]]></Field>
-<Field name="quantitative_result_normal_range_min_value"><![CDATA[5]]></Field>
-<Field name="quantitative_result_normal_range_min_unit"><![CDATA[[pH]]]></Field>
-<Field name="quantitative_result_value_value"><![CDATA[5]]></Field> 
-<Field name="quantitative_result_value_unit"><![CDATA[[pH]]]></Field>
-
-</Model>
-
+<Field name="accession_number">A642489055</Field>
+<Field name="name_title">pH Ur Strip</Field>
+<Field name="name_code_system">http://purl.bioontology.org/ontology/LNC/</Field>
+<Field name="name_code_identifier">5803-2</Field>
+<Field name="date">2006-03-09</Field>
+<Field name="quantitative_result_normal_range_max_value">9</Field>
+<Field name="quantitative_result_normal_range_max_unit">[pH]</Field>
+<Field name="quantitative_result_normal_range_min_value">5</Field>
+<Field name="quantitative_result_normal_range_min_unit">[pH]</Field>
+<Field name="quantitative_result_value_value">5</Field>
+<Field name="quantitative_result_value_unit">[pH]</Field>
+<Field name="name_code_title">pH Ur Strip</Field></Model>
 </Models>

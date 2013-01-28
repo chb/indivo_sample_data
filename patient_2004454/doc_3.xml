@@ -1,15 +1,11 @@
-
+<?xml version="1.0" encoding="utf-8"?>
 <Models xmlns="http://indivo.org/vocab/xml/documents#">
-
 <Model name="LabResult">
-    <Field name="accession_number"><![CDATA[A323719763]]></Field>
-    <Field name="test_name_title"><![CDATA[Phe DBS Ql]]></Field>
-    <Field name="test_name_system">http://purl.bioontology.org/ontology/LNC/</Field>
-    <Field name="test_name_identifier"><![CDATA[29571-7]]></Field>
-    <Field name="collected_at"><![CDATA[2008-08-01]]></Field>
-    
-<Field name="narrative_result"><![CDATA[Normal]]></Field>
-
-</Model>
-
+<Field name="accession_number">A323719763</Field>
+<Field name="name_title">Phe DBS Ql</Field>
+<Field name="name_code_system">http://purl.bioontology.org/ontology/LNC/</Field>
+<Field name="name_code_identifier">29571-7</Field>
+<Field name="date">2008-08-01</Field>
+<Field name="narrative_result">Normal</Field>
+<Field name="name_code_title">Phe DBS Ql</Field></Model>
 </Models>

@@ -1,20 +1,16 @@
-
+<?xml version="1.0" encoding="utf-8"?>
 <Models xmlns="http://indivo.org/vocab/xml/documents#">
-
 <Model name="LabResult">
-    <Field name="accession_number"><![CDATA[A193227730]]></Field>
-    <Field name="test_name_title"><![CDATA[Glucose Bld-mCnc]]></Field>
-    <Field name="test_name_system">http://purl.bioontology.org/ontology/LNC/</Field>
-    <Field name="test_name_identifier"><![CDATA[2339-0]]></Field>
-    <Field name="collected_at"><![CDATA[2009-05-11]]></Field>
-    
-<Field name="quantitative_result_normal_range_max_value"><![CDATA[109]]></Field>
-<Field name="quantitative_result_normal_range_max_unit"><![CDATA[mg/dL]]></Field>
-<Field name="quantitative_result_normal_range_min_value"><![CDATA[70]]></Field>
-<Field name="quantitative_result_normal_range_min_unit"><![CDATA[mg/dL]]></Field>
-<Field name="quantitative_result_value_value"><![CDATA[90]]></Field> 
-<Field name="quantitative_result_value_unit"><![CDATA[mg/dL]]></Field>
-
-</Model>
-
+<Field name="accession_number">A193227730</Field>
+<Field name="name_title">Glucose Bld-mCnc</Field>
+<Field name="name_code_system">http://purl.bioontology.org/ontology/LNC/</Field>
+<Field name="name_code_identifier">2339-0</Field>
+<Field name="date">2009-05-11</Field>
+<Field name="quantitative_result_normal_range_max_value">109</Field>
+<Field name="quantitative_result_normal_range_max_unit">mg/dL</Field>
+<Field name="quantitative_result_normal_range_min_value">70</Field>
+<Field name="quantitative_result_normal_range_min_unit">mg/dL</Field>
+<Field name="quantitative_result_value_value">90</Field>
+<Field name="quantitative_result_value_unit">mg/dL</Field>
+<Field name="name_code_title">Glucose Bld-mCnc</Field></Model>
 </Models>

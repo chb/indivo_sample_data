@@ -1,12 +1,10 @@
-
+<?xml version="1.0" encoding="utf-8"?>
 <Models xmlns="http://indivo.org/vocab/xml/documents#">
-
 <Model name="Problem">
-  <Field name="startDate"><![CDATA[2009-07-01]]></Field>
-  <Field name="endDate"><![CDATA[2010-09-13]]></Field>
-  <Field name="name_title"><![CDATA[Low tension glaucoma]]></Field>
-  <Field name="name_system">http://purl.bioontology.org/ontology/SNOMEDCT/</Field>
-  <Field name="name_identifier"><![CDATA[50485007]]></Field>
-</Model>
-
+<Field name="startDate">2009-07-01</Field>
+<Field name="endDate">2010-09-13</Field>
+<Field name="name_title">Low tension glaucoma</Field>
+<Field name="name_code_system">http://purl.bioontology.org/ontology/SNOMEDCT/</Field>
+<Field name="name_code_identifier">50485007</Field>
+<Field name="name_code_title">Low tension glaucoma</Field></Model>
 </Models>

@@ -1,15 +1,11 @@
-
+<?xml version="1.0" encoding="utf-8"?>
 <Models xmlns="http://indivo.org/vocab/xml/documents#">
-
 <Model name="LabResult">
-    <Field name="accession_number"><![CDATA[A779466798]]></Field>
-    <Field name="test_name_title"><![CDATA[Squamous UrnS Ql HPF]]></Field>
-    <Field name="test_name_system">http://purl.bioontology.org/ontology/LNC/</Field>
-    <Field name="test_name_identifier"><![CDATA[12258-0]]></Field>
-    <Field name="collected_at"><![CDATA[2006-10-30]]></Field>
-    
-<Field name="narrative_result"><![CDATA[None]]></Field>
-
-</Model>
-
+<Field name="accession_number">A779466798</Field>
+<Field name="name_title">Squamous UrnS Ql HPF</Field>
+<Field name="name_code_system">http://purl.bioontology.org/ontology/LNC/</Field>
+<Field name="name_code_identifier">12258-0</Field>
+<Field name="date">2006-10-30</Field>
+<Field name="narrative_result">None</Field>
+<Field name="name_code_title">Squamous UrnS Ql HPF</Field></Model>
 </Models>

@@ -1,23 +1,21 @@
-
+<?xml version="1.0" encoding="utf-8"?>
 <Models xmlns="http://indivo.org/vocab/xml/documents#">
-
 <Model name="Immunization">
-    <Field name="date"><![CDATA[2011-03-11]]></Field>
-    <Field name="administration_status_title"><![CDATA[Not Administered]]></Field>
-    <Field name="administration_status_system">http://smartplatforms.org/terms/codes/ImmunizationAdministrationStatus#</Field>
-    <Field name="administration_status_identifier"><![CDATA[notAdministered]]></Field> 
-    <Field name="product_class_title"><![CDATA[HepB]]></Field>
-    <Field name="product_class_system">http://www2a.cdc.gov/nip/IIS/IISStandards/vaccines.asp?rpt=vg#</Field>
-    <Field name="product_class_identifier"><![CDATA[HepB]]></Field>
-    <Field name="product_class_2_title"><![CDATA[]]></Field>
-    <Field name="product_class_2_system">http://www2a.cdc.gov/nip/IIS/IISStandards/vaccines.asp?rpt=vg#</Field>
-    <Field name="product_class_2_identifier"><![CDATA[]]></Field>
-    <Field name="product_name_title"><![CDATA[hepatitis B vaccine, adult dosage]]></Field>
-    <Field name="product_name_system">http://www2a.cdc.gov/nip/IIS/IISStandards/vaccines.asp?rpt=cvx#</Field>
-    <Field name="product_name_identifier"><![CDATA[43]]></Field>
-    <Field name="refusal_reason_title"><![CDATA[Allergy to vaccine/vaccine components, or allergy to eggs]]></Field>
-    <Field name="refusal_reason_system">http://smartplatforms.org/terms/codes/ImmunizationRefusalReason#</Field>
-    <Field name="refusal_reason_identifier"><![CDATA[allergy]]></Field>
-</Model>
-
+<Field name="date">2011-03-11</Field>
+<Field name="administration_status_title">Not Administered</Field>
+<Field name="administration_status_code_system">http://smartplatforms.org/terms/codes/ImmunizationAdministrationStatus#</Field>
+<Field name="administration_status_code_identifier">notAdministered</Field>
+<Field name="product_class_title">HepB</Field>
+<Field name="product_class_code_system">http://www2a.cdc.gov/nip/IIS/IISStandards/vaccines.asp?rpt=vg#</Field>
+<Field name="product_class_code_identifier">HepB</Field>
+<Field name="product_class_2_title"/>
+<Field name="product_class_2_code_system">http://www2a.cdc.gov/nip/IIS/IISStandards/vaccines.asp?rpt=vg#</Field>
+<Field name="product_class_2_code_identifier"/>
+<Field name="product_name_title">hepatitis B vaccine, adult dosage</Field>
+<Field name="product_name_code_system">http://www2a.cdc.gov/nip/IIS/IISStandards/vaccines.asp?rpt=cvx#</Field>
+<Field name="product_name_code_identifier">43</Field>
+<Field name="refusal_reason_title">Allergy to vaccine/vaccine components, or allergy to eggs</Field>
+<Field name="refusal_reason_code_system">http://smartplatforms.org/terms/codes/ImmunizationRefusalReason#</Field>
+<Field name="refusal_reason_code_identifier">allergy</Field>
+<Field name="administration_status_code_title">Not Administered</Field><Field name="product_class_code_title">HepB</Field><Field name="product_class_2_code_title"/><Field name="product_name_code_title">hepatitis B vaccine, adult dosage</Field><Field name="refusal_reason_code_title">Allergy to vaccine/vaccine components, or allergy to eggs</Field></Model>
 </Models>

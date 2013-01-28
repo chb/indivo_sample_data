@@ -1,12 +1,10 @@
-
+<?xml version="1.0" encoding="utf-8"?>
 <Models xmlns="http://indivo.org/vocab/xml/documents#">
-
 <Model name="Problem">
-  <Field name="startDate"><![CDATA[2005-05-12]]></Field>
-  <Field name="endDate"><![CDATA[2010-09-13]]></Field>
-  <Field name="name_title"><![CDATA[Depressive disorder]]></Field>
-  <Field name="name_system">http://purl.bioontology.org/ontology/SNOMEDCT/</Field>
-  <Field name="name_identifier"><![CDATA[35489007]]></Field>
-</Model>
-
+<Field name="startDate">2005-05-12</Field>
+<Field name="endDate">2010-09-13</Field>
+<Field name="name_title">Depressive disorder</Field>
+<Field name="name_code_system">http://purl.bioontology.org/ontology/SNOMEDCT/</Field>
+<Field name="name_code_identifier">35489007</Field>
+<Field name="name_code_title">Depressive disorder</Field></Model>
 </Models>

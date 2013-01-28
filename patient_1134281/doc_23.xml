@@ -1,15 +1,11 @@
-
+<?xml version="1.0" encoding="utf-8"?>
 <Models xmlns="http://indivo.org/vocab/xml/documents#">
-
 <Model name="LabResult">
-    <Field name="accession_number"><![CDATA[A106612323]]></Field>
-    <Field name="test_name_title"><![CDATA[Platelet Bld Ql Smear]]></Field>
-    <Field name="test_name_system">http://purl.bioontology.org/ontology/LNC/</Field>
-    <Field name="test_name_identifier"><![CDATA[9317-9]]></Field>
-    <Field name="collected_at"><![CDATA[2005-07-05]]></Field>
-    
-<Field name="narrative_result"><![CDATA[Adequate]]></Field>
-
-</Model>
-
+<Field name="accession_number">A106612323</Field>
+<Field name="name_title">Platelet Bld Ql Smear</Field>
+<Field name="name_code_system">http://purl.bioontology.org/ontology/LNC/</Field>
+<Field name="name_code_identifier">9317-9</Field>
+<Field name="date">2005-07-05</Field>
+<Field name="narrative_result">Adequate</Field>
+<Field name="name_code_title">Platelet Bld Ql Smear</Field></Model>
 </Models>

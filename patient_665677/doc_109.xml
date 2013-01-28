@@ -1,20 +1,16 @@
-
+<?xml version="1.0" encoding="utf-8"?>
 <Models xmlns="http://indivo.org/vocab/xml/documents#">
-
 <Model name="LabResult">
-    <Field name="accession_number"><![CDATA[A475090523]]></Field>
-    <Field name="test_name_title"><![CDATA[Neutrophils NFr Bld Auto]]></Field>
-    <Field name="test_name_system">http://purl.bioontology.org/ontology/LNC/</Field>
-    <Field name="test_name_identifier"><![CDATA[770-8]]></Field>
-    <Field name="collected_at"><![CDATA[2007-04-03]]></Field>
-    
-<Field name="quantitative_result_normal_range_max_value"><![CDATA[75]]></Field>
-<Field name="quantitative_result_normal_range_max_unit"><![CDATA[%]]></Field>
-<Field name="quantitative_result_normal_range_min_value"><![CDATA[50]]></Field>
-<Field name="quantitative_result_normal_range_min_unit"><![CDATA[%]]></Field>
-<Field name="quantitative_result_value_value"><![CDATA[52]]></Field> 
-<Field name="quantitative_result_value_unit"><![CDATA[%]]></Field>
-
-</Model>
-
+<Field name="accession_number">A475090523</Field>
+<Field name="name_title">Neutrophils NFr Bld Auto</Field>
+<Field name="name_code_system">http://purl.bioontology.org/ontology/LNC/</Field>
+<Field name="name_code_identifier">770-8</Field>
+<Field name="date">2007-04-03</Field>
+<Field name="quantitative_result_normal_range_max_value">75</Field>
+<Field name="quantitative_result_normal_range_max_unit">%</Field>
+<Field name="quantitative_result_normal_range_min_value">50</Field>
+<Field name="quantitative_result_normal_range_min_unit">%</Field>
+<Field name="quantitative_result_value_value">52</Field>
+<Field name="quantitative_result_value_unit">%</Field>
+<Field name="name_code_title">Neutrophils NFr Bld Auto</Field></Model>
 </Models>

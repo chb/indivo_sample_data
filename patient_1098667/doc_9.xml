@@ -1,12 +1,10 @@
-
+<?xml version="1.0" encoding="utf-8"?>
 <Models xmlns="http://indivo.org/vocab/xml/documents#">
-
 <Model name="Problem">
-  <Field name="startDate"><![CDATA[2005-08-26]]></Field>
-  <Field name="endDate"><![CDATA[2010-09-13]]></Field>
-  <Field name="name_title"><![CDATA[History of polyp of colon]]></Field>
-  <Field name="name_system">http://purl.bioontology.org/ontology/SNOMEDCT/</Field>
-  <Field name="name_identifier"><![CDATA[429047008]]></Field>
-</Model>
-
+<Field name="startDate">2005-08-26</Field>
+<Field name="endDate">2010-09-13</Field>
+<Field name="name_title">History of polyp of colon</Field>
+<Field name="name_code_system">http://purl.bioontology.org/ontology/SNOMEDCT/</Field>
+<Field name="name_code_identifier">429047008</Field>
+<Field name="name_code_title">History of polyp of colon</Field></Model>
 </Models>

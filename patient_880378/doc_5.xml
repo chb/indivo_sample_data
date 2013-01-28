@@ -1,12 +1,10 @@
-
+<?xml version="1.0" encoding="utf-8"?>
 <Models xmlns="http://indivo.org/vocab/xml/documents#">
-
 <Model name="Problem">
-  <Field name="startDate"><![CDATA[2004-11-03]]></Field>
-  <Field name="endDate"><![CDATA[2010-09-13]]></Field>
-  <Field name="name_title"><![CDATA[Common cold]]></Field>
-  <Field name="name_system">http://purl.bioontology.org/ontology/SNOMEDCT/</Field>
-  <Field name="name_identifier"><![CDATA[82272006]]></Field>
-</Model>
-
+<Field name="startDate">2004-11-03</Field>
+<Field name="endDate">2010-09-13</Field>
+<Field name="name_title">Common cold</Field>
+<Field name="name_code_system">http://purl.bioontology.org/ontology/SNOMEDCT/</Field>
+<Field name="name_code_identifier">82272006</Field>
+<Field name="name_code_title">Common cold</Field></Model>
 </Models>

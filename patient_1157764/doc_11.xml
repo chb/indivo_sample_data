@@ -1,20 +1,16 @@
-
+<?xml version="1.0" encoding="utf-8"?>
 <Models xmlns="http://indivo.org/vocab/xml/documents#">
-
 <Model name="LabResult">
-    <Field name="accession_number"><![CDATA[A514166939]]></Field>
-    <Field name="test_name_title"><![CDATA[Sp Gr Ur Strip]]></Field>
-    <Field name="test_name_system">http://purl.bioontology.org/ontology/LNC/</Field>
-    <Field name="test_name_identifier"><![CDATA[5811-5]]></Field>
-    <Field name="collected_at"><![CDATA[2006-10-30]]></Field>
-    
-<Field name="quantitative_result_normal_range_max_value"><![CDATA[1.03]]></Field>
-<Field name="quantitative_result_normal_range_max_unit"><![CDATA[]]></Field>
-<Field name="quantitative_result_normal_range_min_value"><![CDATA[1.003]]></Field>
-<Field name="quantitative_result_normal_range_min_unit"><![CDATA[]]></Field>
-<Field name="quantitative_result_value_value"><![CDATA[1.001]]></Field> 
-<Field name="quantitative_result_value_unit"><![CDATA[]]></Field>
-
-</Model>
-
+<Field name="accession_number">A514166939</Field>
+<Field name="name_title">Sp Gr Ur Strip</Field>
+<Field name="name_code_system">http://purl.bioontology.org/ontology/LNC/</Field>
+<Field name="name_code_identifier">5811-5</Field>
+<Field name="date">2006-10-30</Field>
+<Field name="quantitative_result_normal_range_max_value">1.03</Field>
+<Field name="quantitative_result_normal_range_max_unit"/>
+<Field name="quantitative_result_normal_range_min_value">1.003</Field>
+<Field name="quantitative_result_normal_range_min_unit"/>
+<Field name="quantitative_result_value_value">1.001</Field>
+<Field name="quantitative_result_value_unit"/>
+<Field name="name_code_title">Sp Gr Ur Strip</Field></Model>
 </Models>

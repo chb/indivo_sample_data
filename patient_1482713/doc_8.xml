@@ -1,12 +1,10 @@
-
+<?xml version="1.0" encoding="utf-8"?>
 <Models xmlns="http://indivo.org/vocab/xml/documents#">
-
 <Model name="Problem">
-  <Field name="startDate"><![CDATA[2009-02-04]]></Field>
-  <Field name="endDate"><![CDATA[2010-09-13]]></Field>
-  <Field name="name_title"><![CDATA[Other specified pervasive developmental disorders, current or active state]]></Field>
-  <Field name="name_system">http://purl.bioontology.org/ontology/SNOMEDCT/</Field>
-  <Field name="name_identifier"><![CDATA[23560001]]></Field>
-</Model>
-
+<Field name="startDate">2009-02-04</Field>
+<Field name="endDate">2010-09-13</Field>
+<Field name="name_title">Other specified pervasive developmental disorders, current or active state</Field>
+<Field name="name_code_system">http://purl.bioontology.org/ontology/SNOMEDCT/</Field>
+<Field name="name_code_identifier">23560001</Field>
+<Field name="name_code_title">Other specified pervasive developmental disorders, current or active state</Field></Model>
 </Models>

@@ -1,20 +1,16 @@
-
+<?xml version="1.0" encoding="utf-8"?>
 <Models xmlns="http://indivo.org/vocab/xml/documents#">
-
 <Model name="LabResult">
-    <Field name="accession_number"><![CDATA[A756850136]]></Field>
-    <Field name="test_name_title"><![CDATA[Platelet # Bld]]></Field>
-    <Field name="test_name_system">http://purl.bioontology.org/ontology/LNC/</Field>
-    <Field name="test_name_identifier"><![CDATA[26515-7]]></Field>
-    <Field name="collected_at"><![CDATA[2007-07-21]]></Field>
-    
-<Field name="quantitative_result_normal_range_max_value"><![CDATA[500]]></Field>
-<Field name="quantitative_result_normal_range_max_unit"><![CDATA[10*3/uL]]></Field>
-<Field name="quantitative_result_normal_range_min_value"><![CDATA[130]]></Field>
-<Field name="quantitative_result_normal_range_min_unit"><![CDATA[10*3/uL]]></Field>
-<Field name="quantitative_result_value_value"><![CDATA[396]]></Field> 
-<Field name="quantitative_result_value_unit"><![CDATA[10*3/uL]]></Field>
-
-</Model>
-
+<Field name="accession_number">A756850136</Field>
+<Field name="name_title">Platelet # Bld</Field>
+<Field name="name_code_system">http://purl.bioontology.org/ontology/LNC/</Field>
+<Field name="name_code_identifier">26515-7</Field>
+<Field name="date">2007-07-21</Field>
+<Field name="quantitative_result_normal_range_max_value">500</Field>
+<Field name="quantitative_result_normal_range_max_unit">10*3/uL</Field>
+<Field name="quantitative_result_normal_range_min_value">130</Field>
+<Field name="quantitative_result_normal_range_min_unit">10*3/uL</Field>
+<Field name="quantitative_result_value_value">396</Field>
+<Field name="quantitative_result_value_unit">10*3/uL</Field>
+<Field name="name_code_title">Platelet # Bld</Field></Model>
 </Models>

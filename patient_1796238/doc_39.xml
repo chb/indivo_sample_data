@@ -1,20 +1,16 @@
-
+<?xml version="1.0" encoding="utf-8"?>
 <Models xmlns="http://indivo.org/vocab/xml/documents#">
-
 <Model name="LabResult">
-    <Field name="accession_number"><![CDATA[A221014334]]></Field>
-    <Field name="test_name_title"><![CDATA[Eosinophil NFr Bld]]></Field>
-    <Field name="test_name_system">http://purl.bioontology.org/ontology/LNC/</Field>
-    <Field name="test_name_identifier"><![CDATA[26450-7]]></Field>
-    <Field name="collected_at"><![CDATA[2006-07-17]]></Field>
-    
-<Field name="quantitative_result_normal_range_max_value"><![CDATA[3]]></Field>
-<Field name="quantitative_result_normal_range_max_unit"><![CDATA[%]]></Field>
-<Field name="quantitative_result_normal_range_min_value"><![CDATA[0]]></Field>
-<Field name="quantitative_result_normal_range_min_unit"><![CDATA[%]]></Field>
-<Field name="quantitative_result_value_value"><![CDATA[2]]></Field> 
-<Field name="quantitative_result_value_unit"><![CDATA[%]]></Field>
-
-</Model>
-
+<Field name="accession_number">A221014334</Field>
+<Field name="name_title">Eosinophil NFr Bld</Field>
+<Field name="name_code_system">http://purl.bioontology.org/ontology/LNC/</Field>
+<Field name="name_code_identifier">26450-7</Field>
+<Field name="date">2006-07-17</Field>
+<Field name="quantitative_result_normal_range_max_value">3</Field>
+<Field name="quantitative_result_normal_range_max_unit">%</Field>
+<Field name="quantitative_result_normal_range_min_value">0</Field>
+<Field name="quantitative_result_normal_range_min_unit">%</Field>
+<Field name="quantitative_result_value_value">2</Field>
+<Field name="quantitative_result_value_unit">%</Field>
+<Field name="name_code_title">Eosinophil NFr Bld</Field></Model>
 </Models>

@@ -1,12 +1,10 @@
-
+<?xml version="1.0" encoding="utf-8"?>
 <Models xmlns="http://indivo.org/vocab/xml/documents#">
-
 <Model name="Problem">
-  <Field name="startDate"><![CDATA[2008-08-30]]></Field>
-  <Field name="endDate"><![CDATA[2010-09-13]]></Field>
-  <Field name="name_title"><![CDATA[Hyperlipidemia]]></Field>
-  <Field name="name_system">http://purl.bioontology.org/ontology/SNOMEDCT/</Field>
-  <Field name="name_identifier"><![CDATA[55822004]]></Field>
-</Model>
-
+<Field name="startDate">2008-08-30</Field>
+<Field name="endDate">2010-09-13</Field>
+<Field name="name_title">Hyperlipidemia</Field>
+<Field name="name_code_system">http://purl.bioontology.org/ontology/SNOMEDCT/</Field>
+<Field name="name_code_identifier">55822004</Field>
+<Field name="name_code_title">Hyperlipidemia</Field></Model>
 </Models>

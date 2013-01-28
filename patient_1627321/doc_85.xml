@@ -1,15 +1,11 @@
-
+<?xml version="1.0" encoding="utf-8"?>
 <Models xmlns="http://indivo.org/vocab/xml/documents#">
-
 <Model name="LabResult">
-    <Field name="accession_number"><![CDATA[A502230466]]></Field>
-    <Field name="test_name_title"><![CDATA[Mucous Threads UrnS Ql Micro]]></Field>
-    <Field name="test_name_system">http://purl.bioontology.org/ontology/LNC/</Field>
-    <Field name="test_name_identifier"><![CDATA[8247-9]]></Field>
-    <Field name="collected_at"><![CDATA[2005-08-05]]></Field>
-    
-<Field name="narrative_result"><![CDATA[Trace]]></Field>
-
-</Model>
-
+<Field name="accession_number">A502230466</Field>
+<Field name="name_title">Mucous Threads UrnS Ql Micro</Field>
+<Field name="name_code_system">http://purl.bioontology.org/ontology/LNC/</Field>
+<Field name="name_code_identifier">8247-9</Field>
+<Field name="date">2005-08-05</Field>
+<Field name="narrative_result">Trace</Field>
+<Field name="name_code_title">Mucous Threads UrnS Ql Micro</Field></Model>
 </Models>

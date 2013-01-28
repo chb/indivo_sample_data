@@ -1,20 +1,16 @@
-
+<?xml version="1.0" encoding="utf-8"?>
 <Models xmlns="http://indivo.org/vocab/xml/documents#">
-
 <Model name="LabResult">
-    <Field name="accession_number"><![CDATA[A783375333]]></Field>
-    <Field name="test_name_title"><![CDATA[MCHC RBC Auto-mCnc]]></Field>
-    <Field name="test_name_system">http://purl.bioontology.org/ontology/LNC/</Field>
-    <Field name="test_name_identifier"><![CDATA[786-4]]></Field>
-    <Field name="collected_at"><![CDATA[2009-03-10]]></Field>
-    
-<Field name="quantitative_result_normal_range_max_value"><![CDATA[36]]></Field>
-<Field name="quantitative_result_normal_range_max_unit"><![CDATA[g/dL]]></Field>
-<Field name="quantitative_result_normal_range_min_value"><![CDATA[32]]></Field>
-<Field name="quantitative_result_normal_range_min_unit"><![CDATA[g/dL]]></Field>
-<Field name="quantitative_result_value_value"><![CDATA[32.6]]></Field> 
-<Field name="quantitative_result_value_unit"><![CDATA[g/dL]]></Field>
-
-</Model>
-
+<Field name="accession_number">A783375333</Field>
+<Field name="name_title">MCHC RBC Auto-mCnc</Field>
+<Field name="name_code_system">http://purl.bioontology.org/ontology/LNC/</Field>
+<Field name="name_code_identifier">786-4</Field>
+<Field name="date">2009-03-10</Field>
+<Field name="quantitative_result_normal_range_max_value">36</Field>
+<Field name="quantitative_result_normal_range_max_unit">g/dL</Field>
+<Field name="quantitative_result_normal_range_min_value">32</Field>
+<Field name="quantitative_result_normal_range_min_unit">g/dL</Field>
+<Field name="quantitative_result_value_value">32.6</Field>
+<Field name="quantitative_result_value_unit">g/dL</Field>
+<Field name="name_code_title">MCHC RBC Auto-mCnc</Field></Model>
 </Models>

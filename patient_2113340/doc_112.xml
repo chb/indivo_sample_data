@@ -1,49 +1,44 @@
-
+<?xml version="1.0" encoding="utf-8"?>
 <Models xmlns="http://indivo.org/vocab/xml/documents#">
-
 <Model name="Medication">
-  <Field name="drugName_title"><![CDATA[Metronidazole 500 MG Oral Tablet]]></Field>
-  <Field name="drugName_system">http://purl.bioontology.org/ontology/RXNORM/</Field>
-  <Field name="drugName_identifier"><![CDATA[311681]]></Field>
-  <Field name="endDate"><![CDATA[2010-04-09]]></Field>
-  <Field name="frequency_value"><![CDATA[3]]></Field>
-  <Field name="frequency_unit"><![CDATA[/d]]></Field>
-  <Field name="instructions"><![CDATA[1 tid x7 days]]></Field>
-  <Field name="provenance_title"><![CDATA[Derived by prescription]]></Field>
-  <Field name="provenance_system">http://smartplatforms.org/terms/codes/MedicationProvenance#</Field>
-  <Field name="provenance_identifier"><![CDATA[prescription]]></Field>
-  <Field name="quantity_value"><![CDATA[1]]></Field>
-  <Field name="quantity_unit"><![CDATA[{tablet}]]></Field>
-  <Field name="startDate"><![CDATA[2009-09-06]]></Field>
-  <Field name="fulfillments">
-    <Models>
-      
-
+<Field name="name_title">Metronidazole 500 MG Oral Tablet</Field>
+<Field name="name_code_system">http://purl.bioontology.org/ontology/RXNORM/</Field>
+<Field name="name_code_identifier">311681</Field>
+<Field name="endDate">2010-04-09</Field>
+<Field name="frequency_value">3</Field>
+<Field name="frequency_unit">/d</Field>
+<Field name="instructions">1 tid x7 days</Field>
+<Field name="provenance_title">Derived by prescription</Field>
+<Field name="provenance_system">http://smartplatforms.org/terms/codes/MedicationProvenance#</Field>
+<Field name="provenance_identifier">prescription</Field>
+<Field name="quantity_value">1</Field>
+<Field name="quantity_unit">{tablet}</Field>
+<Field name="startDate">2009-09-06</Field>
+<Field name="fulfillments">
+<Models>
 <Model name="Fill">
-  <Field name="date"><![CDATA[2009-09-06]]></Field>
-  <Field name="dispenseDaysSupply"><![CDATA[7]]></Field>
-  <Field name="pbm"><![CDATA[T00000000001011]]></Field>
-  <Field name="pharmacy_ncpdpid"><![CDATA[5235235]]></Field>
-  <Field name="pharmacy_org"><![CDATA[CVS #588]]></Field>
-  <Field name="pharmacy_adr_country"><![CDATA[Australia]]></Field>
-  <Field name="pharmacy_adr_city"><![CDATA[Wonder City]]></Field>
-  <Field name="pharmacy_adr_postalcode"><![CDATA[5555]]></Field>
-  <Field name="pharmacy_adr_street"><![CDATA[111 Lake Drive]]></Field> 
-  <Field name="pharmacy_adr_region"><![CDATA[West Australia]]></Field> 
-  <Field name="provider_dea_number"><![CDATA[325555555]]></Field>
-  <Field name="provider_npi_number"><![CDATA[5235235]]></Field>
-  <Field name="provider_email"><![CDATA[jmandel@fake.emailserver.com]]></Field>
-  <Field name="provider_name_given"><![CDATA[Joshua]]></Field>
-  <Field name="provider_name_family"><![CDATA[Mandel]]></Field>
-  <Field name="provider_tel_1_type">w</Field>
-  <Field name="provider_tel_1_number"><![CDATA[1-234-567-8910]]></Field>
-  <Field name="provider_tel_1_preferred_p">true</Field>
-  <Field name="quantityDispensed_value"><![CDATA[14]]></Field>
-  <Field name="quantityDispensed_unit"><![CDATA[{tab}]]></Field>
+<Field name="date">2009-09-06</Field>
+<Field name="dispenseDaysSupply">7</Field>
+<Field name="pbm">T00000000001011</Field>
+<Field name="pharmacy_ncpdpid">5235235</Field>
+<Field name="pharmacy_org">CVS #588</Field>
+<Field name="pharmacy_adr_country">Australia</Field>
+<Field name="pharmacy_adr_city">Wonder City</Field>
+<Field name="pharmacy_adr_postalcode">5555</Field>
+<Field name="pharmacy_adr_street">111 Lake Drive</Field>
+<Field name="pharmacy_adr_region">West Australia</Field>
+<Field name="provider_dea_number">325555555</Field>
+<Field name="provider_npi_number">5235235</Field>
+<Field name="provider_email">jmandel@fake.emailserver.com</Field>
+<Field name="provider_name_given">Joshua</Field>
+<Field name="provider_name_family">Mandel</Field>
+<Field name="provider_tel_1_type">w</Field>
+<Field name="provider_tel_1_number">1-234-567-8910</Field>
+<Field name="provider_tel_1_preferred_p">true</Field>
+<Field name="quantityDispensed_value">14</Field>
+<Field name="quantityDispensed_unit">{tab}</Field>
 </Model>
-
-    </Models>
-  </Field>
-</Model>
-
+</Models>
+</Field>
+<Field name="name_code_title">Metronidazole 500 MG Oral Tablet</Field></Model>
 </Models>

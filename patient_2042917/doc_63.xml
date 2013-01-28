@@ -1,15 +1,11 @@
-
+<?xml version="1.0" encoding="utf-8"?>
 <Models xmlns="http://indivo.org/vocab/xml/documents#">
-
 <Model name="LabResult">
-    <Field name="accession_number"><![CDATA[A941495095]]></Field>
-    <Field name="test_name_title"><![CDATA[Polys XXX Ql Wright Stn]]></Field>
-    <Field name="test_name_system">http://purl.bioontology.org/ontology/LNC/</Field>
-    <Field name="test_name_identifier"><![CDATA[20473-5]]></Field>
-    <Field name="collected_at"><![CDATA[2006-07-07]]></Field>
-    
-<Field name="narrative_result"><![CDATA[Negative]]></Field>
-
-</Model>
-
+<Field name="accession_number">A941495095</Field>
+<Field name="name_title">Polys XXX Ql Wright Stn</Field>
+<Field name="name_code_system">http://purl.bioontology.org/ontology/LNC/</Field>
+<Field name="name_code_identifier">20473-5</Field>
+<Field name="date">2006-07-07</Field>
+<Field name="narrative_result">Negative</Field>
+<Field name="name_code_title">Polys XXX Ql Wright Stn</Field></Model>
 </Models>
