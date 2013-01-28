@@ -15,7 +15,5 @@
 <Field name="product_name_code_system">http://www2a.cdc.gov/nip/IIS/IISStandards/vaccines.asp?rpt=cvx#</Field>
 <Field name="product_name_code_identifier">3</Field>
 
-<Field name="refusal_reason_code_system">http://smartplatforms.org/terms/codes/ImmunizationRefusalReason#</Field>
-
 <Field name="administration_status_code_title">Dose Given</Field><Field name="product_class_code_title"/><Field name="product_class_2_code_title"/><Field name="product_name_code_title">measles, mumps and rubella virus vaccine</Field></Model>
 </Models>
