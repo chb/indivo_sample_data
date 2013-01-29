@@ -8,9 +8,6 @@
 <Field name="product_class_title">HepB</Field>
 <Field name="product_class_code_system">http://www2a.cdc.gov/nip/IIS/IISStandards/vaccines.asp?rpt=vg#</Field>
 <Field name="product_class_code_identifier">HepB</Field>
-<Field name="product_class_2_title"/>
-<Field name="product_class_2_code_system">http://www2a.cdc.gov/nip/IIS/IISStandards/vaccines.asp?rpt=vg#</Field>
-<Field name="product_class_2_code_identifier"/>
 <Field name="product_name_title">hepatitis B vaccine, adult dosage</Field>
 <Field name="product_name_code_system">http://www2a.cdc.gov/nip/IIS/IISStandards/vaccines.asp?rpt=cvx#</Field>
 <Field name="product_name_code_identifier">43</Field>

@@ -8,9 +8,6 @@
 <Field name="product_class_title">DTAP</Field>
 <Field name="product_class_code_system">http://www2a.cdc.gov/nip/IIS/IISStandards/vaccines.asp?rpt=vg#</Field>
 <Field name="product_class_code_identifier">DTAP</Field>
-<Field name="product_class_2_title"/>
-<Field name="product_class_2_code_system">http://www2a.cdc.gov/nip/IIS/IISStandards/vaccines.asp?rpt=vg#</Field>
-<Field name="product_class_2_code_identifier"/>
 <Field name="product_name_title">DTaP-hepatitis B and poliovirus vaccine</Field>
 <Field name="product_name_code_system">http://www2a.cdc.gov/nip/IIS/IISStandards/vaccines.asp?rpt=cvx#</Field>
 <Field name="product_name_code_identifier">110</Field>
